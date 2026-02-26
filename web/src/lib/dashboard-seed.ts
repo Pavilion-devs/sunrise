@@ -1,25 +1,28 @@
-import report from '../../../data/output/report.json';
-
 export const dashboardSeed = {
-  generatedAt: report.generated_at,
-  calibration: report.calibration,
-  meta: report.meta,
-  thresholds: report.thresholds,
-  topRanked: (report.eligible_ranked || []).slice(0, 12).map((r) => ({
-    rank: r.rank,
-    assetId: r.asset_id,
-    name: r.name,
-    symbol: r.symbol,
-    chain: r.origin_chain,
-    status: r.gate_status,
-    score: r.adjusted_readiness_score,
-    confidence: r.confidence_score,
-  })),
-  rejected: (report.rejected || []).map((r) => ({
-    assetId: r.asset_id,
-    name: r.name,
-    symbol: r.symbol,
-    chain: r.origin_chain,
-    reasons: r.rejection_reasons || [],
-  })),
+  generatedAt: new Date(0).toISOString(),
+  calibration: {
+    profile: 'balanced',
+    thresholds_used: {},
+    counts: {
+      total: 0,
+      eligible: 0,
+      borderline: 0,
+      rejected: 0,
+    },
+  },
+  meta: {
+    total_candidates: 0,
+    eligible_count: 0,
+    borderline_count: 0,
+    rejected_count: 0,
+  },
+  thresholds: {
+    min_mcap_usd: 30000000,
+    min_fdv_usd: 30000000,
+    min_est_liquidity_usd: 5000000,
+    min_tier1_cex_count: 1,
+    tier1_cex: ['Binance', 'Coinbase', 'OKX', 'Bybit', 'Kraken'],
+  },
+  topRanked: [],
+  rejected: [],
 };
