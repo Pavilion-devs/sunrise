@@ -1,0 +1,183 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { spawnSync } from 'node:child_process';
+import type { DashboardData, ProfileKey, ThresholdOverrides } from '@/lib/report-types';
+
+const PROFILE_OUT: Record<ProfileKey, string> = {
+  balanced: 'data/output',
+  strict_simon: 'data/output/strict',
+  growth: 'data/output/growth',
+};
+
+function repoRoot() {
+  return path.resolve(process.cwd(), '..');
+}
+
+export function resolveProfileOutDir(profile: ProfileKey) {
+  return PROFILE_OUT[profile] || PROFILE_OUT.balanced;
+}
+
+export function readReport(profile: ProfileKey, customOutDir?: string) {
+  const root = repoRoot();
+  const outDir = customOutDir || resolveProfileOutDir(profile);
+  const filePath = path.join(root, outDir, 'report.json');
+  if (!fs.existsSync(filePath)) {
+    return null;
+  }
+
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  } catch {
+    return null;
+  }
+}
+
+type RawRankedRow = {
+  rank: number;
+  asset_id: string;
+  name: string;
+  symbol: string;
+  origin_chain: string;
+  gate_status: string;
+  adjusted_readiness_score: number;
+  confidence_score: number;
+};
+
+type RawRejectedRow = {
+  asset_id: string;
+  name: string;
+  symbol: string;
+  origin_chain: string;
+  rejection_reasons: string[];
+};
+
+type RawReport = {
+  generated_at: string;
+  calibration: DashboardData['calibration'];
+  meta: DashboardData['meta'];
+  thresholds: DashboardData['thresholds'];
+  eligible_ranked?: RawRankedRow[];
+  rejected?: RawRejectedRow[];
+};
+
+function asNumber(value: unknown, fallback = 0) {
+  return typeof value === 'number' && Number.isFinite(value) ? value : fallback;
+}
+
+function asString(value: unknown, fallback = '') {
+  return typeof value === 'string' ? value : fallback;
+}
+
+function asStringArray(value: unknown) {
+  if (!Array.isArray(value)) return [];
+  return value.filter((x): x is string => typeof x === 'string');
+}
+
+export function normalizeReport(report: RawReport): DashboardData {
+  const eligibleRanked = Array.isArray(report?.eligible_ranked) ? report.eligible_ranked : [];
+  const rejected = Array.isArray(report?.rejected) ? report.rejected : [];
+
+  const meta = report?.meta || ({} as DashboardData['meta']);
+  const thresholds = report?.thresholds || ({} as DashboardData['thresholds']);
+  const calibration = report?.calibration || {
+    profile: 'balanced',
+    thresholds_used: {},
+    counts: { total: 0, eligible: 0, borderline: 0, rejected: 0 },
+  };
+
+  return {
+    generatedAt: asString(report?.generated_at, new Date().toISOString()),
+    calibration,
+    meta: {
+      eligible_count: asNumber(meta.eligible_count),
+      borderline_count: asNumber(meta.borderline_count),
+      rejected_count: asNumber(meta.rejected_count),
+      total_candidates: asNumber(meta.total_candidates),
+    },
+    thresholds: {
+      min_mcap_usd: asNumber(thresholds.min_mcap_usd),
+      min_fdv_usd: asNumber(thresholds.min_fdv_usd),
+      min_est_liquidity_usd: asNumber(thresholds.min_est_liquidity_usd),
+      min_tier1_cex_count: Math.max(1, Math.floor(asNumber(thresholds.min_tier1_cex_count, 1))),
+      tier1_cex: asStringArray(thresholds.tier1_cex),
+    },
+    topRanked: eligibleRanked.slice(0, 20).map((r) => ({
+      rank: Math.max(1, Math.floor(asNumber(r.rank, 1))),
+      assetId: asString(r.asset_id, 'unknown'),
+      name: asString(r.name, 'Unknown'),
+      symbol: asString(r.symbol, ''),
+      chain: asString(r.origin_chain, 'Unknown'),
+      status: asString(r.gate_status, 'unknown'),
+      score: asNumber(r.adjusted_readiness_score),
+      confidence: asNumber(r.confidence_score),
+    })),
+    rejected: rejected.map((r) => ({
+      assetId: asString(r.asset_id, 'unknown'),
+      name: asString(r.name, 'Unknown'),
+      symbol: asString(r.symbol, ''),
+      chain: asString(r.origin_chain, 'Unknown'),
+      reasons: asStringArray(r.rejection_reasons),
+    })),
+  };
+}
+
+export function runEngine(profile: ProfileKey, outDir: string, overrides?: ThresholdOverrides) {
+  const root = repoRoot();
+  const enginePath = path.join(root, 'engine', 'src', 'index.js');
+
+  const args = [enginePath, '--profile', profile, '--out', outDir];
+  if (overrides) {
+    args.push('--threshold-overrides', JSON.stringify(overrides));
+  }
+
+  const result = spawnSync(process.execPath, args, {
+    cwd: root,
+    encoding: 'utf8',
+    timeout: 120000,
+    maxBuffer: 10 * 1024 * 1024,
+  });
+
+  return {
+    ok: result.status === 0,
+    status: result.status,
+    stdout: result.stdout,
+    stderr: result.stderr,
+  };
+}
+
+export function sanitizeProfile(raw: string | null): ProfileKey {
+  if (raw === 'strict_simon' || raw === 'growth' || raw === 'balanced') {
+    return raw;
+  }
+  return 'balanced';
+}
+
+function asRecord(input: unknown): Record<string, unknown> {
+  if (input && typeof input === 'object') {
+    return input as Record<string, unknown>;
+  }
+  return {};
+}
+
+export function sanitizeOverrides(input: unknown): ThresholdOverrides {
+  const safeInput = asRecord(input);
+  const numberOr = (val: unknown, fallback: number) => {
+    if (typeof val === 'number' && Number.isFinite(val) && val >= 0) {
+      return val;
+    }
+    return fallback;
+  };
+
+  const tier1Raw = safeInput.tier1_cex;
+  const tier1 = Array.isArray(tier1Raw)
+    ? Array.from(new Set(tier1Raw.filter((x: unknown) => typeof x === 'string' && x.trim().length > 0)))
+    : [];
+
+  return {
+    min_mcap_usd: numberOr(safeInput.min_mcap_usd, 30000000),
+    min_fdv_usd: numberOr(safeInput.min_fdv_usd, 30000000),
+    min_est_liquidity_usd: numberOr(safeInput.min_est_liquidity_usd, 5000000),
+    min_tier1_cex_count: Math.max(1, Math.floor(numberOr(safeInput.min_tier1_cex_count, 1))),
+    tier1_cex: tier1,
+  };
+}

@@ -1,0 +1,18 @@
+{
+  "providers": {
+    "seed": {
+      "enabled": true,
+      "reliability": 0.45
+    },
+    "manual_override": {
+      "enabled": true,
+      "reliability": 0.8
+    },
+    "coingecko": {
+      "enabled": true,
+      "reliability": 0.9,
+      "ttl_minutes": 60,
+      "max_ticker_requests_per_run": 8
+    }
+  }
+}

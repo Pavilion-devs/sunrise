@@ -1,0 +1,18 @@
+{
+  "name": "sunrise-asset-qualification-os",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run:engine": "node engine/src/index.js",
+    "run:engine:strict": "node engine/src/index.js --strict",
+    "run:profile:strict": "node engine/src/index.js --profile strict_simon --out data/output/strict",
+    "run:profile:balanced": "node engine/src/index.js --profile balanced --out data/output/balanced",
+    "run:profile:growth": "node engine/src/index.js --profile growth --out data/output/growth",
+    "report": "node engine/src/index.js --profile balanced --out data/output",
+    "enrich": "node engine/src/ai-enrich.js",
+    "prune:cache": "node engine/src/prune-cache.js",
+    "refresh:live": "node engine/src/refresh-live.js",
+    "audit:coverage": "node engine/src/coverage-audit.js"
+  }
+}
