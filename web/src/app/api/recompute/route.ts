@@ -16,17 +16,15 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const profile = sanitizeProfile(body?.profile ?? null);
     const overrides = sanitizeOverrides(body?.thresholds ?? {});
+    let warning = '';
 
     const outDir = 'data/output/runtime';
     const run = runEngine(profile, outDir, overrides);
     if (!run.ok) {
-      return NextResponse.json(
-        { error: 'engine_recompute_failed', details: run.stderr || run.stdout || '' },
-        { status: 500 },
-      );
+      warning = run.stderr || run.stdout || 'engine_recompute_failed';
     }
 
-    const report = readReport(profile, outDir);
+    const report = run.ok ? readReport(profile, outDir) : readReport(profile);
     if (!report) {
       return NextResponse.json({ error: 'runtime_report_missing' }, { status: 404 });
     }
@@ -35,6 +33,7 @@ export async function POST(request: NextRequest) {
       {
         profile,
         data: normalizeReport(report),
+        warning: warning || undefined,
       },
       {
         headers: {

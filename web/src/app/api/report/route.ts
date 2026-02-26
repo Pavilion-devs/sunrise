@@ -9,14 +9,12 @@ export async function GET(request: NextRequest) {
   try {
     const profile = sanitizeProfile(request.nextUrl.searchParams.get('profile'));
     const refresh = request.nextUrl.searchParams.get('refresh') === '1';
+    let warning = '';
 
     if (refresh) {
       const run = runEngine(profile, resolveProfileOutDir(profile));
       if (!run.ok) {
-        return NextResponse.json(
-          { error: 'engine_refresh_failed', details: run.stderr || run.stdout || '' },
-          { status: 500 },
-        );
+        warning = run.stderr || run.stdout || 'engine_refresh_failed';
       }
     }
 
@@ -24,10 +22,7 @@ export async function GET(request: NextRequest) {
     if (!report) {
       const run = runEngine(profile, resolveProfileOutDir(profile));
       if (!run.ok) {
-        return NextResponse.json(
-          { error: 'engine_bootstrap_failed', details: run.stderr || run.stdout || '' },
-          { status: 500 },
-        );
+        warning = warning || run.stderr || run.stdout || 'engine_bootstrap_failed';
       }
       report = readReport(profile);
     }
@@ -37,7 +32,11 @@ export async function GET(request: NextRequest) {
     }
 
     return NextResponse.json(
-      { profile, data: normalizeReport(report) },
+      {
+        profile,
+        data: normalizeReport(report),
+        warning: warning || undefined,
+      },
       {
         headers: {
           'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',

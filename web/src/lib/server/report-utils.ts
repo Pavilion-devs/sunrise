@@ -2,11 +2,20 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import type { DashboardData, ProfileKey, ThresholdOverrides } from '@/lib/report-types';
+import balancedSnapshot from '@/data/reports/balanced.report.json';
+import strictSimonSnapshot from '@/data/reports/strict_simon.report.json';
+import growthSnapshot from '@/data/reports/growth.report.json';
 
 const PROFILE_OUT: Record<ProfileKey, string> = {
   balanced: 'data/output',
   strict_simon: 'data/output/strict',
   growth: 'data/output/growth',
+};
+
+const SNAPSHOT_REPORTS: Record<ProfileKey, unknown> = {
+  balanced: balancedSnapshot,
+  strict_simon: strictSimonSnapshot,
+  growth: growthSnapshot,
 };
 
 function repoRoot() {
@@ -21,12 +30,19 @@ export function readReport(profile: ProfileKey, customOutDir?: string) {
   const root = repoRoot();
   const outDir = customOutDir || resolveProfileOutDir(profile);
   const filePath = path.join(root, outDir, 'report.json');
-  if (!fs.existsSync(filePath)) {
-    return null;
+
+  if (fs.existsSync(filePath)) {
+    try {
+      return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    } catch {
+      // ignore invalid fs report and fallback below
+    }
   }
 
   try {
-    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    const snapshot = SNAPSHOT_REPORTS[profile];
+    if (!snapshot) return null;
+    return JSON.parse(JSON.stringify(snapshot));
   } catch {
     return null;
   }
@@ -124,6 +140,15 @@ export function normalizeReport(report: RawReport): DashboardData {
 export function runEngine(profile: ProfileKey, outDir: string, overrides?: ThresholdOverrides) {
   const root = repoRoot();
   const enginePath = path.join(root, 'engine', 'src', 'index.js');
+
+  if (!fs.existsSync(enginePath)) {
+    return {
+      ok: false,
+      status: -1,
+      stdout: '',
+      stderr: `engine_unavailable: ${enginePath} not found`,
+    };
+  }
 
   const args = [enginePath, '--profile', profile, '--out', outDir];
   if (overrides) {
