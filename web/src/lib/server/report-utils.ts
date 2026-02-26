@@ -51,6 +51,10 @@ export function getRemoteReportUrl(profile: ProfileKey) {
   return `${base}/${profilePath}`;
 }
 
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 export function resolveProfileOutDir(profile: ProfileKey) {
   return PROFILE_OUT[profile] || PROFILE_OUT.balanced;
 }
@@ -81,16 +85,41 @@ export async function readRemoteReport(profile: ProfileKey): Promise<unknown | n
   const url = getRemoteReportUrl(profile);
   if (!url) return null;
 
-  try {
-    const response = await fetch(`${url}?ts=${Date.now()}`, {
-      headers: { 'Cache-Control': 'no-cache' },
-      cache: 'no-store',
-    });
-    if (!response.ok) return null;
-    return await response.json();
-  } catch {
-    return null;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 8000);
+
+    try {
+      const response = await fetch(`${url}?ts=${Date.now()}`, {
+        headers: { 'Cache-Control': 'no-cache' },
+        cache: 'no-store',
+        signal: controller.signal,
+      });
+      if (!response.ok) {
+        if (attempt < 3) {
+          await sleep(250 * attempt);
+          continue;
+        }
+        return null;
+      }
+
+      const parsed = await response.json();
+      if (!parsed || typeof parsed !== 'object') {
+        return null;
+      }
+      return parsed;
+    } catch {
+      if (attempt < 3) {
+        await sleep(250 * attempt);
+        continue;
+      }
+      return null;
+    } finally {
+      clearTimeout(timeout);
+    }
   }
+
+  return null;
 }
 
 type RawRankedRow = {

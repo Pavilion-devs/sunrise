@@ -24,10 +24,7 @@ export async function POST(request: NextRequest) {
     if (remoteMode) {
       const remoteReport = await readRemoteReport(profile);
       if (!remoteReport) {
-        return NextResponse.json(
-          { error: 'remote_report_unavailable' },
-          { status: 503 },
-        );
+        return NextResponse.json({ error: 'remote_report_unavailable' }, { status: 503 });
       }
 
       return NextResponse.json(
@@ -51,7 +48,7 @@ export async function POST(request: NextRequest) {
     if (!run.ok) {
       warning = run.stderr || run.stdout || 'engine_recompute_failed';
     }
-    const report = run.ok ? readReport(profile, outDir) : readReport(profile);
+    const report = run.ok ? readReport(profile, outDir) : null;
     if (!report) {
       return NextResponse.json({ error: 'runtime_report_missing' }, { status: 404 });
     }

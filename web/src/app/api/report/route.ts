@@ -19,7 +19,7 @@ export async function GET(request: NextRequest) {
     const refresh = request.nextUrl.searchParams.get('refresh') === '1';
     let warning = '';
     const remoteMode = isRemoteReportsEnabled();
-    let report = await readRemoteReport(profile);
+    let report = remoteMode ? await readRemoteReport(profile) : null;
 
     if (refresh && !remoteMode) {
       const run = runEngine(profile, resolveProfileOutDir(profile));
@@ -31,12 +31,14 @@ export async function GET(request: NextRequest) {
       warning = 'remote_reports_mode: refresh is driven by scheduled pipeline';
     }
 
-    if (!report) {
-      if (!remoteMode) {
-        const run = runEngine(profile, resolveProfileOutDir(profile));
-        if (!run.ok) {
-          warning = warning || run.stderr || run.stdout || 'engine_bootstrap_failed';
-        }
+    if (remoteMode && !report) {
+      return NextResponse.json({ error: 'remote_report_unavailable' }, { status: 503 });
+    }
+
+    if (!remoteMode && !report) {
+      const run = runEngine(profile, resolveProfileOutDir(profile));
+      if (!run.ok) {
+        warning = warning || run.stderr || run.stdout || 'engine_bootstrap_failed';
       }
       report = readReport(profile);
     }
