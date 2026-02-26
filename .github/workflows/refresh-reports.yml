@@ -1,0 +1,58 @@
+name: Refresh Reports
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run Engine Refresh
+        run: npm run refresh:live
+
+      - name: Sync Web Snapshot Reports
+        run: |
+          mkdir -p web/src/data/reports
+          cp data/output/report.json web/src/data/reports/balanced.report.json
+          cp data/output/strict/report.json web/src/data/reports/strict_simon.report.json
+          cp data/output/growth/report.json web/src/data/reports/growth.report.json
+
+      - name: Commit And Push
+        run: |
+          git config user.name "sunrise-bot"
+          git config user.email "actions@github.com"
+          git add \
+            data/output/report.json \
+            data/output/strict/report.json \
+            data/output/growth/report.json \
+            data/output/report.md \
+            data/output/strict/report.md \
+            data/output/growth/report.md \
+            data/output/live-refresh-summary.json \
+            data/output/live-refresh-summary.md \
+            data/output/coverage-audit.json \
+            data/output/coverage-audit.md \
+            web/src/data/reports/balanced.report.json \
+            web/src/data/reports/strict_simon.report.json \
+            web/src/data/reports/growth.report.json
+
+          if git diff --cached --quiet; then
+            echo "No report changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: scheduled report refresh [skip ci]"
+          git push

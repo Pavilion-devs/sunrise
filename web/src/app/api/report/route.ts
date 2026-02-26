@@ -1,5 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { normalizeReport, readReport, resolveProfileOutDir, runEngine, sanitizeProfile } from '@/lib/server/report-utils';
+import {
+  isRemoteReportsEnabled,
+  normalizeReport,
+  readRemoteReport,
+  readReport,
+  resolveProfileOutDir,
+  runEngine,
+  sanitizeProfile,
+} from '@/lib/server/report-utils';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -10,19 +18,25 @@ export async function GET(request: NextRequest) {
     const profile = sanitizeProfile(request.nextUrl.searchParams.get('profile'));
     const refresh = request.nextUrl.searchParams.get('refresh') === '1';
     let warning = '';
+    const remoteMode = isRemoteReportsEnabled();
+    let report = await readRemoteReport(profile);
 
-    if (refresh) {
+    if (refresh && !remoteMode) {
       const run = runEngine(profile, resolveProfileOutDir(profile));
       if (!run.ok) {
         warning = run.stderr || run.stdout || 'engine_refresh_failed';
       }
+      report = readReport(profile);
+    } else if (refresh && remoteMode) {
+      warning = 'remote_reports_mode: refresh is driven by scheduled pipeline';
     }
 
-    let report = readReport(profile);
     if (!report) {
-      const run = runEngine(profile, resolveProfileOutDir(profile));
-      if (!run.ok) {
-        warning = warning || run.stderr || run.stdout || 'engine_bootstrap_failed';
+      if (!remoteMode) {
+        const run = runEngine(profile, resolveProfileOutDir(profile));
+        if (!run.ok) {
+          warning = warning || run.stderr || run.stdout || 'engine_bootstrap_failed';
+        }
       }
       report = readReport(profile);
     }
@@ -34,7 +48,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json(
       {
         profile,
-        data: normalizeReport(report),
+        data: normalizeReport(report as Parameters<typeof normalizeReport>[0]),
         warning: warning || undefined,
       },
       {

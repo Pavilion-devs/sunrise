@@ -18,8 +18,37 @@ const SNAPSHOT_REPORTS: Record<ProfileKey, unknown> = {
   growth: growthSnapshot,
 };
 
+const PROFILE_REPORT_PATH: Record<ProfileKey, string> = {
+  balanced: 'report.json',
+  strict_simon: 'strict/report.json',
+  growth: 'growth/report.json',
+};
+
 function repoRoot() {
   return path.resolve(process.cwd(), '..');
+}
+
+function normalizeBaseUrl(input: string) {
+  return input.trim().replace(/\/+$/, '');
+}
+
+export function getRemoteReportsBaseUrl() {
+  const direct = process.env.REPORTS_BASE_URL;
+  if (direct && direct.trim().length > 0) {
+    return normalizeBaseUrl(direct);
+  }
+  return '';
+}
+
+export function isRemoteReportsEnabled() {
+  return getRemoteReportsBaseUrl().length > 0;
+}
+
+export function getRemoteReportUrl(profile: ProfileKey) {
+  const base = getRemoteReportsBaseUrl();
+  if (!base) return '';
+  const profilePath = PROFILE_REPORT_PATH[profile] || PROFILE_REPORT_PATH.balanced;
+  return `${base}/${profilePath}`;
 }
 
 export function resolveProfileOutDir(profile: ProfileKey) {
@@ -43,6 +72,22 @@ export function readReport(profile: ProfileKey, customOutDir?: string) {
     const snapshot = SNAPSHOT_REPORTS[profile];
     if (!snapshot) return null;
     return JSON.parse(JSON.stringify(snapshot));
+  } catch {
+    return null;
+  }
+}
+
+export async function readRemoteReport(profile: ProfileKey): Promise<unknown | null> {
+  const url = getRemoteReportUrl(profile);
+  if (!url) return null;
+
+  try {
+    const response = await fetch(`${url}?ts=${Date.now()}`, {
+      headers: { 'Cache-Control': 'no-cache' },
+      cache: 'no-store',
+    });
+    if (!response.ok) return null;
+    return await response.json();
   } catch {
     return null;
   }
