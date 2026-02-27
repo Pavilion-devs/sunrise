@@ -11,6 +11,7 @@ Run the engine on a schedule in GitHub Actions, commit fresh report artifacts, a
   - Commits and pushes updated reports to `main`
 
 - Vercel API behavior
+  - If `ENGINE_API_BASE_URL` is set, web routes call engine-api first (live recompute mode).
   - If `REPORTS_BASE_URL` is set, `/api/report` reads remote JSON first.
   - `/api/recompute` returns latest remote snapshot with warning in remote mode.
   - Local/single-host engine execution remains available when `REPORTS_BASE_URL` is not set.
@@ -19,6 +20,11 @@ Run the engine on a schedule in GitHub Actions, commit fresh report artifacts, a
 Set this in Vercel `Production`:
 
 `REPORTS_BASE_URL=https://raw.githubusercontent.com/Pavilion-devs/sunrise/main/data/output`
+
+For live per-request recompute via backend worker, also set:
+
+- `ENGINE_API_BASE_URL=https://<your-render-engine-api-url>`
+- `ENGINE_API_TOKEN=<shared_secret>`
 
 ## Manual run
 1. Open GitHub repo Actions tab.

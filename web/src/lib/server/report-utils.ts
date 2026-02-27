@@ -32,6 +32,22 @@ function normalizeBaseUrl(input: string) {
   return input.trim().replace(/\/+$/, '');
 }
 
+export function getEngineApiBaseUrl() {
+  const direct = process.env.ENGINE_API_BASE_URL;
+  if (direct && direct.trim().length > 0) {
+    return normalizeBaseUrl(direct);
+  }
+  return '';
+}
+
+function getEngineApiToken() {
+  return (process.env.ENGINE_API_TOKEN || '').trim();
+}
+
+export function isEngineApiEnabled() {
+  return getEngineApiBaseUrl().length > 0;
+}
+
 export function getRemoteReportsBaseUrl() {
   const direct = process.env.REPORTS_BASE_URL;
   if (direct && direct.trim().length > 0) {
@@ -53,6 +69,71 @@ export function getRemoteReportUrl(profile: ProfileKey) {
 
 function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function fetchEngineApiJson(
+  endpoint: string,
+  init: RequestInit = {},
+  timeoutMs = 20000,
+): Promise<unknown | null> {
+  const base = getEngineApiBaseUrl();
+  if (!base) return null;
+
+  const headers = new Headers(init.headers);
+  headers.set('Accept', 'application/json');
+  const token = getEngineApiToken();
+  if (token) {
+    headers.set('Authorization', `Bearer ${token}`);
+  }
+
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    const response = await fetch(`${base}${endpoint}`, {
+      ...init,
+      headers,
+      signal: controller.signal,
+      cache: 'no-store',
+    });
+    if (!response.ok) return null;
+    return await response.json();
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+type EngineApiPayload = {
+  profile: ProfileKey;
+  data: DashboardData;
+  warning?: string;
+};
+
+export async function fetchEngineApiReport(profile: ProfileKey, refresh: boolean): Promise<EngineApiPayload | null> {
+  const query = new URLSearchParams({ profile });
+  if (refresh) query.set('refresh', '1');
+  const body = await fetchEngineApiJson(`/report?${query.toString()}`, undefined, 25000);
+  if (!body || typeof body !== 'object') return null;
+  return body as EngineApiPayload;
+}
+
+export async function fetchEngineApiRecompute(
+  profile: ProfileKey,
+  thresholds: ThresholdOverrides,
+): Promise<EngineApiPayload | null> {
+  const body = await fetchEngineApiJson(
+    '/recompute',
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ profile, thresholds }),
+    },
+    45000,
+  );
+  if (!body || typeof body !== 'object') return null;
+  return body as EngineApiPayload;
 }
 
 export function resolveProfileOutDir(profile: ProfileKey) {
