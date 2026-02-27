@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 import {
-  fetchEngineApiRecompute,
-  isEngineApiEnabled,
   isRemoteReportsEnabled,
   normalizeReport,
   readRemoteReport,
@@ -20,21 +18,6 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const profile = sanitizeProfile(body?.profile ?? null);
     const overrides = sanitizeOverrides(body?.thresholds ?? {});
-    const engineApiMode = isEngineApiEnabled();
-    if (engineApiMode) {
-      const enginePayload = await fetchEngineApiRecompute(profile, overrides);
-      if (!enginePayload) {
-        return NextResponse.json({ error: 'engine_api_unavailable' }, { status: 503 });
-      }
-      return NextResponse.json(enginePayload, {
-        headers: {
-          'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
-          Pragma: 'no-cache',
-          Expires: '0',
-        },
-      });
-    }
-
     let warning = '';
     const remoteMode = isRemoteReportsEnabled();
 

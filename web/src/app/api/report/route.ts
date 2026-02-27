@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 import {
-  fetchEngineApiReport,
-  isEngineApiEnabled,
   isRemoteReportsEnabled,
   normalizeReport,
   readRemoteReport,
@@ -19,22 +17,6 @@ export async function GET(request: NextRequest) {
   try {
     const profile = sanitizeProfile(request.nextUrl.searchParams.get('profile'));
     const refresh = request.nextUrl.searchParams.get('refresh') === '1';
-    const engineApiMode = isEngineApiEnabled();
-    if (engineApiMode) {
-      const enginePayload = await fetchEngineApiReport(profile, refresh);
-      if (!enginePayload) {
-        return NextResponse.json({ error: 'engine_api_unavailable' }, { status: 503 });
-      }
-
-      return NextResponse.json(enginePayload, {
-        headers: {
-          'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
-          Pragma: 'no-cache',
-          Expires: '0',
-        },
-      });
-    }
-
     let warning = '';
     const remoteMode = isRemoteReportsEnabled();
     let report = remoteMode ? await readRemoteReport(profile) : null;
