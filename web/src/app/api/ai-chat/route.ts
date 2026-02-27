@@ -9,8 +9,19 @@ type ChatMessage = {
   content: string;
 };
 
+type GeminiResponsePart = { text?: string };
+type GeminiResponseCandidate = { content?: { parts?: GeminiResponsePart[] } };
+type GeminiResponse = { candidates?: GeminiResponseCandidate[] };
+
 const MAX_CONTEXT_CHARS = 16000;
 const MAX_MESSAGE_CHARS = 2000;
+const GEMINI_RETRIES = 2;
+
+type GeminiFailure = {
+  kind: 'timeout' | 'http' | 'network';
+  status?: number;
+  details?: string;
+};
 
 function loadEnvFromRoot(key: string): string {
   const envPath = path.resolve(process.cwd(), '..', '.env');
@@ -31,6 +42,94 @@ function loadEnvFromRoot(key: string): string {
 
 function getGeminiApiKey() {
   return process.env.GEMINI_API_KEY || loadEnvFromRoot('GEMINI_API_KEY');
+}
+
+function safeJsonParse(raw: string) {
+  try {
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
+}
+
+function extractReplyText(parsed: unknown) {
+  const first = (parsed as GeminiResponse)?.candidates?.[0];
+  const parts = Array.isArray(first?.content?.parts) ? first.content.parts : [];
+  const text = parts
+    .map((part) => (typeof part?.text === 'string' ? part.text : ''))
+    .join('\n')
+    .trim();
+  return text || 'No response.';
+}
+
+async function requestGemini({
+  url,
+  apiKey,
+  prompt,
+}: {
+  url: string;
+  apiKey: string;
+  prompt: string;
+}): Promise<{ ok: true; reply: string } | { ok: false; failure: GeminiFailure }> {
+  let lastFailure: GeminiFailure = { kind: 'network', details: 'unknown_error' };
+
+  for (let attempt = 1; attempt <= GEMINI_RETRIES; attempt += 1) {
+    const controller = new AbortController();
+    const timeoutMs = attempt === 1 ? 20000 : 35000;
+    const timeout = setTimeout(() => controller.abort(), timeoutMs);
+
+    try {
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-goog-api-key': apiKey,
+        },
+        signal: controller.signal,
+        body: JSON.stringify({
+          contents: [
+            {
+              role: 'user',
+              parts: [{ text: prompt }],
+            },
+          ],
+          generationConfig: {
+            temperature: 0.2,
+            maxOutputTokens: 420,
+          },
+        }),
+      });
+
+      const raw = await response.text();
+      if (response.ok) {
+        const parsed = safeJsonParse(raw);
+        return { ok: true, reply: extractReplyText(parsed) };
+      }
+
+      const details = raw.slice(0, 700);
+      lastFailure = { kind: 'http', status: response.status, details };
+      if (attempt < GEMINI_RETRIES && [429, 500, 502, 503, 504].includes(response.status)) {
+        await new Promise((resolve) => setTimeout(resolve, 700 * attempt));
+        continue;
+      }
+      return { ok: false, failure: lastFailure };
+    } catch (error) {
+      const isAbort = error instanceof Error && error.name === 'AbortError';
+      lastFailure = {
+        kind: isAbort ? 'timeout' : 'network',
+        details: String(error),
+      };
+      if (attempt < GEMINI_RETRIES) {
+        await new Promise((resolve) => setTimeout(resolve, 700 * attempt));
+        continue;
+      }
+      return { ok: false, failure: lastFailure };
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+
+  return { ok: false, failure: lastFailure };
 }
 
 export async function POST(request: NextRequest) {
@@ -72,44 +171,31 @@ export async function POST(request: NextRequest) {
 
     const model = process.env.GEMINI_MODEL || loadEnvFromRoot('GEMINI_MODEL') || 'gemini-3-pro-preview';
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`;
-
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 20000);
-
-    let response: Response;
-    try {
-      response = await fetch(url, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'X-goog-api-key': apiKey,
-        },
-        signal: controller.signal,
-        body: JSON.stringify({
-          contents: [
-            {
-              role: 'user',
-              parts: [{ text: prompt }],
-            },
-          ],
-        }),
-      });
-    } finally {
-      clearTimeout(timeout);
+    const gemini = await requestGemini({ url, apiKey, prompt });
+    if (gemini.ok) {
+      return NextResponse.json({ reply: gemini.reply });
     }
 
-    const raw = await response.text();
-    if (!response.ok) {
+    if (gemini.failure.kind === 'timeout') {
       return NextResponse.json(
-        { error: 'gemini_request_failed', details: raw.slice(0, 500) },
+        { error: 'gemini_timeout', details: gemini.failure.details || 'timeout' },
+        { status: 504 },
+      );
+    }
+    if (gemini.failure.kind === 'http') {
+      return NextResponse.json(
+        {
+          error: 'gemini_request_failed',
+          status: gemini.failure.status,
+          details: gemini.failure.details || 'upstream_http_error',
+        },
         { status: 502 },
       );
     }
-
-    const parsed = JSON.parse(raw);
-    const reply = parsed?.candidates?.[0]?.content?.parts?.[0]?.text || 'No response.';
-
-    return NextResponse.json({ reply });
+    return NextResponse.json(
+      { error: 'gemini_network_error', details: gemini.failure.details || 'network_error' },
+      { status: 502 },
+    );
   } catch (error) {
     return NextResponse.json(
       { error: 'ai_chat_exception', details: String(error) },
