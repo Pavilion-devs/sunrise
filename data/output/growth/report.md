@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-02-27T15:32:45.452Z
+Generated: 2026-02-27T16:33:15.309Z
 Candidates evaluated: 28
 Eligible: 21
 Borderline: 2
@@ -8,16 +8,16 @@ Rejected: 7
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 71.9 (raw 75.58) | Confidence 75.63% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 70.56 (raw 74.17) | Confidence 75.63% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 68.87 (raw 72.4) | Confidence 75.63% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 66.68 (raw 70.09) | Confidence 75.63% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 65.72 (raw 69.08) | Confidence 75.63% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 65 (raw 68.33) | Confidence 75.63% | Status pass | Chain Ethereum
-- 7. Jupiter (JUP) | Score 61.67 (raw 64.83) | Confidence 75.63% | Status pass | Chain Solana
-- 8. NEAR (NEAR) | Score 61.19 (raw 64.32) | Confidence 75.63% | Status pass | Chain Near
+- 1. Chainlink (LINK) | Score 71.79 (raw 75.47) | Confidence 75.63% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 70.55 (raw 74.16) | Confidence 75.63% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 68.82 (raw 72.34) | Confidence 75.63% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 66.51 (raw 69.91) | Confidence 75.63% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 65.93 (raw 68.73) | Confidence 79.63% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 64.95 (raw 68.28) | Confidence 75.63% | Status pass | Chain Ethereum
+- 7. Jupiter (JUP) | Score 61.62 (raw 64.77) | Confidence 75.63% | Status pass | Chain Solana
+- 8. NEAR (NEAR) | Score 61.21 (raw 64.34) | Confidence 75.63% | Status pass | Chain Near
 - 9. Ethena (ENA) | Score 61.08 (raw 64.21) | Confidence 75.63% | Status pass | Chain Ethereum
-- 10. Arbitrum (ARB) | Score 60.85 (raw 63.96) | Confidence 75.63% | Status pass | Chain Arbitrum
+- 10. Arbitrum (ARB) | Score 60.9 (raw 64.02) | Confidence 75.63% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
