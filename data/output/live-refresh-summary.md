@@ -1,43 +1,43 @@
 # Live Refresh Comparison
 
-Generated: 2026-02-26T16:17:19.569Z
+Generated: 2026-02-27T01:21:50.177Z
 
 ## strict_simon
 
-- Eligible: 16
-- Borderline: 1
-- Rejected: 12
+- Eligible: 14
+- Borderline: 2
+- Rejected: 14
 
 Top 5:
-- 1. Chainlink | Score 67.83 | Confidence 75.63% | pass
-- 2. Sui | Score 67.2 | Confidence 75.63% | pass
-- 3. Avalanche | Score 64.61 | Confidence 75.63% | pass
-- 4. Uniswap | Score 62.54 | Confidence 75.63% | pass
-- 5. Aave | Score 60.16 | Confidence 75.63% | pass
+- 1. Chainlink | Score 66.88 | Confidence 75.63% | pass
+- 2. Sui | Score 66.09 | Confidence 75.63% | pass
+- 3. Avalanche | Score 63.39 | Confidence 75.63% | pass
+- 4. Aave | Score 61.36 | Confidence 75.63% | pass
+- 5. Uniswap | Score 60.63 | Confidence 75.63% | pass
 
 ## balanced
 
-- Eligible: 19
-- Borderline: 3
-- Rejected: 9
+- Eligible: 16
+- Borderline: 2
+- Rejected: 12
 
 Top 5:
-- 1. Chainlink | Score 69.14 | Confidence 75.63% | pass
-- 2. Sui | Score 68.41 | Confidence 75.63% | pass
-- 3. Avalanche | Score 66.04 | Confidence 75.63% | pass
-- 4. Uniswap | Score 64.16 | Confidence 75.63% | pass
-- 5. Aave | Score 61.73 | Confidence 75.63% | pass
+- 1. Chainlink | Score 68.25 | Confidence 75.63% | pass
+- 2. Sui | Score 67.36 | Confidence 75.63% | pass
+- 3. Avalanche | Score 64.9 | Confidence 75.63% | pass
+- 4. Aave | Score 62.85 | Confidence 75.63% | pass
+- 5. Uniswap | Score 62.36 | Confidence 75.63% | pass
 
 ## growth
 
-- Eligible: 22
+- Eligible: 21
 - Borderline: 1
-- Rejected: 6
+- Rejected: 7
 
 Top 5:
-- 1. Chainlink | Score 72.81 | Confidence 75.63% | pass
-- 2. Sui | Score 71.27 | Confidence 75.63% | pass
-- 3. Avalanche | Score 70.03 | Confidence 75.63% | pass
-- 4. Uniswap | Score 68.54 | Confidence 75.63% | pass
-- 5. Aave | Score 65.66 | Confidence 75.63% | pass
+- 1. Chainlink | Score 72.14 | Confidence 75.63% | pass
+- 2. Sui | Score 70.48 | Confidence 75.63% | pass
+- 3. Avalanche | Score 69.17 | Confidence 75.63% | pass
+- 4. Uniswap | Score 67.17 | Confidence 75.63% | pass
+- 5. Aave | Score 66.51 | Confidence 75.63% | pass
 
