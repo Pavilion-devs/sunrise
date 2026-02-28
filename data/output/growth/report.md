@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-02-28T05:56:02.621Z
+Generated: 2026-02-28T06:31:59.956Z
 Candidates evaluated: 28
 Eligible: 20
-Borderline: 2
+Borderline: 0
 Rejected: 8
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 71.01 (raw 74.91) | Confidence 74.02% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 70.24 (raw 73.76) | Confidence 76.17% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 67.82 (raw 71.97) | Confidence 71.17% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 65.83 (raw 69.48) | Confidence 73.71% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 63.91 (raw 67.35) | Confidence 74.44% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 71.2 (raw 75.07) | Confidence 74.18% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 70.36 (raw 73.86) | Confidence 76.28% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 67.86 (raw 72.01) | Confidence 71.22% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 65.92 (raw 69.56) | Confidence 73.78% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 64.07 (raw 67.5) | Confidence 74.6% | Status pass | Chain Ethereum
 - 6. Aave (AAVE) | Score 63.38 (raw 66.44) | Confidence 77.01% | Status pass | Chain Ethereum
-- 7. Jupiter (JUP) | Score 60.65 (raw 64.46) | Confidence 70.45% | Status pass | Chain Solana
-- 8. Arbitrum (ARB) | Score 60.16 (raw 63.75) | Confidence 71.84% | Status pass | Chain Arbitrum
-- 9. NEAR (NEAR) | Score 60.1 (raw 63.75) | Confidence 71.39% | Status pass | Chain Near
-- 10. Ethena (ENA) | Score 60.01 (raw 63.44) | Confidence 72.97% | Status pass | Chain Ethereum
+- 7. Jupiter (JUP) | Score 60.81 (raw 64.64) | Confidence 70.42% | Status pass | Chain Solana
+- 8. Arbitrum (ARB) | Score 60.21 (raw 63.81) | Confidence 71.82% | Status pass | Chain Arbitrum
+- 9. Ethena (ENA) | Score 60.2 (raw 63.62) | Confidence 73.14% | Status pass | Chain Ethereum
+- 10. NEAR (NEAR) | Score 60.19 (raw 63.83) | Confidence 71.46% | Status pass | Chain Near
 
 ## Rejection Audit Log
 
