@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-01T16:19:42.046Z
+Generated: 2026-03-01T16:49:17.567Z
 Candidates evaluated: 28
 Eligible: 20
 Borderline: 1
@@ -9,15 +9,15 @@ Rejected: 8
 ## Top Eligible Assets
 
 - 1. Chainlink (LINK) | Score 72.19 (raw 75.99) | Confidence 75.02% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 71.31 (raw 74.74) | Confidence 77.05% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 68.8 (raw 72.88) | Confidence 72.01% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 66.63 (raw 70.23) | Confidence 74.39% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 64.17 (raw 67.17) | Confidence 77.68% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 64.03 (raw 67.46) | Confidence 74.56% | Status pass | Chain Ethereum
-- 7. Jupiter (JUP) | Score 62.38 (raw 66.27) | Confidence 70.66% | Status pass | Chain Solana
-- 8. NEAR (NEAR) | Score 62.02 (raw 65.55) | Confidence 73.03% | Status pass | Chain Near
-- 9. Ethena (ENA) | Score 60.36 (raw 63.77) | Confidence 73.26% | Status pass | Chain Ethereum
-- 10. Arbitrum (ARB) | Score 59.04 (raw 62.63) | Confidence 71.3% | Status pass | Chain Arbitrum
+- 2. Sui (SUI) | Score 71.34 (raw 74.77) | Confidence 77.05% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 68.81 (raw 72.89) | Confidence 72.02% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 66.66 (raw 70.26) | Confidence 74.42% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 64.23 (raw 67.22) | Confidence 77.73% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 64.07 (raw 67.5) | Confidence 74.59% | Status pass | Chain Ethereum
+- 7. Jupiter (JUP) | Score 62.45 (raw 66.34) | Confidence 70.65% | Status pass | Chain Solana
+- 8. NEAR (NEAR) | Score 62.08 (raw 65.62) | Confidence 73.06% | Status pass | Chain Near
+- 9. Ethena (ENA) | Score 60.34 (raw 63.75) | Confidence 73.25% | Status pass | Chain Ethereum
+- 10. Arbitrum (ARB) | Score 59.08 (raw 62.67) | Confidence 71.33% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
