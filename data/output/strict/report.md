@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-01T04:16:04.866Z
+Generated: 2026-03-01T05:34:21.393Z
 Candidates evaluated: 28
 Eligible: 17
 Borderline: 1
@@ -8,16 +8,16 @@ Rejected: 11
 
 ## Top Eligible Assets
 
-- 1. Sui (SUI) | Score 68.36 (raw 71.59) | Confidence 77.46% | Status pass | Chain Sui
-- 2. Chainlink (LINK) | Score 68.08 (raw 71.56) | Confidence 75.7% | Status pass | Chain Ethereum
-- 3. Avalanche (AVAX) | Score 63.84 (raw 67.56) | Confidence 72.46% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 60.6 (raw 63.82) | Confidence 74.8% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 58.08 (raw 61.14) | Confidence 74.98% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 56.84 (raw 59.59) | Confidence 76.96% | Status pass | Chain Ethereum
+- 1. Sui (SUI) | Score 68.28 (raw 71.51) | Confidence 77.43% | Status pass | Chain Sui
+- 2. Chainlink (LINK) | Score 68.17 (raw 71.64) | Confidence 75.76% | Status pass | Chain Ethereum
+- 3. Avalanche (AVAX) | Score 63.91 (raw 67.63) | Confidence 72.5% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 60.59 (raw 63.81) | Confidence 74.8% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 58.45 (raw 61.5) | Confidence 75.22% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 57.35 (raw 60.08) | Confidence 77.29% | Status pass | Chain Ethereum
 - 7. NEAR (NEAR) | Score 55.76 (raw 58.94) | Confidence 73.07% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 53 (raw 55.91) | Confidence 74% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 52.04 (raw 54.94) | Confidence 73.61% | Status pass | Chain Optimism
-- 10. Jupiter (JUP) | Score 51.91 (raw 55.14) | Confidence 70.74% | Status pass | Chain Solana
+- 8. Ethena (ENA) | Score 52.86 (raw 55.77) | Confidence 73.91% | Status pass | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 51.99 (raw 54.89) | Confidence 73.58% | Status pass | Chain Optimism
+- 10. Jupiter (JUP) | Score 51.97 (raw 55.2) | Confidence 70.72% | Status pass | Chain Solana
 
 ## Rejection Audit Log
 
