@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-02T16:36:15.144Z
+Generated: 2026-03-02T17:39:42.623Z
 Candidates evaluated: 28
 Eligible: 21
 Borderline: 1
@@ -8,16 +8,16 @@ Rejected: 7
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 72.3 (raw 76.09) | Confidence 75.11% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 71.6 (raw 75.01) | Confidence 77.25% | Status pass | Chain Sui
+- 1. Chainlink (LINK) | Score 72.32 (raw 76.11) | Confidence 75.12% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 71.56 (raw 74.98) | Confidence 77.22% | Status pass | Chain Sui
 - 3. Avalanche (AVAX) | Score 68.56 (raw 72.66) | Confidence 71.79% | Status pass | Chain Avalanche
 - 4. Uniswap (UNI) | Score 66.68 (raw 70.28) | Confidence 74.42% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 65.53 (raw 68.5) | Confidence 78.31% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 65.53 (raw 68.5) | Confidence 78.29% | Status pass | Chain Ethereum
 - 6. Pepe (PEPE) | Score 64.73 (raw 68.12) | Confidence 75.17% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 63.33 (raw 66.82) | Confidence 73.86% | Status pass | Chain Near
-- 8. Jupiter (JUP) | Score 62.13 (raw 65.98) | Confidence 70.83% | Status pass | Chain Solana
-- 9. Ethena (ENA) | Score 61.17 (raw 64.53) | Confidence 73.95% | Status pass | Chain Ethereum
-- 10. Arbitrum (ARB) | Score 59.16 (raw 62.75) | Confidence 71.39% | Status pass | Chain Arbitrum
+- 7. NEAR (NEAR) | Score 63.65 (raw 67.14) | Confidence 73.99% | Status pass | Chain Near
+- 8. Jupiter (JUP) | Score 62.14 (raw 65.99) | Confidence 70.81% | Status pass | Chain Solana
+- 9. Ethena (ENA) | Score 61.63 (raw 64.96) | Confidence 74.34% | Status pass | Chain Ethereum
+- 10. Arbitrum (ARB) | Score 59.04 (raw 62.63) | Confidence 71.29% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
