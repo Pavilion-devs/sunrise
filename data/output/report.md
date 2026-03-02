@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-02T05:12:09.299Z
+Generated: 2026-03-02T06:10:21.708Z
 Candidates evaluated: 28
 Eligible: 16
 Borderline: 1
@@ -8,16 +8,16 @@ Rejected: 12
 
 ## Top Eligible Assets
 
-- 1. Sui (SUI) | Score 67.76 (raw 71.08) | Confidence 76.67% | Status pass | Chain Sui
-- 2. Chainlink (LINK) | Score 67.66 (raw 71.29) | Confidence 74.57% | Status pass | Chain Ethereum
-- 3. Avalanche (AVAX) | Score 63.7 (raw 67.56) | Confidence 71.39% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 61.09 (raw 64.45) | Confidence 73.96% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 60.7 (raw 63.49) | Confidence 78.07% | Status pass | Chain Ethereum
+- 1. Sui (SUI) | Score 67.93 (raw 71.24) | Confidence 76.78% | Status pass | Chain Sui
+- 2. Chainlink (LINK) | Score 67.69 (raw 71.31) | Confidence 74.58% | Status pass | Chain Ethereum
+- 3. Avalanche (AVAX) | Score 63.69 (raw 67.55) | Confidence 71.38% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 61.05 (raw 64.41) | Confidence 73.93% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 60.72 (raw 63.53) | Confidence 77.92% | Status pass | Chain Ethereum
 - 6. Pepe (PEPE) | Score 59.26 (raw 62.44) | Confidence 74.48% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 56.39 (raw 59.7) | Confidence 72.31% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 54.03 (raw 57.09) | Confidence 73.18% | Status pass | Chain Ethereum
-- 9. Jupiter (JUP) | Score 53.11 (raw 56.42) | Confidence 70.68% | Status borderline | Chain Solana
-- 10. Worldcoin (WLD) | Score 52.25 (raw 55.29) | Confidence 72.48% | Status pass | Chain Optimism
+- 7. NEAR (NEAR) | Score 57.02 (raw 60.31) | Confidence 72.74% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 54.1 (raw 57.16) | Confidence 73.24% | Status pass | Chain Ethereum
+- 9. Jupiter (JUP) | Score 52.98 (raw 56.28) | Confidence 70.69% | Status borderline | Chain Solana
+- 10. Worldcoin (WLD) | Score 52.26 (raw 55.3) | Confidence 72.49% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
 
