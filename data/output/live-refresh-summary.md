@@ -1,19 +1,19 @@
 # Live Refresh Comparison
 
-Generated: 2026-03-02T11:28:08.436Z
+Generated: 2026-03-02T11:52:49.743Z
 
 ## strict_simon
 
-- Eligible: 13
-- Borderline: 1
-- Rejected: 15
+- Eligible: 14
+- Borderline: 2
+- Rejected: 14
 
 Top 5:
-- 1. Sui | Score 66.64 | Confidence 76.77% | pass
-- 2. Chainlink | Score 66.18 | Confidence 74.52% | pass
-- 3. Avalanche | Score 61.99 | Confidence 71.29% | pass
-- 4. Uniswap | Score 58.95 | Confidence 73.75% | pass
-- 5. Aave | Score 58.91 | Confidence 78.02% | pass
+- 1. Sui | Score 66.69 | Confidence 76.8% | pass
+- 2. Chainlink | Score 66.24 | Confidence 74.55% | pass
+- 3. Avalanche | Score 62.08 | Confidence 71.34% | pass
+- 4. Uniswap | Score 58.98 | Confidence 73.77% | pass
+- 5. Aave | Score 58.97 | Confidence 78.05% | pass
 
 ## balanced
 
@@ -22,22 +22,22 @@ Top 5:
 - Rejected: 12
 
 Top 5:
-- 1. Sui | Score 67.9 | Confidence 76.77% | pass
-- 2. Chainlink | Score 67.59 | Confidence 74.52% | pass
-- 3. Avalanche | Score 63.54 | Confidence 71.29% | pass
-- 4. Uniswap | Score 60.77 | Confidence 73.75% | pass
-- 5. Aave | Score 60.59 | Confidence 78.02% | pass
+- 1. Sui | Score 67.94 | Confidence 76.8% | pass
+- 2. Chainlink | Score 67.64 | Confidence 74.55% | pass
+- 3. Avalanche | Score 63.62 | Confidence 71.34% | pass
+- 4. Uniswap | Score 60.8 | Confidence 73.77% | pass
+- 5. Aave | Score 60.65 | Confidence 78.05% | pass
 
 ## growth
 
-- Eligible: 20
-- Borderline: 1
-- Rejected: 8
+- Eligible: 21
+- Borderline: 2
+- Rejected: 7
 
 Top 5:
-- 1. Chainlink | Score 71.6 | Confidence 74.52% | pass
-- 2. Sui | Score 70.94 | Confidence 76.77% | pass
-- 3. Avalanche | Score 67.96 | Confidence 71.29% | pass
-- 4. Uniswap | Score 65.89 | Confidence 73.75% | pass
-- 5. Aave | Score 64.88 | Confidence 78.02% | pass
+- 1. Chainlink | Score 71.64 | Confidence 74.55% | pass
+- 2. Sui | Score 70.98 | Confidence 76.8% | pass
+- 3. Avalanche | Score 68.03 | Confidence 71.34% | pass
+- 4. Uniswap | Score 65.91 | Confidence 73.77% | pass
+- 5. Aave | Score 64.93 | Confidence 78.05% | pass
 
