@@ -1,6 +1,6 @@
 # Live Refresh Comparison
 
-Generated: 2026-03-03T07:14:08.643Z
+Generated: 2026-03-03T07:59:36.070Z
 
 ## strict_simon
 
@@ -9,11 +9,11 @@ Generated: 2026-03-03T07:14:08.643Z
 - Rejected: 14
 
 Top 5:
-- 1. Sui | Score 67.31 | Confidence 77.09% | pass
-- 2. Chainlink | Score 66.94 | Confidence 74.99% | pass
-- 3. Avalanche | Score 62.6 | Confidence 71.67% | pass
-- 4. Uniswap | Score 60.18 | Confidence 74.52% | pass
-- 5. Aave | Score 59.61 | Confidence 78.14% | pass
+- 1. Sui | Score 67.3 | Confidence 77.09% | pass
+- 2. Chainlink | Score 66.93 | Confidence 74.99% | pass
+- 3. Avalanche | Score 62.55 | Confidence 71.64% | pass
+- 4. Uniswap | Score 60.19 | Confidence 74.53% | pass
+- 5. Aave | Score 59.6 | Confidence 78.13% | pass
 
 ## balanced
 
@@ -22,11 +22,11 @@ Top 5:
 - Rejected: 11
 
 Top 5:
-- 1. Sui | Score 68.53 | Confidence 77.09% | pass
+- 1. Sui | Score 68.52 | Confidence 77.09% | pass
 - 2. Chainlink | Score 68.3 | Confidence 74.99% | pass
-- 3. Avalanche | Score 64.12 | Confidence 71.67% | pass
-- 4. Uniswap | Score 61.93 | Confidence 74.52% | pass
-- 5. Aave | Score 61.24 | Confidence 78.14% | pass
+- 3. Avalanche | Score 64.07 | Confidence 71.64% | pass
+- 4. Uniswap | Score 61.95 | Confidence 74.53% | pass
+- 5. Aave | Score 61.23 | Confidence 78.13% | pass
 
 ## growth
 
@@ -36,8 +36,8 @@ Top 5:
 
 Top 5:
 - 1. Chainlink | Score 72.15 | Confidence 74.99% | pass
-- 2. Sui | Score 71.43 | Confidence 77.09% | pass
-- 3. Avalanche | Score 68.41 | Confidence 71.67% | pass
-- 4. Uniswap | Score 66.79 | Confidence 74.52% | pass
-- 5. Aave | Score 65.37 | Confidence 78.14% | pass
+- 2. Sui | Score 71.41 | Confidence 77.09% | pass
+- 3. Avalanche | Score 68.38 | Confidence 71.64% | pass
+- 4. Uniswap | Score 66.81 | Confidence 74.53% | pass
+- 5. Aave | Score 65.36 | Confidence 78.13% | pass
 
