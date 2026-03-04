@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-04T21:29:14.372Z
+Generated: 2026-03-04T21:57:38.813Z
 Candidates evaluated: 28
 Eligible: 18
 Borderline: 2
@@ -8,16 +8,16 @@ Rejected: 10
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 69.16 (raw 72.78) | Confidence 75.17% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 67.92 (raw 71.23) | Confidence 76.73% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 65.04 (raw 68.86) | Confidence 72.27% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 62.33 (raw 65.64) | Confidence 74.77% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 69.13 (raw 72.75) | Confidence 75.14% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 67.83 (raw 71.15) | Confidence 76.67% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 65.17 (raw 68.98) | Confidence 72.36% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 62.3 (raw 65.61) | Confidence 74.75% | Status pass | Chain Ethereum
 - 5. Pepe (PEPE) | Score 61.06 (raw 64.18) | Confidence 75.68% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 60.72 (raw 63.5) | Confidence 78.1% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 58.63 (raw 61.88) | Confidence 73.7% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 56.58 (raw 59.57) | Confidence 74.88% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 55.4 (raw 58.36) | Confidence 74.6% | Status pass | Chain Optimism
-- 10. Jupiter (JUP) | Score 54 (raw 57.33) | Confidence 70.95% | Status pass | Chain Solana
+- 6. Aave (AAVE) | Score 60.68 (raw 63.46) | Confidence 78.1% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 58.45 (raw 61.7) | Confidence 73.65% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 56.45 (raw 59.45) | Confidence 74.79% | Status pass | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 55.05 (raw 58.03) | Confidence 74.36% | Status pass | Chain Optimism
+- 10. Jupiter (JUP) | Score 53.94 (raw 57.27) | Confidence 70.95% | Status pass | Chain Solana
 
 ## Rejection Audit Log
 
