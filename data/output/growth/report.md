@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-04T10:29:31.273Z
+Generated: 2026-03-04T11:04:04.714Z
 Candidates evaluated: 28
 Eligible: 20
 Borderline: 0
@@ -8,16 +8,16 @@ Rejected: 8
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 72.18 (raw 75.98) | Confidence 75% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 70.26 (raw 73.78) | Confidence 76.17% | Status pass | Chain Sui
+- 1. Chainlink (LINK) | Score 72.16 (raw 75.96) | Confidence 74.98% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 70.29 (raw 73.8) | Confidence 76.19% | Status pass | Chain Sui
 - 3. Avalanche (AVAX) | Score 68.64 (raw 72.74) | Confidence 71.86% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 66.73 (raw 70.32) | Confidence 74.45% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 65.19 (raw 68.2) | Confidence 77.97% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 64.51 (raw 67.91) | Confidence 74.98% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 63.42 (raw 66.9) | Confidence 74.01% | Status pass | Chain Near
-- 8. Jupiter (JUP) | Score 62.08 (raw 65.92) | Confidence 70.89% | Status pass | Chain Solana
-- 9. Ethena (ENA) | Score 62 (raw 65.31) | Confidence 74.66% | Status pass | Chain Ethereum
-- 10. Aptos (APT) | Score 59.87 (raw 63.7) | Confidence 69.97% | Status pass | Chain Aptos
+- 4. Uniswap (UNI) | Score 66.73 (raw 70.32) | Confidence 74.46% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 65.15 (raw 68.16) | Confidence 77.94% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 64.55 (raw 67.95) | Confidence 75.01% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 63.24 (raw 66.72) | Confidence 73.9% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 62.12 (raw 65.42) | Confidence 74.77% | Status pass | Chain Ethereum
+- 9. Jupiter (JUP) | Score 62.11 (raw 65.95) | Confidence 70.9% | Status pass | Chain Solana
+- 10. Aptos (APT) | Score 59.78 (raw 63.61) | Confidence 69.91% | Status pass | Chain Aptos
 
 ## Rejection Audit Log
 
