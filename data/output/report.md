@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-04T09:33:23.033Z
+Generated: 2026-03-04T10:29:31.209Z
 Candidates evaluated: 28
 Eligible: 17
-Borderline: 1
+Borderline: 0
 Rejected: 11
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 68.13 (raw 71.74) | Confidence 74.86% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 66.97 (raw 70.33) | Confidence 76.1% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 64.31 (raw 68.15) | Confidence 71.78% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 61.66 (raw 65) | Confidence 74.32% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 60.91 (raw 63.72) | Confidence 77.94% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 59.95 (raw 63.11) | Confidence 74.94% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 59.4 (raw 62.64) | Confidence 74.09% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 56.08 (raw 59.09) | Confidence 74.53% | Status pass | Chain Ethereum
-- 9. Aptos (APT) | Score 54.21 (raw 57.66) | Confidence 70.04% | Status pass | Chain Aptos
-- 10. Jupiter (JUP) | Score 53.68 (raw 57) | Confidence 70.89% | Status pass | Chain Solana
+- 1. Chainlink (LINK) | Score 68.34 (raw 71.94) | Confidence 75% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 67.06 (raw 70.42) | Confidence 76.17% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 64.42 (raw 68.26) | Confidence 71.86% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 61.86 (raw 65.19) | Confidence 74.45% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 61.01 (raw 63.82) | Confidence 77.97% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 60 (raw 63.16) | Confidence 74.98% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 59.26 (raw 62.51) | Confidence 74.01% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 56.26 (raw 59.26) | Confidence 74.66% | Status pass | Chain Ethereum
+- 9. Aptos (APT) | Score 54.08 (raw 57.54) | Confidence 69.97% | Status pass | Chain Aptos
+- 10. Jupiter (JUP) | Score 53.75 (raw 57.07) | Confidence 70.89% | Status pass | Chain Solana
 
 ## Rejection Audit Log
 
