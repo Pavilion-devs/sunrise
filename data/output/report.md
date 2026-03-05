@@ -1,27 +1,28 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-05T08:51:37.976Z
+Generated: 2026-03-05T09:36:21.518Z
 Candidates evaluated: 28
-Eligible: 18
+Eligible: 17
 Borderline: 2
-Rejected: 10
+Rejected: 11
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 69.14 (raw 72.7) | Confidence 75.54% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 67.66 (raw 70.99) | Confidence 76.57% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 64.83 (raw 68.65) | Confidence 72.13% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 62.11 (raw 65.43) | Confidence 74.63% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 60.99 (raw 64.12) | Confidence 75.61% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 60.25 (raw 63.03) | Confidence 77.93% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 58.14 (raw 61.4) | Confidence 73.45% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 56.62 (raw 59.61) | Confidence 74.9% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 55.4 (raw 58.36) | Confidence 74.61% | Status pass | Chain Optimism
-- 10. Jupiter (JUP) | Score 53.84 (raw 57.16) | Confidence 70.97% | Status pass | Chain Solana
+- 1. Chainlink (LINK) | Score 69 (raw 72.56) | Confidence 75.44% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 67.61 (raw 70.94) | Confidence 76.53% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 64.6 (raw 68.43) | Confidence 71.98% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 62.01 (raw 65.34) | Confidence 74.56% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 60.81 (raw 63.94) | Confidence 75.54% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 60.15 (raw 62.93) | Confidence 77.92% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 57.83 (raw 61.1) | Confidence 73.25% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 55.99 (raw 59.01) | Confidence 74.47% | Status pass | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 55.26 (raw 58.23) | Confidence 74.52% | Status pass | Chain Optimism
+- 10. Jupiter (JUP) | Score 53.75 (raw 57.06) | Confidence 71% | Status borderline | Chain Solana
 
 ## Rejection Audit Log
 
 - Maker (MKR): insufficient_estimated_liquidity
+- Pendle (PENDLE): insufficient_estimated_liquidity
 - Compound (COMP): insufficient_estimated_liquidity
 - Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
