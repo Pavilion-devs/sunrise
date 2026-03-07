@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-07T13:34:30.842Z
+Generated: 2026-03-07T14:17:58.311Z
 Candidates evaluated: 28
-Eligible: 12
+Eligible: 11
 Borderline: 3
-Rejected: 16
+Rejected: 17
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 65.29 (raw 68.88) | Confidence 73.94% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 64.43 (raw 67.77) | Confidence 75.34% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 61.26 (raw 65.04) | Confidence 70.94% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 58.03 (raw 61.32) | Confidence 73.14% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 56.06 (raw 59.17) | Confidence 73.73% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 55.85 (raw 58.62) | Confidence 76.35% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 52.78 (raw 56.01) | Confidence 71.13% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 51.61 (raw 54.54) | Confidence 73.1% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 49.94 (raw 52.87) | Confidence 72.26% | Status pass | Chain Optimism
-- 10. Aptos (APT) | Score 48.12 (raw 51.28) | Confidence 69.18% | Status borderline | Chain Aptos
+- 1. Chainlink (LINK) | Score 64.93 (raw 68.54) | Confidence 73.72% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 63.91 (raw 67.27) | Confidence 75.01% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 60.86 (raw 64.62) | Confidence 70.92% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 57.63 (raw 60.93) | Confidence 72.89% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 55.99 (raw 59.1) | Confidence 73.7% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 55.57 (raw 58.35) | Confidence 76.17% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 52.3 (raw 55.53) | Confidence 70.91% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 51.34 (raw 54.28) | Confidence 72.94% | Status pass | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 49.52 (raw 52.44) | Confidence 72.18% | Status borderline | Chain Optimism
+- 10. Aptos (APT) | Score 47.86 (raw 51.01) | Confidence 69.17% | Status borderline | Chain Aptos
 
 ## Rejection Audit Log
 
@@ -25,6 +25,7 @@ Rejected: 16
 - Pendle (PENDLE): insufficient_estimated_liquidity
 - Curve DAO (CRV): insufficient_estimated_liquidity
 - Compound (COMP): insufficient_estimated_liquidity
+- Optimism (OP): insufficient_estimated_liquidity
 - Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
 - Sei (SEI): insufficient_estimated_liquidity
