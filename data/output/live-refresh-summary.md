@@ -1,6 +1,6 @@
 # Live Refresh Comparison
 
-Generated: 2026-03-07T11:40:48.292Z
+Generated: 2026-03-07T12:31:48.871Z
 
 ## strict_simon
 
@@ -9,35 +9,35 @@ Generated: 2026-03-07T11:40:48.292Z
 - Rejected: 16
 
 Top 5:
-- 1. Chainlink | Score 65.57 | Confidence 74.12% | pass
-- 2. Sui | Score 64.69 | Confidence 75.51% | pass
-- 3. Avalanche | Score 61.54 | Confidence 71% | pass
-- 4. Uniswap | Score 58.44 | Confidence 73.41% | pass
-- 5. Pepe | Score 56.37 | Confidence 73.93% | pass
+- 1. Chainlink | Score 65.46 | Confidence 74.05% | pass
+- 2. Sui | Score 64.59 | Confidence 75.44% | pass
+- 3. Avalanche | Score 61.43 | Confidence 70.94% | pass
+- 4. Uniswap | Score 58.22 | Confidence 73.27% | pass
+- 5. Pepe | Score 56.24 | Confidence 73.84% | pass
 
 ## balanced
 
 - Eligible: 15
-- Borderline: 2
+- Borderline: 3
 - Rejected: 13
 
 Top 5:
-- 1. Chainlink | Score 67 | Confidence 74.12% | pass
-- 2. Sui | Score 66.06 | Confidence 75.51% | pass
-- 3. Avalanche | Score 63.12 | Confidence 71% | pass
-- 4. Uniswap | Score 60.29 | Confidence 73.41% | pass
-- 5. Pepe | Score 58.43 | Confidence 73.93% | pass
+- 1. Chainlink | Score 66.9 | Confidence 74.05% | pass
+- 2. Sui | Score 65.96 | Confidence 75.44% | pass
+- 3. Avalanche | Score 63.01 | Confidence 70.94% | pass
+- 4. Uniswap | Score 60.07 | Confidence 73.27% | pass
+- 5. Pepe | Score 58.3 | Confidence 73.84% | pass
 
 ## growth
 
-- Eligible: 19
-- Borderline: 2
-- Rejected: 9
+- Eligible: 18
+- Borderline: 1
+- Rejected: 10
 
 Top 5:
-- 1. Chainlink | Score 71.13 | Confidence 74.12% | pass
-- 2. Sui | Score 69.48 | Confidence 75.51% | pass
-- 3. Avalanche | Score 67.63 | Confidence 71% | pass
-- 4. Uniswap | Score 65.5 | Confidence 73.41% | pass
-- 5. Pepe | Score 63.29 | Confidence 73.93% | pass
+- 1. Chainlink | Score 71.05 | Confidence 74.05% | pass
+- 2. Sui | Score 69.41 | Confidence 75.44% | pass
+- 3. Avalanche | Score 67.54 | Confidence 70.94% | pass
+- 4. Uniswap | Score 65.34 | Confidence 73.27% | pass
+- 5. Pepe | Score 63.18 | Confidence 73.84% | pass
 
