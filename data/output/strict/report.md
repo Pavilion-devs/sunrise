@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-08T16:50:35.317Z
+Generated: 2026-03-08T17:17:37.091Z
 Candidates evaluated: 28
 Eligible: 11
 Borderline: 3
@@ -8,16 +8,16 @@ Rejected: 17
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 64.45 (raw 68.07) | Confidence 73.42% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 62.42 (raw 65.84) | Confidence 74.07% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 59.71 (raw 63.4) | Confidence 70.9% | Status pass | Chain Avalanche
+- 1. Chainlink (LINK) | Score 64.53 (raw 68.15) | Confidence 73.47% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 62.5 (raw 65.91) | Confidence 74.11% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 59.8 (raw 63.5) | Confidence 70.9% | Status pass | Chain Avalanche
 - 4. Uniswap (UNI) | Score 57.51 (raw 60.81) | Confidence 72.83% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 55.46 (raw 58.24) | Confidence 76.11% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 55.29 (raw 58.41) | Confidence 73.26% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 52.79 (raw 56.02) | Confidence 71.16% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 50.05 (raw 53.01) | Confidence 72.11% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 49.17 (raw 52.08) | Confidence 72.08% | Status borderline | Chain Optimism
-- 10. Aptos (APT) | Score 47.4 (raw 50.52) | Confidence 69.14% | Status borderline | Chain Aptos
+- 5. Aave (AAVE) | Score 55.51 (raw 58.29) | Confidence 76.15% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 55.34 (raw 58.46) | Confidence 73.3% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 52.86 (raw 56.09) | Confidence 71.19% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 50.16 (raw 53.11) | Confidence 72.18% | Status pass | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 49.39 (raw 52.31) | Confidence 72.08% | Status borderline | Chain Optimism
+- 10. Aptos (APT) | Score 47.42 (raw 50.54) | Confidence 69.15% | Status borderline | Chain Aptos
 
 ## Rejection Audit Log
 
