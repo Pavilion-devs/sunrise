@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-08T23:17:09.134Z
+Generated: 2026-03-08T23:44:04.197Z
 Candidates evaluated: 28
 Eligible: 12
 Borderline: 3
@@ -8,16 +8,16 @@ Rejected: 16
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 65.12 (raw 68.71) | Confidence 73.84% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 63.09 (raw 66.48) | Confidence 74.49% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 60.1 (raw 63.81) | Confidence 70.9% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 57.75 (raw 61.05) | Confidence 72.99% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 56.04 (raw 58.8) | Confidence 76.49% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 55.6 (raw 58.72) | Confidence 73.47% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 65.14 (raw 68.74) | Confidence 73.87% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 63.14 (raw 66.53) | Confidence 74.53% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 60.22 (raw 63.94) | Confidence 70.9% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 57.74 (raw 61.04) | Confidence 72.99% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 56.05 (raw 58.81) | Confidence 76.5% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 55.59 (raw 58.71) | Confidence 73.46% | Status pass | Chain Ethereum
 - 7. NEAR (NEAR) | Score 53.35 (raw 56.58) | Confidence 71.52% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 50.51 (raw 53.46) | Confidence 72.4% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 50.14 (raw 53.06) | Confidence 72.43% | Status pass | Chain Optimism
-- 10. Aptos (APT) | Score 47.82 (raw 50.96) | Confidence 69.15% | Status borderline | Chain Aptos
+- 8. Ethena (ENA) | Score 50.52 (raw 53.47) | Confidence 72.41% | Status pass | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 50.12 (raw 53.05) | Confidence 72.42% | Status pass | Chain Optimism
+- 10. Aptos (APT) | Score 47.83 (raw 50.97) | Confidence 69.14% | Status borderline | Chain Aptos
 
 ## Rejection Audit Log
 
