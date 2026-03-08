@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-08T18:56:10.098Z
+Generated: 2026-03-08T19:20:39.242Z
 Candidates evaluated: 28
 Eligible: 18
 Borderline: 2
@@ -8,16 +8,16 @@ Rejected: 10
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 70.35 (raw 74.3) | Confidence 73.46% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 67.89 (raw 71.59) | Confidence 74.14% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 66.27 (raw 70.37) | Confidence 70.9% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 64.76 (raw 68.49) | Confidence 72.78% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 62.47 (raw 66) | Confidence 73.24% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 62.41 (raw 65.54) | Confidence 76.17% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 59.96 (raw 63.63) | Confidence 71.22% | Status pass | Chain Near
-- 8. Jupiter (JUP) | Score 59.83 (raw 63.57) | Confidence 70.6% | Status borderline | Chain Solana
-- 9. Ethena (ENA) | Score 58.97 (raw 62.46) | Confidence 72.07% | Status pass | Chain Ethereum
-- 10. Worldcoin (WLD) | Score 56.83 (raw 60.18) | Confidence 72.16% | Status pass | Chain Optimism
+- 1. Chainlink (LINK) | Score 70.36 (raw 74.31) | Confidence 73.47% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 67.94 (raw 71.64) | Confidence 74.18% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 66.37 (raw 70.47) | Confidence 70.91% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 64.79 (raw 68.52) | Confidence 72.81% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 62.5 (raw 66.03) | Confidence 73.27% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 62.47 (raw 65.59) | Confidence 76.21% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 60.02 (raw 63.68) | Confidence 71.26% | Status pass | Chain Near
+- 8. Jupiter (JUP) | Score 59.9 (raw 63.64) | Confidence 70.62% | Status borderline | Chain Solana
+- 9. Ethena (ENA) | Score 59.01 (raw 62.5) | Confidence 72.1% | Status pass | Chain Ethereum
+- 10. Worldcoin (WLD) | Score 56.99 (raw 60.33) | Confidence 72.3% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
 
