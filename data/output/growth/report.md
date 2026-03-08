@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-08T12:33:05.737Z
+Generated: 2026-03-08T13:35:31.219Z
 Candidates evaluated: 28
 Eligible: 17
 Borderline: 1
@@ -8,16 +8,16 @@ Rejected: 11
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 70.01 (raw 73.98) | Confidence 73.16% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 70.13 (raw 74.09) | Confidence 73.27% | Status pass | Chain Ethereum
 - 2. Sui (SUI) | Score 67.78 (raw 71.49) | Confidence 74.04% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 66.28 (raw 70.38) | Confidence 70.92% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 64.56 (raw 68.3) | Confidence 72.6% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 62.87 (raw 66.37) | Confidence 73.58% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 62.1 (raw 65.25) | Confidence 75.89% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 59.62 (raw 63.3) | Confidence 70.96% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 59.42 (raw 62.88) | Confidence 72.44% | Status pass | Chain Ethereum
-- 9. Arbitrum (ARB) | Score 56.59 (raw 60.21) | Confidence 69.96% | Status pass | Chain Arbitrum
-- 10. Worldcoin (WLD) | Score 56.57 (raw 59.91) | Confidence 72.12% | Status pass | Chain Optimism
+- 3. Avalanche (AVAX) | Score 66.38 (raw 70.48) | Confidence 70.91% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 64.59 (raw 68.33) | Confidence 72.62% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 62.88 (raw 66.38) | Confidence 73.59% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 62.15 (raw 65.29) | Confidence 75.93% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 59.77 (raw 63.44) | Confidence 71.04% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 59.32 (raw 62.79) | Confidence 72.37% | Status pass | Chain Ethereum
+- 9. Aptos (APT) | Score 56.65 (raw 60.37) | Confidence 69.16% | Status pass | Chain Aptos
+- 10. Arbitrum (ARB) | Score 56.58 (raw 60.2) | Confidence 69.94% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
