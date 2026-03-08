@@ -1,21 +1,22 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-08T01:25:52.354Z
+Generated: 2026-03-08T03:42:51.650Z
 Candidates evaluated: 28
-Eligible: 8
-Borderline: 0
-Rejected: 20
+Eligible: 9
+Borderline: 1
+Rejected: 19
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 63.76 (raw 67.39) | Confidence 73.04% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 62.56 (raw 65.97) | Confidence 74.15% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 59.53 (raw 63.21) | Confidence 70.91% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 56.88 (raw 60.2) | Confidence 72.41% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 55.13 (raw 58.26) | Confidence 73.15% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 54.53 (raw 57.34) | Confidence 75.5% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 51.17 (raw 54.33) | Confidence 70.9% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 50.64 (raw 53.59) | Confidence 72.48% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 63.85 (raw 67.49) | Confidence 73.03% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 62.53 (raw 65.94) | Confidence 74.13% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 59.55 (raw 63.23) | Confidence 70.9% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 56.96 (raw 60.28) | Confidence 72.47% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 55.25 (raw 58.37) | Confidence 73.23% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 54.62 (raw 57.43) | Confidence 75.56% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 51.23 (raw 54.4) | Confidence 70.91% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 50.63 (raw 53.58) | Confidence 72.48% | Status pass | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 48.99 (raw 51.89) | Confidence 72.12% | Status borderline | Chain Optimism
 
 ## Rejection Audit Log
 
@@ -34,7 +35,6 @@ Rejected: 20
 - Wormhole (W): insufficient_estimated_liquidity
 - Jupiter (JUP): insufficient_estimated_liquidity
 - Dogecoin (DOGE): unsupported_origin_chain
-- Worldcoin (WLD): insufficient_estimated_liquidity
 - EigenLayer (EIGEN): insufficient_estimated_liquidity
 - Lido DAO (LDO): insufficient_estimated_liquidity
 - Brett (BRETT): insufficient_estimated_liquidity
