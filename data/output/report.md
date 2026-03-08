@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-08T14:19:12.007Z
+Generated: 2026-03-08T14:48:17.644Z
 Candidates evaluated: 28
 Eligible: 14
-Borderline: 1
+Borderline: 2
 Rejected: 14
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 65.8 (raw 69.51) | Confidence 73.31% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 63.98 (raw 67.47) | Confidence 74.09% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 61.45 (raw 65.25) | Confidence 70.91% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 59.34 (raw 62.75) | Confidence 72.78% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 57.64 (raw 60.88) | Confidence 73.41% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 57.02 (raw 59.91) | Confidence 75.89% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 54.67 (raw 58.02) | Confidence 71.1% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 52.51 (raw 55.61) | Confidence 72.16% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 51.2 (raw 54.23) | Confidence 72.11% | Status pass | Chain Optimism
-- 10. Aptos (APT) | Score 49.87 (raw 53.15) | Confidence 69.17% | Status pass | Chain Aptos
+- 1. Chainlink (LINK) | Score 65.8 (raw 69.51) | Confidence 73.32% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 63.96 (raw 67.45) | Confidence 74.08% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 61.47 (raw 65.27) | Confidence 70.91% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 59.42 (raw 62.83) | Confidence 72.83% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 57.55 (raw 60.79) | Confidence 73.36% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 57.19 (raw 60.07) | Confidence 76.01% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 54.67 (raw 58.02) | Confidence 71.11% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 52.57 (raw 55.66) | Confidence 72.2% | Status pass | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 51.19 (raw 54.22) | Confidence 72.1% | Status pass | Chain Optimism
+- 10. Aptos (APT) | Score 49.85 (raw 53.13) | Confidence 69.15% | Status pass | Chain Aptos
 
 ## Rejection Audit Log
 
