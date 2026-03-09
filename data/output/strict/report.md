@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-09T17:42:03.075Z
+Generated: 2026-03-09T18:41:57.048Z
 Candidates evaluated: 28
 Eligible: 14
 Borderline: 2
@@ -8,16 +8,16 @@ Rejected: 14
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 66.61 (raw 70.15) | Confidence 74.77% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 65.21 (raw 68.53) | Confidence 75.82% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 62.42 (raw 66.19) | Confidence 71.54% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 59.66 (raw 62.91) | Confidence 74.18% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 56.8 (raw 59.54) | Confidence 76.99% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 56.71 (raw 59.8) | Confidence 74.16% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 54.36 (raw 57.57) | Confidence 72.16% | Status pass | Chain Near
-- 8. Worldcoin (WLD) | Score 51.83 (raw 54.73) | Confidence 73.53% | Status pass | Chain Optimism
-- 9. Ethena (ENA) | Score 51.57 (raw 54.5) | Confidence 73.08% | Status pass | Chain Ethereum
-- 10. Arbitrum (ARB) | Score 48.78 (raw 51.85) | Confidence 70.39% | Status pass | Chain Arbitrum
+- 1. Chainlink (LINK) | Score 66.66 (raw 70.2) | Confidence 74.81% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 65.37 (raw 68.68) | Confidence 75.92% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 62.43 (raw 66.2) | Confidence 71.55% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 59.68 (raw 62.93) | Confidence 74.2% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 56.88 (raw 59.62) | Confidence 77.04% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 56.76 (raw 59.85) | Confidence 74.19% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 54.5 (raw 57.7) | Confidence 72.24% | Status pass | Chain Near
+- 8. Worldcoin (WLD) | Score 51.86 (raw 54.76) | Confidence 73.55% | Status pass | Chain Optimism
+- 9. Ethena (ENA) | Score 51.72 (raw 54.65) | Confidence 73.17% | Status pass | Chain Ethereum
+- 10. Arbitrum (ARB) | Score 48.84 (raw 51.91) | Confidence 70.43% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
