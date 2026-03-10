@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-10T19:33:52.522Z
+Generated: 2026-03-10T20:26:03.641Z
 Candidates evaluated: 28
 Eligible: 16
 Borderline: 0
@@ -8,15 +8,15 @@ Rejected: 12
 
 ## Top Eligible Assets
 
-- 1. Sui (SUI) | Score 67.96 (raw 71.27) | Confidence 76.77% | Status pass | Chain Sui
-- 2. Chainlink (LINK) | Score 67.86 (raw 71.48) | Confidence 74.69% | Status pass | Chain Ethereum
-- 3. Avalanche (AVAX) | Score 64.53 (raw 68.37) | Confidence 71.92% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 61.05 (raw 64.41) | Confidence 73.92% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 59.67 (raw 62.84) | Confidence 74.79% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 59.25 (raw 62.05) | Confidence 77.41% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 56.82 (raw 60.12) | Confidence 72.57% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 54.52 (raw 57.57) | Confidence 73.53% | Status pass | Chain Ethereum
-- 9. Jupiter (JUP) | Score 54 (raw 57.37) | Confidence 70.66% | Status pass | Chain Solana
+- 1. Chainlink (LINK) | Score 67.8 (raw 71.42) | Confidence 74.64% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 67.75 (raw 71.08) | Confidence 76.62% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 64.5 (raw 68.34) | Confidence 71.9% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 61.04 (raw 64.4) | Confidence 73.92% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 59.66 (raw 62.83) | Confidence 74.78% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 59.08 (raw 61.89) | Confidence 77.29% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 56.83 (raw 60.13) | Confidence 72.57% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 54.45 (raw 57.5) | Confidence 73.48% | Status pass | Chain Ethereum
+- 9. Jupiter (JUP) | Score 54.01 (raw 57.38) | Confidence 70.67% | Status pass | Chain Solana
 - 10. Worldcoin (WLD) | Score 53.93 (raw 56.92) | Confidence 73.68% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
