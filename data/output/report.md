@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-10T09:37:03.367Z
+Generated: 2026-03-10T10:32:27.056Z
 Candidates evaluated: 28
 Eligible: 16
 Borderline: 1
@@ -8,16 +8,16 @@ Rejected: 12
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 67.94 (raw 71.55) | Confidence 74.73% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 67.67 (raw 71) | Confidence 76.56% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 63.63 (raw 67.5) | Confidence 71.31% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 61.09 (raw 64.45) | Confidence 73.93% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 67.87 (raw 71.49) | Confidence 74.69% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 67.7 (raw 71.02) | Confidence 76.58% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 63.58 (raw 67.45) | Confidence 71.28% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 61.01 (raw 64.37) | Confidence 73.88% | Status pass | Chain Ethereum
 - 5. Aave (AAVE) | Score 59.23 (raw 62.03) | Confidence 77.38% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 58.79 (raw 61.99) | Confidence 74.17% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 56.59 (raw 59.9) | Confidence 72.39% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 54.14 (raw 57.2) | Confidence 73.26% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 53.47 (raw 56.48) | Confidence 73.33% | Status pass | Chain Optimism
-- 10. Jupiter (JUP) | Score 53.06 (raw 56.36) | Confidence 70.76% | Status borderline | Chain Solana
+- 6. Pepe (PEPE) | Score 58.76 (raw 61.96) | Confidence 74.16% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 56.65 (raw 59.95) | Confidence 72.43% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 54.08 (raw 57.14) | Confidence 73.22% | Status pass | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 53.44 (raw 56.45) | Confidence 73.31% | Status pass | Chain Optimism
+- 10. Jupiter (JUP) | Score 53.29 (raw 56.59) | Confidence 70.78% | Status borderline | Chain Solana
 
 ## Rejection Audit Log
 
