@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-10T05:06:39.357Z
+Generated: 2026-03-10T06:04:20.346Z
 Candidates evaluated: 28
 Eligible: 20
-Borderline: 2
+Borderline: 3
 Rejected: 8
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 71.78 (raw 75.61) | Confidence 74.66% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 70.6 (raw 74.09) | Confidence 76.45% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 68.36 (raw 72.48) | Confidence 71.62% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 66.43 (raw 70.04) | Confidence 74.2% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 63.69 (raw 66.72) | Confidence 77.28% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 63.46 (raw 66.93) | Confidence 74.09% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 61.06 (raw 64.66) | Confidence 72.16% | Status pass | Chain Near
-- 8. Jupiter (JUP) | Score 60.76 (raw 64.54) | Confidence 70.69% | Status pass | Chain Solana
-- 9. Ethena (ENA) | Score 60.12 (raw 63.54) | Confidence 73.06% | Status pass | Chain Ethereum
-- 10. Worldcoin (WLD) | Score 58.21 (raw 61.49) | Confidence 73.37% | Status pass | Chain Optimism
+- 1. Chainlink (LINK) | Score 71.69 (raw 75.53) | Confidence 74.59% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 70.36 (raw 73.87) | Confidence 76.25% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 68.19 (raw 72.32) | Confidence 71.47% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 66.34 (raw 69.96) | Confidence 74.12% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 63.62 (raw 66.66) | Confidence 77.22% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 63.37 (raw 66.85) | Confidence 74.02% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 61 (raw 64.61) | Confidence 72.12% | Status pass | Chain Near
+- 8. Jupiter (JUP) | Score 60.92 (raw 64.71) | Confidence 70.7% | Status pass | Chain Solana
+- 9. Ethena (ENA) | Score 60.05 (raw 63.48) | Confidence 73% | Status pass | Chain Ethereum
+- 10. Worldcoin (WLD) | Score 58.09 (raw 61.37) | Confidence 73.27% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
 
