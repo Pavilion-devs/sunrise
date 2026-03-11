@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-11T15:10:56.498Z
+Generated: 2026-03-11T16:08:01.430Z
 Candidates evaluated: 28
 Eligible: 14
-Borderline: 2
+Borderline: 3
 Rejected: 14
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 66.2 (raw 69.76) | Confidence 74.51% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 65.79 (raw 69.09) | Confidence 76.17% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 62.64 (raw 66.41) | Confidence 71.66% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 58.85 (raw 62.12) | Confidence 73.66% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 57.03 (raw 60.11) | Confidence 74.36% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 56.96 (raw 59.7) | Confidence 77.07% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 54.51 (raw 57.72) | Confidence 72.22% | Status pass | Chain Near
+- 1. Chainlink (LINK) | Score 66.18 (raw 69.74) | Confidence 74.5% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 65.65 (raw 68.95) | Confidence 76.08% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 62.39 (raw 66.16) | Confidence 71.5% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 58.6 (raw 61.88) | Confidence 73.5% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 56.93 (raw 60.02) | Confidence 74.3% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 56.81 (raw 59.56) | Confidence 76.97% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 54.41 (raw 57.62) | Confidence 72.16% | Status pass | Chain Near
 - 8. Ethena (ENA) | Score 51.79 (raw 54.72) | Confidence 73.2% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 51.73 (raw 54.63) | Confidence 73.47% | Status pass | Chain Optimism
-- 10. Arbitrum (ARB) | Score 48.57 (raw 51.64) | Confidence 70.24% | Status pass | Chain Arbitrum
+- 9. Worldcoin (WLD) | Score 51.5 (raw 54.4) | Confidence 73.32% | Status pass | Chain Optimism
+- 10. Arbitrum (ARB) | Score 48.51 (raw 51.58) | Confidence 70.2% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
