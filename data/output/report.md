@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-11T10:32:14.622Z
+Generated: 2026-03-11T11:28:16.146Z
 Candidates evaluated: 28
 Eligible: 17
 Borderline: 1
@@ -8,16 +8,16 @@ Rejected: 11
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 67.41 (raw 71.05) | Confidence 74.38% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 67.19 (raw 70.54) | Confidence 76.25% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 64.25 (raw 68.1) | Confidence 71.73% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 60.74 (raw 64.11) | Confidence 73.71% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 59.35 (raw 62.53) | Confidence 74.58% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 58.58 (raw 61.41) | Confidence 76.95% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 56.23 (raw 59.55) | Confidence 72.16% | Status pass | Chain Near
-- 8. Worldcoin (WLD) | Score 54.18 (raw 57.17) | Confidence 73.86% | Status pass | Chain Optimism
-- 9. Ethena (ENA) | Score 53.74 (raw 56.81) | Confidence 73% | Status pass | Chain Ethereum
-- 10. Jupiter (JUP) | Score 52.96 (raw 56.27) | Confidence 70.58% | Status borderline | Chain Solana
+- 1. Chainlink (LINK) | Score 67.4 (raw 71.04) | Confidence 74.38% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 67.17 (raw 70.52) | Confidence 76.23% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 64.23 (raw 68.08) | Confidence 71.71% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 60.76 (raw 64.13) | Confidence 73.73% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 59.32 (raw 62.5) | Confidence 74.55% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 58.59 (raw 61.42) | Confidence 76.96% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 56.2 (raw 59.51) | Confidence 72.13% | Status pass | Chain Near
+- 8. Worldcoin (WLD) | Score 53.84 (raw 56.84) | Confidence 73.63% | Status pass | Chain Optimism
+- 9. Ethena (ENA) | Score 53.78 (raw 56.85) | Confidence 73.02% | Status pass | Chain Ethereum
+- 10. Jupiter (JUP) | Score 52.66 (raw 55.95) | Confidence 70.59% | Status borderline | Chain Solana
 
 ## Rejection Audit Log
 
