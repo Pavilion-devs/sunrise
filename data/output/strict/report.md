@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-12T14:53:15.030Z
+Generated: 2026-03-12T15:53:06.831Z
 Candidates evaluated: 28
 Eligible: 11
 Borderline: 0
@@ -8,16 +8,16 @@ Rejected: 17
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 65.92 (raw 69.48) | Confidence 74.33% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 64.96 (raw 68.29) | Confidence 75.64% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 61.33 (raw 65.1) | Confidence 71.05% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 58.3 (raw 61.59) | Confidence 73.32% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 56.17 (raw 59.28) | Confidence 73.82% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 55.87 (raw 58.64) | Confidence 76.37% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 65.97 (raw 69.54) | Confidence 74.36% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 64.97 (raw 68.3) | Confidence 75.64% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 61.39 (raw 65.16) | Confidence 71.07% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 58.41 (raw 61.69) | Confidence 73.38% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 56.22 (raw 59.32) | Confidence 73.84% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 56.03 (raw 58.8) | Confidence 76.47% | Status pass | Chain Ethereum
 - 7. NEAR (NEAR) | Score 54.45 (raw 57.66) | Confidence 72.18% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 51.42 (raw 54.36) | Confidence 72.97% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 51.2 (raw 54.11) | Confidence 73.14% | Status pass | Chain Optimism
-- 10. Aptos (APT) | Score 48.25 (raw 51.43) | Confidence 69.09% | Status pass | Chain Aptos
+- 8. Worldcoin (WLD) | Score 51.42 (raw 54.32) | Confidence 73.28% | Status pass | Chain Optimism
+- 9. Ethena (ENA) | Score 51.39 (raw 54.33) | Confidence 72.94% | Status pass | Chain Ethereum
+- 10. Aptos (APT) | Score 48.25 (raw 51.43) | Confidence 69.1% | Status pass | Chain Aptos
 
 ## Rejection Audit Log
 
