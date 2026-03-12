@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-12T11:04:51.524Z
+Generated: 2026-03-12T11:48:08.265Z
 Candidates evaluated: 28
 Eligible: 21
-Borderline: 4
+Borderline: 3
 Rejected: 7
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 71.54 (raw 75.39) | Confidence 74.45% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 69.8 (raw 73.36) | Confidence 75.75% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 67.64 (raw 71.79) | Confidence 71.08% | Status pass | Chain Avalanche
+- 1. Chainlink (LINK) | Score 71.56 (raw 75.41) | Confidence 74.47% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 69.91 (raw 73.46) | Confidence 75.85% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 67.62 (raw 71.78) | Confidence 71.07% | Status pass | Chain Avalanche
 - 4. Uniswap (UNI) | Score 65.45 (raw 69.13) | Confidence 73.35% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 63.19 (raw 66.68) | Confidence 73.85% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 62.92 (raw 66.01) | Confidence 76.6% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 61.28 (raw 64.87) | Confidence 72.33% | Status pass | Chain Near
-- 8. Jupiter (JUP) | Score 60.36 (raw 64.13) | Confidence 70.6% | Status borderline | Chain Solana
-- 9. Ethena (ENA) | Score 60.3 (raw 63.71) | Confidence 73.2% | Status pass | Chain Ethereum
-- 10. Arbitrum (ARB) | Score 57.67 (raw 61.34) | Confidence 70.11% | Status pass | Chain Arbitrum
+- 5. Pepe (PEPE) | Score 63.28 (raw 66.76) | Confidence 73.92% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 62.91 (raw 66) | Confidence 76.59% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 61.23 (raw 64.82) | Confidence 72.29% | Status pass | Chain Near
+- 8. Jupiter (JUP) | Score 60.42 (raw 64.19) | Confidence 70.6% | Status pass | Chain Solana
+- 9. Ethena (ENA) | Score 60.3 (raw 63.72) | Confidence 73.22% | Status pass | Chain Ethereum
+- 10. Arbitrum (ARB) | Score 57.66 (raw 61.33) | Confidence 70.09% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
