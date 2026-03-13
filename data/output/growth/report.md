@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-13T18:00:35.860Z
+Generated: 2026-03-13T19:06:02.018Z
 Candidates evaluated: 28
 Eligible: 20
 Borderline: 2
@@ -9,15 +9,15 @@ Rejected: 8
 ## Top Eligible Assets
 
 - 1. Chainlink (LINK) | Score 72.61 (raw 76.38) | Confidence 75.37% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 71.06 (raw 74.51) | Confidence 76.83% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 69 (raw 73.07) | Confidence 72.16% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 66.85 (raw 70.43) | Confidence 74.55% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 65 (raw 68.36) | Confidence 75.41% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 64.6 (raw 67.59) | Confidence 77.86% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 62.73 (raw 66.23) | Confidence 73.6% | Status pass | Chain Near
-- 8. Jupiter (JUP) | Score 61.4 (raw 65.24) | Confidence 70.62% | Status pass | Chain Solana
-- 9. Ethena (ENA) | Score 61.19 (raw 64.55) | Confidence 73.97% | Status pass | Chain Ethereum
-- 10. Aptos (APT) | Score 58.91 (raw 62.77) | Confidence 69.27% | Status pass | Chain Aptos
+- 2. Sui (SUI) | Score 71.1 (raw 74.55) | Confidence 76.87% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 69.05 (raw 73.11) | Confidence 72.19% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 66.87 (raw 70.45) | Confidence 74.58% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 64.93 (raw 68.3) | Confidence 75.37% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 64.61 (raw 67.6) | Confidence 77.86% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 62.66 (raw 66.16) | Confidence 73.54% | Status pass | Chain Near
+- 8. Jupiter (JUP) | Score 61.41 (raw 65.25) | Confidence 70.62% | Status pass | Chain Solana
+- 9. Ethena (ENA) | Score 61.12 (raw 64.49) | Confidence 73.91% | Status pass | Chain Ethereum
+- 10. Aptos (APT) | Score 58.97 (raw 62.83) | Confidence 69.32% | Status pass | Chain Aptos
 
 ## Rejection Audit Log
 
