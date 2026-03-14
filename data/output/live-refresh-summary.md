@@ -1,43 +1,43 @@
 # Live Refresh Comparison
 
-Generated: 2026-03-14T15:48:54.020Z
+Generated: 2026-03-14T16:22:26.153Z
 
 ## strict_simon
 
 - Eligible: 12
-- Borderline: 3
+- Borderline: 2
 - Rejected: 16
 
 Top 5:
-- 1. Chainlink | Score 66.16 | Confidence 74.49% | pass
-- 2. Sui | Score 64.37 | Confidence 75.25% | pass
-- 3. Avalanche | Score 60.99 | Confidence 71.07% | pass
-- 4. Uniswap | Score 58.87 | Confidence 73.67% | pass
-- 5. Aave | Score 56.8 | Confidence 76.96% | pass
+- 1. Chainlink | Score 65.48 | Confidence 74.05% | pass
+- 2. Sui | Score 64.15 | Confidence 75.11% | pass
+- 3. Avalanche | Score 60.84 | Confidence 71.07% | pass
+- 4. Uniswap | Score 58.76 | Confidence 73.6% | pass
+- 5. Aave | Score 56.57 | Confidence 76.81% | pass
 
 ## balanced
 
-- Eligible: 15
-- Borderline: 2
-- Rejected: 13
+- Eligible: 14
+- Borderline: 1
+- Rejected: 14
 
 Top 5:
-- 1. Chainlink | Score 67.57 | Confidence 74.49% | pass
-- 2. Sui | Score 65.74 | Confidence 75.25% | pass
-- 3. Avalanche | Score 62.59 | Confidence 71.07% | pass
-- 4. Uniswap | Score 60.69 | Confidence 73.67% | pass
-- 5. Aave | Score 58.6 | Confidence 76.96% | pass
+- 1. Chainlink | Score 66.92 | Confidence 74.05% | pass
+- 2. Sui | Score 65.54 | Confidence 75.11% | pass
+- 3. Avalanche | Score 62.45 | Confidence 71.07% | pass
+- 4. Uniswap | Score 60.59 | Confidence 73.6% | pass
+- 5. Aave | Score 58.39 | Confidence 76.81% | pass
 
 ## growth
 
 - Eligible: 18
-- Borderline: 1
+- Borderline: 2
 - Rejected: 10
 
 Top 5:
-- 1. Chainlink | Score 71.57 | Confidence 74.49% | pass
-- 2. Sui | Score 69.22 | Confidence 75.25% | pass
-- 3. Avalanche | Score 67.22 | Confidence 71.07% | pass
-- 4. Uniswap | Score 65.81 | Confidence 73.67% | pass
-- 5. Aave | Score 63.33 | Confidence 76.96% | pass
+- 1. Chainlink | Score 71.06 | Confidence 74.05% | pass
+- 2. Sui | Score 69.06 | Confidence 75.11% | pass
+- 3. Avalanche | Score 67.11 | Confidence 71.07% | pass
+- 4. Uniswap | Score 65.74 | Confidence 73.6% | pass
+- 5. Aave | Score 63.17 | Confidence 76.81% | pass
 
