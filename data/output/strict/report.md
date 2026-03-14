@@ -1,22 +1,21 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-14T22:50:20.748Z
+Generated: 2026-03-14T23:21:04.723Z
 Candidates evaluated: 28
-Eligible: 9
-Borderline: 2
-Rejected: 19
+Eligible: 8
+Borderline: 1
+Rejected: 20
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 64.58 (raw 68.2) | Confidence 73.47% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 63.04 (raw 66.44) | Confidence 74.39% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 59.97 (raw 63.65) | Confidence 71.08% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 58.23 (raw 61.52) | Confidence 73.26% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 55.64 (raw 58.42) | Confidence 76.21% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 54.92 (raw 58.05) | Confidence 72.99% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 51.94 (raw 55.13) | Confidence 71.08% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 49.52 (raw 52.47) | Confidence 71.84% | Status borderline | Chain Ethereum
-- 9. Aptos (APT) | Score 47.42 (raw 50.54) | Confidence 69.12% | Status borderline | Chain Aptos
+- 1. Chainlink (LINK) | Score 64.68 (raw 68.29) | Confidence 73.53% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 63.14 (raw 66.54) | Confidence 74.45% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 60.16 (raw 63.85) | Confidence 71.1% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 58.25 (raw 61.54) | Confidence 73.27% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 55.68 (raw 58.46) | Confidence 76.23% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 54.96 (raw 58.1) | Confidence 73.02% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 52.07 (raw 55.26) | Confidence 71.09% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 49.64 (raw 52.6) | Confidence 71.85% | Status borderline | Chain Ethereum
 
 ## Rejection Audit Log
 
@@ -29,6 +28,7 @@ Rejected: 19
 - Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
 - Sei (SEI): insufficient_estimated_liquidity
+- Aptos (APT): insufficient_estimated_liquidity
 - Injective (INJ): insufficient_estimated_liquidity
 - Celestia (TIA): insufficient_estimated_liquidity
 - Wormhole (W): insufficient_estimated_liquidity
