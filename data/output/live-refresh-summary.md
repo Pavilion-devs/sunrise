@@ -1,32 +1,32 @@
 # Live Refresh Comparison
 
-Generated: 2026-03-13T23:49:29.347Z
+Generated: 2026-03-14T01:22:23.533Z
 
 ## strict_simon
 
-- Eligible: 15
-- Borderline: 3
-- Rejected: 13
+- Eligible: 14
+- Borderline: 2
+- Rejected: 14
 
 Top 5:
-- 1. Chainlink | Score 67.51 | Confidence 75.34% | pass
-- 2. Sui | Score 66.93 | Confidence 76.89% | pass
-- 3. Avalanche | Score 63.41 | Confidence 72.15% | pass
-- 4. Uniswap | Score 60.34 | Confidence 74.61% | pass
-- 5. Pepe | Score 58.59 | Confidence 75.34% | pass
+- 1. Chainlink | Score 67.29 | Confidence 75.2% | pass
+- 2. Sui | Score 66.63 | Confidence 76.69% | pass
+- 3. Avalanche | Score 63.19 | Confidence 72.01% | pass
+- 4. Uniswap | Score 60.25 | Confidence 74.55% | pass
+- 5. Pepe | Score 58.47 | Confidence 75.28% | pass
 
 ## balanced
 
-- Eligible: 17
-- Borderline: 1
-- Rejected: 11
+- Eligible: 16
+- Borderline: 0
+- Rejected: 12
 
 Top 5:
-- 1. Chainlink | Score 68.83 | Confidence 75.34% | pass
-- 2. Sui | Score 68.17 | Confidence 76.89% | pass
-- 3. Avalanche | Score 64.87 | Confidence 72.15% | pass
-- 4. Uniswap | Score 62.08 | Confidence 74.61% | pass
-- 5. Pepe | Score 60.52 | Confidence 75.34% | pass
+- 1. Chainlink | Score 68.63 | Confidence 75.2% | pass
+- 2. Sui | Score 67.88 | Confidence 76.69% | pass
+- 3. Avalanche | Score 64.67 | Confidence 72.01% | pass
+- 4. Uniswap | Score 62 | Confidence 74.55% | pass
+- 5. Pepe | Score 60.41 | Confidence 75.28% | pass
 
 ## growth
 
@@ -35,9 +35,9 @@ Top 5:
 - Rejected: 7
 
 Top 5:
-- 1. Chainlink | Score 72.58 | Confidence 75.34% | pass
-- 2. Sui | Score 71.12 | Confidence 76.89% | pass
-- 3. Avalanche | Score 69 | Confidence 72.15% | pass
-- 4. Uniswap | Score 66.91 | Confidence 74.61% | pass
-- 5. Pepe | Score 64.93 | Confidence 75.34% | pass
+- 1. Chainlink | Score 72.41 | Confidence 75.2% | pass
+- 2. Sui | Score 70.89 | Confidence 76.69% | pass
+- 3. Avalanche | Score 68.84 | Confidence 72.01% | pass
+- 4. Uniswap | Score 66.84 | Confidence 74.55% | pass
+- 5. Pepe | Score 64.84 | Confidence 75.28% | pass
 
