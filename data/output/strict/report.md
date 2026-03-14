@@ -1,21 +1,22 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-14T23:21:04.723Z
+Generated: 2026-03-14T23:48:34.492Z
 Candidates evaluated: 28
-Eligible: 8
-Borderline: 1
-Rejected: 20
+Eligible: 9
+Borderline: 2
+Rejected: 19
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 64.68 (raw 68.29) | Confidence 73.53% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 63.14 (raw 66.54) | Confidence 74.45% | Status pass | Chain Sui
+- 1. Chainlink (LINK) | Score 64.73 (raw 68.35) | Confidence 73.56% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 63.16 (raw 66.56) | Confidence 74.47% | Status pass | Chain Sui
 - 3. Avalanche (AVAX) | Score 60.16 (raw 63.85) | Confidence 71.1% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 58.25 (raw 61.54) | Confidence 73.27% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 55.68 (raw 58.46) | Confidence 76.23% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 54.96 (raw 58.1) | Confidence 73.02% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 52.07 (raw 55.26) | Confidence 71.09% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 49.64 (raw 52.6) | Confidence 71.85% | Status borderline | Chain Ethereum
+- 4. Uniswap (UNI) | Score 58.26 (raw 61.55) | Confidence 73.28% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 55.7 (raw 58.48) | Confidence 76.25% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 54.99 (raw 58.12) | Confidence 73.03% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 52.09 (raw 55.29) | Confidence 71.09% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 49.68 (raw 52.64) | Confidence 71.86% | Status borderline | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 48.8 (raw 51.69) | Confidence 72.03% | Status borderline | Chain Optimism
 
 ## Rejection Audit Log
 
@@ -34,7 +35,6 @@ Rejected: 20
 - Wormhole (W): insufficient_estimated_liquidity
 - Jupiter (JUP): insufficient_estimated_liquidity
 - Dogecoin (DOGE): unsupported_origin_chain
-- Worldcoin (WLD): insufficient_estimated_liquidity
 - EigenLayer (EIGEN): insufficient_estimated_liquidity
 - Lido DAO (LDO): insufficient_estimated_liquidity
 - Brett (BRETT): insufficient_estimated_liquidity
