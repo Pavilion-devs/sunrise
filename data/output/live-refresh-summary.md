@@ -1,32 +1,32 @@
 # Live Refresh Comparison
 
-Generated: 2026-03-15T04:27:26.926Z
+Generated: 2026-03-15T05:50:06.743Z
 
 ## strict_simon
 
-- Eligible: 10
-- Borderline: 3
-- Rejected: 18
+- Eligible: 9
+- Borderline: 2
+- Rejected: 19
 
 Top 5:
-- 1. Chainlink | Score 65.09 | Confidence 73.78% | pass
-- 2. Sui | Score 63.25 | Confidence 74.52% | pass
-- 3. Avalanche | Score 60.31 | Confidence 71.11% | pass
-- 4. Uniswap | Score 58.12 | Confidence 73.18% | pass
-- 5. Aave | Score 55.72 | Confidence 76.26% | pass
+- 1. Chainlink | Score 65.01 | Confidence 73.73% | pass
+- 2. Sui | Score 63.27 | Confidence 74.53% | pass
+- 3. Avalanche | Score 60.23 | Confidence 71.1% | pass
+- 4. Uniswap | Score 58.1 | Confidence 73.17% | pass
+- 5. Aave | Score 55.67 | Confidence 76.23% | pass
 
 ## balanced
 
-- Eligible: 13
-- Borderline: 1
-- Rejected: 15
+- Eligible: 14
+- Borderline: 2
+- Rejected: 14
 
 Top 5:
-- 1. Chainlink | Score 66.54 | Confidence 73.78% | pass
-- 2. Sui | Score 64.68 | Confidence 74.52% | pass
-- 3. Avalanche | Score 61.96 | Confidence 71.11% | pass
-- 4. Uniswap | Score 59.98 | Confidence 73.18% | pass
-- 5. Aave | Score 57.59 | Confidence 76.26% | pass
+- 1. Chainlink | Score 66.47 | Confidence 73.73% | pass
+- 2. Sui | Score 64.71 | Confidence 74.53% | pass
+- 3. Avalanche | Score 61.87 | Confidence 71.1% | pass
+- 4. Uniswap | Score 59.97 | Confidence 73.17% | pass
+- 5. Aave | Score 57.54 | Confidence 76.23% | pass
 
 ## growth
 
@@ -35,9 +35,9 @@ Top 5:
 - Rejected: 10
 
 Top 5:
-- 1. Chainlink | Score 70.77 | Confidence 73.78% | pass
-- 2. Sui | Score 68.38 | Confidence 74.52% | pass
-- 3. Avalanche | Score 66.74 | Confidence 71.11% | pass
-- 4. Uniswap | Score 65.25 | Confidence 73.18% | pass
-- 5. Aave | Score 62.53 | Confidence 76.26% | pass
+- 1. Chainlink | Score 70.7 | Confidence 73.73% | pass
+- 2. Sui | Score 68.4 | Confidence 74.53% | pass
+- 3. Avalanche | Score 66.67 | Confidence 71.1% | pass
+- 4. Uniswap | Score 65.24 | Confidence 73.17% | pass
+- 5. Aave | Score 62.5 | Confidence 76.23% | pass
 
