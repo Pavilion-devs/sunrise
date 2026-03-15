@@ -1,26 +1,26 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-15T08:29:29.903Z
+Generated: 2026-03-15T09:02:10.720Z
 Candidates evaluated: 28
-Eligible: 8
-Borderline: 1
-Rejected: 20
+Eligible: 9
+Borderline: 2
+Rejected: 19
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 64.94 (raw 68.55) | Confidence 73.69% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 63.1 (raw 66.5) | Confidence 74.42% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 60.11 (raw 63.8) | Confidence 71.11% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 57.86 (raw 61.16) | Confidence 73.02% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 55.74 (raw 58.52) | Confidence 76.27% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 54.93 (raw 58.07) | Confidence 72.99% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 52.72 (raw 55.95) | Confidence 71.12% | Status pass | Chain Near
-- 8. Worldcoin (WLD) | Score 48.88 (raw 51.77) | Confidence 72.05% | Status borderline | Chain Optimism
+- 1. Chainlink (LINK) | Score 64.92 (raw 68.52) | Confidence 73.68% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 63.01 (raw 66.42) | Confidence 74.37% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 60.18 (raw 63.87) | Confidence 71.12% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 57.86 (raw 61.16) | Confidence 73.01% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 55.82 (raw 58.6) | Confidence 76.32% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 54.96 (raw 58.1) | Confidence 73.01% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 52.74 (raw 55.97) | Confidence 71.13% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 49.6 (raw 52.56) | Confidence 71.87% | Status borderline | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 48.9 (raw 51.8) | Confidence 72.05% | Status borderline | Chain Optimism
 
 ## Rejection Audit Log
 
 - Maker (MKR): insufficient_estimated_liquidity
-- Ethena (ENA): insufficient_estimated_liquidity
 - Pendle (PENDLE): insufficient_estimated_liquidity
 - Curve DAO (CRV): insufficient_estimated_liquidity
 - Compound (COMP): insufficient_estimated_liquidity
