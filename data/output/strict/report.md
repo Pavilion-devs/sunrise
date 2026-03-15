@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-15T19:04:41.939Z
+Generated: 2026-03-15T19:47:15.105Z
 Candidates evaluated: 28
 Eligible: 13
 Borderline: 5
@@ -8,16 +8,16 @@ Rejected: 15
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 65.19 (raw 68.79) | Confidence 73.86% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 63.31 (raw 66.71) | Confidence 74.57% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 60.48 (raw 64.19) | Confidence 71.1% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 57.94 (raw 61.24) | Confidence 73.06% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 57.04 (raw 59.78) | Confidence 77.1% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 54.95 (raw 58.09) | Confidence 73.01% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 53.33 (raw 56.56) | Confidence 71.44% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 49.8 (raw 52.77) | Confidence 71.89% | Status borderline | Chain Ethereum
+- 1. Chainlink (LINK) | Score 65.29 (raw 68.89) | Confidence 73.92% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 63.42 (raw 66.81) | Confidence 74.63% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 60.55 (raw 64.26) | Confidence 71.11% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 57.99 (raw 61.29) | Confidence 73.09% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 57.18 (raw 59.91) | Confidence 77.18% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 54.98 (raw 58.11) | Confidence 73.03% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 53.36 (raw 56.59) | Confidence 71.46% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 49.87 (raw 52.83) | Confidence 71.93% | Status borderline | Chain Ethereum
 - 9. Worldcoin (WLD) | Score 49.01 (raw 51.91) | Confidence 72.05% | Status borderline | Chain Optimism
-- 10. Arbitrum (ARB) | Score 47.28 (raw 50.29) | Confidence 70.08% | Status borderline | Chain Arbitrum
+- 10. Arbitrum (ARB) | Score 47.32 (raw 50.33) | Confidence 70.09% | Status borderline | Chain Arbitrum
 
 ## Rejection Audit Log
 
