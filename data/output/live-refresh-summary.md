@@ -1,6 +1,6 @@
 # Live Refresh Comparison
 
-Generated: 2026-03-15T05:50:06.743Z
+Generated: 2026-03-15T06:47:40.988Z
 
 ## strict_simon
 
@@ -9,35 +9,35 @@ Generated: 2026-03-15T05:50:06.743Z
 - Rejected: 19
 
 Top 5:
-- 1. Chainlink | Score 65.01 | Confidence 73.73% | pass
-- 2. Sui | Score 63.27 | Confidence 74.53% | pass
-- 3. Avalanche | Score 60.23 | Confidence 71.1% | pass
-- 4. Uniswap | Score 58.1 | Confidence 73.17% | pass
-- 5. Aave | Score 55.67 | Confidence 76.23% | pass
+- 1. Chainlink | Score 64.94 | Confidence 73.69% | pass
+- 2. Sui | Score 63.01 | Confidence 74.37% | pass
+- 3. Avalanche | Score 60.18 | Confidence 71.09% | pass
+- 4. Uniswap | Score 58.01 | Confidence 73.12% | pass
+- 5. Aave | Score 55.69 | Confidence 76.24% | pass
 
 ## balanced
 
 - Eligible: 14
-- Borderline: 2
+- Borderline: 3
 - Rejected: 14
 
 Top 5:
-- 1. Chainlink | Score 66.47 | Confidence 73.73% | pass
-- 2. Sui | Score 64.71 | Confidence 74.53% | pass
-- 3. Avalanche | Score 61.87 | Confidence 71.1% | pass
-- 4. Uniswap | Score 59.97 | Confidence 73.17% | pass
-- 5. Aave | Score 57.54 | Confidence 76.23% | pass
+- 1. Chainlink | Score 66.41 | Confidence 73.69% | pass
+- 2. Sui | Score 64.46 | Confidence 74.37% | pass
+- 3. Avalanche | Score 61.84 | Confidence 71.09% | pass
+- 4. Uniswap | Score 59.88 | Confidence 73.12% | pass
+- 5. Aave | Score 57.56 | Confidence 76.24% | pass
 
 ## growth
 
-- Eligible: 18
-- Borderline: 2
-- Rejected: 10
+- Eligible: 17
+- Borderline: 1
+- Rejected: 11
 
 Top 5:
-- 1. Chainlink | Score 70.7 | Confidence 73.73% | pass
-- 2. Sui | Score 68.4 | Confidence 74.53% | pass
-- 3. Avalanche | Score 66.67 | Confidence 71.1% | pass
-- 4. Uniswap | Score 65.24 | Confidence 73.17% | pass
-- 5. Aave | Score 62.5 | Confidence 76.23% | pass
+- 1. Chainlink | Score 70.66 | Confidence 73.69% | pass
+- 2. Sui | Score 68.2 | Confidence 74.37% | pass
+- 3. Avalanche | Score 66.64 | Confidence 71.09% | pass
+- 4. Uniswap | Score 65.17 | Confidence 73.12% | pass
+- 5. Aave | Score 62.51 | Confidence 76.24% | pass
 
