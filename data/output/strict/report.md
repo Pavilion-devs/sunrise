@@ -1,22 +1,22 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-15T20:51:35.959Z
+Generated: 2026-03-15T21:21:23.191Z
 Candidates evaluated: 28
-Eligible: 14
-Borderline: 6
-Rejected: 14
+Eligible: 13
+Borderline: 5
+Rejected: 15
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 65.51 (raw 69.1) | Confidence 74.06% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 63.51 (raw 66.9) | Confidence 74.69% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 60.63 (raw 64.35) | Confidence 71.12% | Status pass | Chain Avalanche
+- 1. Chainlink (LINK) | Score 65.52 (raw 69.11) | Confidence 74.06% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 63.51 (raw 66.89) | Confidence 74.68% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 60.65 (raw 64.37) | Confidence 71.11% | Status pass | Chain Avalanche
 - 4. Uniswap (UNI) | Score 58.06 (raw 61.36) | Confidence 73.14% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 57.39 (raw 60.12) | Confidence 77.32% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 55.06 (raw 58.19) | Confidence 73.08% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 53.37 (raw 56.6) | Confidence 71.46% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 49.98 (raw 52.95) | Confidence 72% | Status borderline | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 49.05 (raw 51.95) | Confidence 72.06% | Status borderline | Chain Optimism
+- 5. Aave (AAVE) | Score 57.43 (raw 60.16) | Confidence 77.35% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 55.03 (raw 58.16) | Confidence 73.06% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 53.52 (raw 56.75) | Confidence 71.56% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 50.03 (raw 52.99) | Confidence 72.03% | Status borderline | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 48.96 (raw 51.86) | Confidence 72.05% | Status borderline | Chain Optimism
 - 10. Arbitrum (ARB) | Score 47.45 (raw 50.47) | Confidence 70.1% | Status borderline | Chain Arbitrum
 
 ## Rejection Audit Log
@@ -27,6 +27,7 @@ Rejected: 14
 - Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
 - Sei (SEI): insufficient_estimated_liquidity
+- Aptos (APT): insufficient_estimated_liquidity
 - Injective (INJ): insufficient_estimated_liquidity
 - Celestia (TIA): insufficient_estimated_liquidity
 - Wormhole (W): insufficient_estimated_liquidity
