@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-15T16:23:34.348Z
+Generated: 2026-03-15T16:54:53.505Z
 Candidates evaluated: 28
 Eligible: 11
-Borderline: 4
+Borderline: 3
 Rejected: 17
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 65.05 (raw 68.65) | Confidence 73.77% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 63.15 (raw 66.55) | Confidence 74.46% | Status pass | Chain Sui
+- 1. Chainlink (LINK) | Score 65.1 (raw 68.7) | Confidence 73.8% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 63.14 (raw 66.54) | Confidence 74.45% | Status pass | Chain Sui
 - 3. Avalanche (AVAX) | Score 60.35 (raw 64.05) | Confidence 71.1% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 57.84 (raw 61.14) | Confidence 73% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 56.59 (raw 59.34) | Confidence 76.81% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 54.81 (raw 57.95) | Confidence 72.92% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 53.15 (raw 56.39) | Confidence 71.32% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 49.7 (raw 52.67) | Confidence 71.86% | Status borderline | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 48.84 (raw 51.73) | Confidence 72.05% | Status borderline | Chain Optimism
-- 10. Optimism (OP) | Score 43.87 (raw 46.8) | Confidence 68.72% | Status borderline | Chain Optimism
+- 4. Uniswap (UNI) | Score 57.88 (raw 61.18) | Confidence 73.03% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 56.68 (raw 59.43) | Confidence 76.87% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 54.85 (raw 57.99) | Confidence 72.95% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 53.07 (raw 56.31) | Confidence 71.27% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 49.69 (raw 52.65) | Confidence 71.86% | Status borderline | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 48.86 (raw 51.75) | Confidence 72.04% | Status borderline | Chain Optimism
+- 10. Optimism (OP) | Score 43.89 (raw 46.82) | Confidence 68.72% | Status borderline | Chain Optimism
 
 ## Rejection Audit Log
 
