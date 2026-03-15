@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-15T14:24:15.523Z
+Generated: 2026-03-15T14:53:54.447Z
 Candidates evaluated: 28
 Eligible: 11
 Borderline: 4
@@ -8,16 +8,16 @@ Rejected: 17
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 65.1 (raw 68.7) | Confidence 73.79% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 63.17 (raw 66.57) | Confidence 74.47% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 60.36 (raw 64.06) | Confidence 71.11% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 57.88 (raw 61.18) | Confidence 73.02% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 56.37 (raw 59.13) | Confidence 76.67% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 54.93 (raw 58.07) | Confidence 73% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 53.12 (raw 56.35) | Confidence 71.3% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 49.62 (raw 52.58) | Confidence 71.86% | Status borderline | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 48.86 (raw 51.75) | Confidence 72.04% | Status borderline | Chain Optimism
-- 10. Optimism (OP) | Score 43.91 (raw 46.84) | Confidence 68.72% | Status borderline | Chain Optimism
+- 1. Chainlink (LINK) | Score 65.12 (raw 68.72) | Confidence 73.81% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 63.16 (raw 66.56) | Confidence 74.47% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 60.36 (raw 64.06) | Confidence 71.1% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 57.89 (raw 61.19) | Confidence 73.03% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 56.41 (raw 59.17) | Confidence 76.7% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 54.88 (raw 58.02) | Confidence 72.96% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 52.93 (raw 56.17) | Confidence 71.18% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 49.68 (raw 52.64) | Confidence 71.86% | Status borderline | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 48.73 (raw 51.62) | Confidence 72.04% | Status borderline | Chain Optimism
+- 10. Optimism (OP) | Score 43.88 (raw 46.81) | Confidence 68.72% | Status borderline | Chain Optimism
 
 ## Rejection Audit Log
 
