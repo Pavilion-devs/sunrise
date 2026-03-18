@@ -1,27 +1,28 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-18T05:44:18.429Z
+Generated: 2026-03-18T06:54:30.207Z
 Candidates evaluated: 28
-Eligible: 20
+Eligible: 19
 Borderline: 1
-Rejected: 8
+Rejected: 9
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 71.91 (raw 75.81) | Confidence 74.31% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 69.92 (raw 73.47) | Confidence 75.83% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 68.22 (raw 72.35) | Confidence 71.46% | Status pass | Chain Avalanche
+- 1. Chainlink (LINK) | Score 71.9 (raw 75.8) | Confidence 74.3% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 69.83 (raw 73.39) | Confidence 75.76% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 68.16 (raw 72.3) | Confidence 71.41% | Status pass | Chain Avalanche
 - 4. Uniswap (UNI) | Score 66.6 (raw 70.2) | Confidence 74.35% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 65.11 (raw 68.47) | Confidence 75.49% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 64.07 (raw 67.08) | Confidence 77.58% | Status pass | Chain Ethereum
-- 7. Jupiter (JUP) | Score 61.07 (raw 64.87) | Confidence 70.72% | Status pass | Chain Solana
-- 8. NEAR (NEAR) | Score 60.71 (raw 64.34) | Confidence 71.8% | Status pass | Chain Near
-- 9. Ethena (ENA) | Score 60.41 (raw 63.82) | Confidence 73.26% | Status pass | Chain Ethereum
-- 10. Worldcoin (WLD) | Score 58.35 (raw 61.62) | Confidence 73.46% | Status pass | Chain Optimism
+- 5. Pepe (PEPE) | Score 64.97 (raw 68.34) | Confidence 75.37% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 64 (raw 67.02) | Confidence 77.52% | Status pass | Chain Ethereum
+- 7. Jupiter (JUP) | Score 61.01 (raw 64.81) | Confidence 70.72% | Status pass | Chain Solana
+- 8. NEAR (NEAR) | Score 60.69 (raw 64.32) | Confidence 71.79% | Status pass | Chain Near
+- 9. Ethena (ENA) | Score 60.38 (raw 63.79) | Confidence 73.23% | Status pass | Chain Ethereum
+- 10. Worldcoin (WLD) | Score 58.24 (raw 61.52) | Confidence 73.37% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
 
 - Maker (MKR): insufficient_estimated_liquidity
+- Pendle (PENDLE): insufficient_estimated_liquidity
 - Compound (COMP): insufficient_estimated_liquidity
 - Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
