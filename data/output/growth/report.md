@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-18T07:48:14.831Z
+Generated: 2026-03-18T08:39:50.798Z
 Candidates evaluated: 28
 Eligible: 19
-Borderline: 1
+Borderline: 2
 Rejected: 9
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 71.85 (raw 75.75) | Confidence 74.26% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 69.74 (raw 73.3) | Confidence 75.68% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 68.13 (raw 72.26) | Confidence 71.38% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 66.56 (raw 70.17) | Confidence 74.32% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 71.85 (raw 75.75) | Confidence 74.25% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 69.84 (raw 73.4) | Confidence 75.77% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 68.1 (raw 72.24) | Confidence 71.35% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 66.53 (raw 70.14) | Confidence 74.29% | Status pass | Chain Ethereum
 - 5. Pepe (PEPE) | Score 64.96 (raw 68.33) | Confidence 75.36% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 63.95 (raw 66.97) | Confidence 77.47% | Status pass | Chain Ethereum
-- 7. Jupiter (JUP) | Score 60.98 (raw 64.78) | Confidence 70.7% | Status pass | Chain Solana
-- 8. NEAR (NEAR) | Score 60.69 (raw 64.32) | Confidence 71.78% | Status pass | Chain Near
-- 9. Ethena (ENA) | Score 60.21 (raw 63.63) | Confidence 73.09% | Status pass | Chain Ethereum
-- 10. Worldcoin (WLD) | Score 58.24 (raw 61.52) | Confidence 73.37% | Status pass | Chain Optimism
+- 6. Aave (AAVE) | Score 63.97 (raw 66.98) | Confidence 77.49% | Status pass | Chain Ethereum
+- 7. Jupiter (JUP) | Score 61.04 (raw 64.84) | Confidence 70.71% | Status pass | Chain Solana
+- 8. NEAR (NEAR) | Score 60.59 (raw 64.22) | Confidence 71.7% | Status pass | Chain Near
+- 9. Ethena (ENA) | Score 60.25 (raw 63.67) | Confidence 73.13% | Status pass | Chain Ethereum
+- 10. Worldcoin (WLD) | Score 57.92 (raw 61.21) | Confidence 73.08% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
 
