@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-19T21:55:41.757Z
+Generated: 2026-03-19T22:22:18.560Z
 Candidates evaluated: 28
 Eligible: 17
 Borderline: 2
@@ -8,16 +8,16 @@ Rejected: 11
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 71.99 (raw 75.8) | Confidence 74.83% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 68.68 (raw 72.32) | Confidence 74.78% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 67.46 (raw 71.61) | Confidence 71.05% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 66.17 (raw 69.8) | Confidence 74.01% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 64.12 (raw 67.12) | Confidence 77.63% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 71.99 (raw 75.8) | Confidence 74.84% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 68.85 (raw 72.48) | Confidence 74.94% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 67.48 (raw 71.63) | Confidence 71.05% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 66.12 (raw 69.75) | Confidence 73.97% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 64.08 (raw 67.09) | Confidence 77.62% | Status pass | Chain Ethereum
 - 6. Pepe (PEPE) | Score 63.63 (raw 67.09) | Confidence 74.23% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 60.67 (raw 64.3) | Confidence 71.8% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 59.87 (raw 63.31) | Confidence 72.84% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 59.47 (raw 62.67) | Confidence 74.52% | Status pass | Chain Optimism
-- 10. Aptos (APT) | Score 58.04 (raw 61.85) | Confidence 69.19% | Status pass | Chain Aptos
+- 7. NEAR (NEAR) | Score 60.66 (raw 64.29) | Confidence 71.79% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 59.97 (raw 63.41) | Confidence 72.92% | Status pass | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 59.5 (raw 62.69) | Confidence 74.54% | Status pass | Chain Optimism
+- 10. Aptos (APT) | Score 58.07 (raw 61.88) | Confidence 69.19% | Status pass | Chain Aptos
 
 ## Rejection Audit Log
 
