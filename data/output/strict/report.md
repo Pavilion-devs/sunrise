@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-19T21:28:37.710Z
+Generated: 2026-03-19T21:55:41.635Z
 Candidates evaluated: 28
 Eligible: 12
 Borderline: 2
@@ -8,16 +8,16 @@ Rejected: 16
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 66.59 (raw 70.13) | Confidence 74.75% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 63.77 (raw 67.14) | Confidence 74.88% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 61.43 (raw 65.21) | Confidence 71.06% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 59.34 (raw 62.59) | Confidence 74.03% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 57.84 (raw 60.55) | Confidence 77.64% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 56.87 (raw 59.96) | Confidence 74.24% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 54 (raw 57.22) | Confidence 71.88% | Status pass | Chain Near
-- 8. Worldcoin (WLD) | Score 53.36 (raw 56.22) | Confidence 74.57% | Status pass | Chain Optimism
+- 1. Chainlink (LINK) | Score 66.72 (raw 70.25) | Confidence 74.83% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 63.62 (raw 67) | Confidence 74.78% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 61.33 (raw 65.1) | Confidence 71.05% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 59.31 (raw 62.56) | Confidence 74.01% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 57.85 (raw 60.56) | Confidence 77.63% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 56.85 (raw 59.94) | Confidence 74.23% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 53.88 (raw 57.1) | Confidence 71.8% | Status pass | Chain Near
+- 8. Worldcoin (WLD) | Score 53.28 (raw 56.14) | Confidence 74.52% | Status pass | Chain Optimism
 - 9. Ethena (ENA) | Score 51.22 (raw 54.16) | Confidence 72.84% | Status pass | Chain Ethereum
-- 10. Aptos (APT) | Score 49.5 (raw 52.75) | Confidence 69.19% | Status pass | Chain Aptos
+- 10. Aptos (APT) | Score 49.38 (raw 52.62) | Confidence 69.19% | Status pass | Chain Aptos
 
 ## Rejection Audit Log
 
