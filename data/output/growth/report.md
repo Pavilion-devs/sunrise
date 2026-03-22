@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-22T20:19:14.396Z
+Generated: 2026-03-22T20:50:09.080Z
 Candidates evaluated: 28
-Eligible: 17
-Borderline: 2
-Rejected: 11
+Eligible: 16
+Borderline: 1
+Rejected: 12
 
 ## Top Eligible Assets
 
 - 1. Chainlink (LINK) | Score 71.4 (raw 75.26) | Confidence 74.34% | Status pass | Chain Ethereum
 - 2. Sui (SUI) | Score 68.73 (raw 72.37) | Confidence 74.85% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 67.05 (raw 71.19) | Confidence 70.93% | Status pass | Chain Avalanche
+- 3. Avalanche (AVAX) | Score 67.06 (raw 71.2) | Confidence 70.93% | Status pass | Chain Avalanche
 - 4. Uniswap (UNI) | Score 65.2 (raw 68.89) | Confidence 73.18% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 62.88 (raw 66.39) | Confidence 73.59% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 62.85 (raw 65.94) | Confidence 76.55% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 59.66 (raw 63.33) | Confidence 71.02% | Status pass | Chain Near
+- 5. Pepe (PEPE) | Score 62.89 (raw 66.4) | Confidence 73.6% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 62.86 (raw 65.95) | Confidence 76.56% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 59.64 (raw 63.31) | Confidence 71.02% | Status pass | Chain Near
 - 8. Ethena (ENA) | Score 59.46 (raw 62.92) | Confidence 72.51% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 58.07 (raw 61.35) | Confidence 73.32% | Status pass | Chain Optimism
-- 10. Aptos (APT) | Score 57.55 (raw 61.33) | Confidence 69.13% | Status pass | Chain Aptos
+- 9. Worldcoin (WLD) | Score 57.99 (raw 61.27) | Confidence 73.25% | Status pass | Chain Optimism
+- 10. Aptos (APT) | Score 57.54 (raw 61.32) | Confidence 69.13% | Status pass | Chain Aptos
 
 ## Rejection Audit Log
 
@@ -26,6 +26,7 @@ Rejected: 11
 - Compound (COMP): insufficient_estimated_liquidity
 - Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
+- Wormhole (W): insufficient_estimated_liquidity
 - Jupiter (JUP): insufficient_estimated_liquidity
 - Dogecoin (DOGE): unsupported_origin_chain
 - EigenLayer (EIGEN): insufficient_estimated_liquidity
