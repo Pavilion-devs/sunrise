@@ -1,43 +1,43 @@
 # Live Refresh Comparison
 
-Generated: 2026-03-23T14:11:28.072Z
+Generated: 2026-03-23T15:33:20.018Z
 
 ## strict_simon
 
-- Eligible: 14
-- Borderline: 2
-- Rejected: 14
-
-Top 5:
-- 1. Chainlink | Score 67.61 | Confidence 75.4% | pass
-- 2. Sui | Score 65.41 | Confidence 75.93% | pass
-- 3. Avalanche | Score 62.71 | Confidence 71.7% | pass
-- 4. Uniswap | Score 59.23 | Confidence 73.96% | pass
-- 5. Aave | Score 57.94 | Confidence 77.64% | pass
-
-## balanced
-
 - Eligible: 15
-- Borderline: 1
+- Borderline: 3
 - Rejected: 13
 
 Top 5:
-- 1. Chainlink | Score 68.93 | Confidence 75.4% | pass
-- 2. Sui | Score 66.74 | Confidence 75.93% | pass
-- 3. Avalanche | Score 64.21 | Confidence 71.7% | pass
-- 4. Uniswap | Score 61.04 | Confidence 73.96% | pass
-- 5. Aave | Score 59.68 | Confidence 77.64% | pass
+- 1. Chainlink | Score 67.95 | Confidence 75.62% | pass
+- 2. Sui | Score 65.65 | Confidence 76.08% | pass
+- 3. Avalanche | Score 62.94 | Confidence 71.85% | pass
+- 4. Uniswap | Score 59.34 | Confidence 74.03% | pass
+- 5. Aave | Score 58.03 | Confidence 77.67% | pass
+
+## balanced
+
+- Eligible: 16
+- Borderline: 1
+- Rejected: 12
+
+Top 5:
+- 1. Chainlink | Score 69.25 | Confidence 75.62% | pass
+- 2. Sui | Score 66.96 | Confidence 76.08% | pass
+- 3. Avalanche | Score 64.43 | Confidence 71.85% | pass
+- 4. Uniswap | Score 61.14 | Confidence 74.03% | pass
+- 5. Aave | Score 59.77 | Confidence 77.67% | pass
 
 ## growth
 
 - Eligible: 22
-- Borderline: 6
+- Borderline: 2
 - Rejected: 6
 
 Top 5:
-- 1. Chainlink | Score 72.64 | Confidence 75.4% | pass
-- 2. Sui | Score 70 | Confidence 75.93% | pass
-- 3. Avalanche | Score 68.47 | Confidence 71.7% | pass
-- 4. Uniswap | Score 66.12 | Confidence 73.96% | pass
-- 5. Aave | Score 64.18 | Confidence 77.64% | pass
+- 1. Chainlink | Score 72.9 | Confidence 75.62% | pass
+- 2. Sui | Score 70.18 | Confidence 76.08% | pass
+- 3. Avalanche | Score 68.64 | Confidence 71.85% | pass
+- 4. Uniswap | Score 66.2 | Confidence 74.03% | pass
+- 5. Pepe | Score 64.31 | Confidence 74.8% | pass
 
