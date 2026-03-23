@@ -1,43 +1,43 @@
 # Live Refresh Comparison
 
-Generated: 2026-03-22T23:49:14.032Z
+Generated: 2026-03-23T01:29:13.346Z
 
 ## strict_simon
 
-- Eligible: 13
+- Eligible: 12
 - Borderline: 2
-- Rejected: 15
+- Rejected: 16
 
 Top 5:
-- 1. Chainlink | Score 66.3 | Confidence 74.59% | pass
-- 2. Sui | Score 63.86 | Confidence 74.97% | pass
-- 3. Avalanche | Score 61.14 | Confidence 70.95% | pass
-- 4. Uniswap | Score 58.12 | Confidence 73.26% | pass
-- 5. Aave | Score 56.58 | Confidence 76.84% | pass
+- 1. Chainlink | Score 65.72 | Confidence 74.22% | pass
+- 2. Sui | Score 63.18 | Confidence 74.54% | pass
+- 3. Avalanche | Score 60.6 | Confidence 70.96% | pass
+- 4. Uniswap | Score 57.79 | Confidence 73.05% | pass
+- 5. Aave | Score 56.39 | Confidence 76.72% | pass
 
 ## balanced
 
-- Eligible: 15
-- Borderline: 2
-- Rejected: 13
+- Eligible: 14
+- Borderline: 1
+- Rejected: 14
 
 Top 5:
-- 1. Chainlink | Score 67.7 | Confidence 74.59% | pass
-- 2. Sui | Score 65.28 | Confidence 74.97% | pass
-- 3. Avalanche | Score 62.74 | Confidence 70.95% | pass
-- 4. Uniswap | Score 59.99 | Confidence 73.26% | pass
-- 5. Aave | Score 58.4 | Confidence 76.84% | pass
+- 1. Chainlink | Score 67.15 | Confidence 74.22% | pass
+- 2. Sui | Score 64.63 | Confidence 74.54% | pass
+- 3. Avalanche | Score 62.23 | Confidence 70.96% | pass
+- 4. Uniswap | Score 59.69 | Confidence 73.05% | pass
+- 5. Aave | Score 58.22 | Confidence 76.72% | pass
 
 ## growth
 
-- Eligible: 17
+- Eligible: 16
 - Borderline: 1
-- Rejected: 11
+- Rejected: 12
 
 Top 5:
-- 1. Chainlink | Score 71.68 | Confidence 74.59% | pass
-- 2. Sui | Score 68.87 | Confidence 74.97% | pass
-- 3. Avalanche | Score 67.34 | Confidence 70.95% | pass
-- 4. Uniswap | Score 65.29 | Confidence 73.26% | pass
-- 5. Aave | Score 63.18 | Confidence 76.84% | pass
+- 1. Chainlink | Score 71.25 | Confidence 74.22% | pass
+- 2. Sui | Score 68.36 | Confidence 74.54% | pass
+- 3. Avalanche | Score 66.95 | Confidence 70.96% | pass
+- 4. Uniswap | Score 65.04 | Confidence 73.05% | pass
+- 5. Aave | Score 63.05 | Confidence 76.72% | pass
 
