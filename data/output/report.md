@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-24T03:55:36.380Z
+Generated: 2026-03-24T05:20:46.953Z
 Candidates evaluated: 28
-Eligible: 16
-Borderline: 0
-Rejected: 12
+Eligible: 17
+Borderline: 1
+Rejected: 11
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 69.62 (raw 73.15) | Confidence 75.87% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 69.64 (raw 73.17) | Confidence 75.89% | Status pass | Chain Ethereum
 - 2. Sui (SUI) | Score 66.88 (raw 70.24) | Confidence 76.04% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 64.56 (raw 68.4) | Confidence 71.95% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 61.23 (raw 64.58) | Confidence 74.09% | Status pass | Chain Ethereum
+- 3. Avalanche (AVAX) | Score 64.57 (raw 68.41) | Confidence 71.96% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 61.19 (raw 64.54) | Confidence 74.07% | Status pass | Chain Ethereum
 - 5. Pepe (PEPE) | Score 59.97 (raw 63.13) | Confidence 74.98% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 59.3 (raw 62.1) | Confidence 77.44% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 56.56 (raw 59.87) | Confidence 72.37% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 55.67 (raw 58.71) | Confidence 74.15% | Status pass | Chain Ethereum
-- 9. Aptos (APT) | Score 55.47 (raw 58.94) | Confidence 70.53% | Status pass | Chain Aptos
-- 10. Worldcoin (WLD) | Score 53.96 (raw 56.95) | Confidence 73.74% | Status pass | Chain Optimism
+- 6. Aave (AAVE) | Score 59.24 (raw 62.04) | Confidence 77.41% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 56.57 (raw 59.87) | Confidence 72.38% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 55.81 (raw 58.85) | Confidence 74.17% | Status pass | Chain Ethereum
+- 9. Aptos (APT) | Score 55.54 (raw 59.02) | Confidence 70.56% | Status pass | Chain Aptos
+- 10. Worldcoin (WLD) | Score 54.06 (raw 57.05) | Confidence 73.81% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
 
@@ -25,7 +25,6 @@ Rejected: 12
 - Pendle (PENDLE): insufficient_estimated_liquidity
 - Compound (COMP): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
-- Celestia (TIA): insufficient_estimated_liquidity
 - Wormhole (W): insufficient_estimated_liquidity
 - Jupiter (JUP): insufficient_estimated_liquidity
 - Dogecoin (DOGE): unsupported_origin_chain
