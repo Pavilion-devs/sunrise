@@ -1,43 +1,43 @@
 # Live Refresh Comparison
 
-Generated: 2026-03-27T20:30:52.195Z
+Generated: 2026-03-27T21:28:24.396Z
 
 ## strict_simon
 
-- Eligible: 15
-- Borderline: 4
-- Rejected: 13
+- Eligible: 16
+- Borderline: 5
+- Rejected: 12
 
 Top 5:
-- 1. Chainlink | Score 66.51 | Confidence 74.74% | pass
-- 2. Sui | Score 63.36 | Confidence 74.67% | pass
-- 3. Avalanche | Score 61.96 | Confidence 71.28% | pass
-- 4. Uniswap | Score 58.37 | Confidence 73.44% | pass
-- 5. Aave | Score 55.98 | Confidence 76.5% | pass
+- 1. Chainlink | Score 66.49 | Confidence 74.72% | pass
+- 2. Sui | Score 63.26 | Confidence 74.61% | pass
+- 3. Avalanche | Score 61.92 | Confidence 71.26% | pass
+- 4. Uniswap | Score 58.36 | Confidence 73.43% | pass
+- 5. Aave | Score 55.94 | Confidence 76.47% | pass
 
 ## balanced
 
-- Eligible: 18
-- Borderline: 2
-- Rejected: 10
+- Eligible: 17
+- Borderline: 1
+- Rejected: 11
 
 Top 5:
-- 1. Chainlink | Score 67.9 | Confidence 74.74% | pass
-- 2. Sui | Score 64.8 | Confidence 74.67% | pass
-- 3. Avalanche | Score 63.51 | Confidence 71.28% | pass
-- 4. Uniswap | Score 60.23 | Confidence 73.44% | pass
-- 5. Pepe | Score 57.98 | Confidence 73.64% | pass
+- 1. Chainlink | Score 67.87 | Confidence 74.72% | pass
+- 2. Sui | Score 64.71 | Confidence 74.61% | pass
+- 3. Avalanche | Score 63.49 | Confidence 71.26% | pass
+- 4. Uniswap | Score 60.22 | Confidence 73.43% | pass
+- 5. Pepe | Score 58 | Confidence 73.65% | pass
 
 ## growth
 
-- Eligible: 20
-- Borderline: 2
-- Rejected: 8
+- Eligible: 19
+- Borderline: 1
+- Rejected: 9
 
 Top 5:
-- 1. Chainlink | Score 71.85 | Confidence 74.74% | pass
-- 2. Sui | Score 68.5 | Confidence 74.67% | pass
-- 3. Avalanche | Score 67.94 | Confidence 71.28% | pass
-- 4. Uniswap | Score 65.49 | Confidence 73.44% | pass
-- 5. Pepe | Score 62.94 | Confidence 73.64% | pass
+- 1. Chainlink | Score 71.83 | Confidence 74.72% | pass
+- 2. Sui | Score 68.43 | Confidence 74.61% | pass
+- 3. Avalanche | Score 67.92 | Confidence 71.26% | pass
+- 4. Uniswap | Score 65.48 | Confidence 73.43% | pass
+- 5. Pepe | Score 62.96 | Confidence 73.65% | pass
 
