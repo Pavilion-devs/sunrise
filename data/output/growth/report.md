@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-27T08:08:04.947Z
+Generated: 2026-03-27T09:12:20.920Z
 Candidates evaluated: 28
 Eligible: 18
 Borderline: 1
@@ -8,16 +8,16 @@ Rejected: 10
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 71.77 (raw 75.6) | Confidence 74.66% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 68.73 (raw 72.37) | Confidence 74.85% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 67.36 (raw 71.52) | Confidence 70.95% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 65.39 (raw 69.07) | Confidence 73.34% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 63 (raw 66.08) | Confidence 76.68% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 62.45 (raw 65.99) | Confidence 73.2% | Status pass | Chain Ethereum
-- 7. Ethena (ENA) | Score 60.64 (raw 64.03) | Confidence 73.53% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 71.76 (raw 75.59) | Confidence 74.65% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 68.7 (raw 72.34) | Confidence 74.83% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 67.42 (raw 71.58) | Confidence 70.93% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 65.32 (raw 69) | Confidence 73.28% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 62.98 (raw 66.07) | Confidence 76.67% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 62.55 (raw 66.08) | Confidence 73.29% | Status pass | Chain Ethereum
+- 7. Ethena (ENA) | Score 60.6 (raw 63.99) | Confidence 73.5% | Status pass | Chain Ethereum
 - 8. NEAR (NEAR) | Score 60.39 (raw 64.03) | Confidence 71.59% | Status pass | Chain Near
-- 9. Jupiter (JUP) | Score 60.21 (raw 64) | Confidence 70.41% | Status pass | Chain Solana
-- 10. Worldcoin (WLD) | Score 58.67 (raw 61.91) | Confidence 73.87% | Status pass | Chain Optimism
+- 9. Jupiter (JUP) | Score 60.17 (raw 63.96) | Confidence 70.39% | Status pass | Chain Solana
+- 10. Worldcoin (WLD) | Score 58.64 (raw 61.88) | Confidence 73.84% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
 
