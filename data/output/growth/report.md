@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-27T14:44:01.069Z
+Generated: 2026-03-27T15:44:43.902Z
 Candidates evaluated: 28
-Eligible: 19
-Borderline: 2
-Rejected: 9
+Eligible: 20
+Borderline: 1
+Rejected: 8
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 71.82 (raw 75.65) | Confidence 74.71% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 68.68 (raw 72.32) | Confidence 74.81% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 67.84 (raw 71.99) | Confidence 71.2% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 65.41 (raw 69.09) | Confidence 73.37% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 71.88 (raw 75.7) | Confidence 74.76% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 68.68 (raw 72.33) | Confidence 74.82% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 67.98 (raw 72.12) | Confidence 71.31% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 65.46 (raw 69.14) | Confidence 73.42% | Status pass | Chain Ethereum
 - 5. Pepe (PEPE) | Score 62.97 (raw 66.47) | Confidence 73.66% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 62.94 (raw 66.02) | Confidence 76.65% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 61 (raw 64.6) | Confidence 72.13% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 60.35 (raw 63.75) | Confidence 73.29% | Status pass | Chain Ethereum
-- 9. Jupiter (JUP) | Score 60.12 (raw 63.92) | Confidence 70.29% | Status pass | Chain Solana
-- 10. Worldcoin (WLD) | Score 58.97 (raw 62.21) | Confidence 73.93% | Status pass | Chain Optimism
+- 6. Aave (AAVE) | Score 62.94 (raw 66.02) | Confidence 76.64% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 61.13 (raw 64.72) | Confidence 72.24% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 60.39 (raw 63.79) | Confidence 73.33% | Status pass | Chain Ethereum
+- 9. Jupiter (JUP) | Score 60.14 (raw 63.94) | Confidence 70.31% | Status pass | Chain Solana
+- 10. Worldcoin (WLD) | Score 58.87 (raw 62.12) | Confidence 73.87% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
 
@@ -27,7 +27,6 @@ Rejected: 9
 - Wormhole (W): insufficient_estimated_liquidity
 - Dogecoin (DOGE): unsupported_origin_chain
 - EigenLayer (EIGEN): insufficient_estimated_liquidity
-- Lido DAO (LDO): insufficient_estimated_liquidity
 - Brett (BRETT): insufficient_estimated_liquidity
 - Kaspa (KAS): unsupported_origin_chain
 
