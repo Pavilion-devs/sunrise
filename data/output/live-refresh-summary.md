@@ -1,19 +1,19 @@
 # Live Refresh Comparison
 
-Generated: 2026-03-27T10:10:13.810Z
+Generated: 2026-03-27T11:10:58.085Z
 
 ## strict_simon
 
-- Eligible: 11
-- Borderline: 0
-- Rejected: 17
+- Eligible: 13
+- Borderline: 2
+- Rejected: 15
 
 Top 5:
-- 1. Chainlink | Score 66.25 | Confidence 74.55% | pass
-- 2. Sui | Score 63.48 | Confidence 74.73% | pass
-- 3. Avalanche | Score 61.09 | Confidence 70.92% | pass
-- 4. Uniswap | Score 58.04 | Confidence 73.21% | pass
-- 5. Aave | Score 56.2 | Confidence 76.61% | pass
+- 1. Chainlink | Score 66.36 | Confidence 74.63% | pass
+- 2. Sui | Score 63.52 | Confidence 74.77% | pass
+- 3. Avalanche | Score 61.3 | Confidence 70.87% | pass
+- 4. Uniswap | Score 58.13 | Confidence 73.29% | pass
+- 5. Aave | Score 56.25 | Confidence 76.66% | pass
 
 ## balanced
 
@@ -22,22 +22,22 @@ Top 5:
 - Rejected: 13
 
 Top 5:
-- 1. Chainlink | Score 67.64 | Confidence 74.55% | pass
-- 2. Sui | Score 64.92 | Confidence 74.73% | pass
-- 3. Avalanche | Score 62.69 | Confidence 70.92% | pass
-- 4. Uniswap | Score 59.93 | Confidence 73.21% | pass
-- 5. Aave | Score 58.05 | Confidence 76.61% | pass
+- 1. Chainlink | Score 67.75 | Confidence 74.63% | pass
+- 2. Sui | Score 64.96 | Confidence 74.77% | pass
+- 3. Avalanche | Score 62.9 | Confidence 70.87% | pass
+- 4. Uniswap | Score 60.01 | Confidence 73.29% | pass
+- 5. Aave | Score 58.1 | Confidence 76.66% | pass
 
 ## growth
 
-- Eligible: 17
+- Eligible: 18
 - Borderline: 1
-- Rejected: 11
+- Rejected: 10
 
 Top 5:
-- 1. Chainlink | Score 71.64 | Confidence 74.55% | pass
-- 2. Sui | Score 68.59 | Confidence 74.73% | pass
-- 3. Avalanche | Score 67.29 | Confidence 70.92% | pass
-- 4. Uniswap | Score 65.24 | Confidence 73.21% | pass
-- 5. Aave | Score 62.91 | Confidence 76.61% | pass
+- 1. Chainlink | Score 71.73 | Confidence 74.63% | pass
+- 2. Sui | Score 68.62 | Confidence 74.77% | pass
+- 3. Avalanche | Score 67.45 | Confidence 70.87% | pass
+- 4. Uniswap | Score 65.32 | Confidence 73.29% | pass
+- 5. Aave | Score 62.96 | Confidence 76.66% | pass
 
