@@ -1,43 +1,43 @@
 # Live Refresh Comparison
 
-Generated: 2026-03-28T10:01:23.601Z
+Generated: 2026-03-28T10:56:25.274Z
 
 ## strict_simon
 
-- Eligible: 15
-- Borderline: 5
-- Rejected: 13
+- Eligible: 16
+- Borderline: 6
+- Rejected: 12
 
 Top 5:
-- 1. Chainlink | Score 65.6 | Confidence 74.16% | pass
-- 2. Sui | Score 63.04 | Confidence 74.46% | pass
-- 3. Avalanche | Score 61.24 | Confidence 70.88% | pass
-- 4. Uniswap | Score 57.85 | Confidence 73.11% | pass
-- 5. Pepe | Score 55.88 | Confidence 73.62% | pass
+- 1. Chainlink | Score 65.34 | Confidence 73.99% | pass
+- 2. Sui | Score 62.79 | Confidence 74.3% | pass
+- 3. Avalanche | Score 60.78 | Confidence 70.88% | pass
+- 4. Uniswap | Score 57.5 | Confidence 72.89% | pass
+- 5. Aave | Score 55.66 | Confidence 76.3% | pass
 
 ## balanced
 
 - Eligible: 16
-- Borderline: 1
+- Borderline: 0
 - Rejected: 12
 
 Top 5:
-- 1. Chainlink | Score 67.04 | Confidence 74.16% | pass
-- 2. Sui | Score 64.5 | Confidence 74.46% | pass
-- 3. Avalanche | Score 62.84 | Confidence 70.88% | pass
-- 4. Uniswap | Score 59.75 | Confidence 73.11% | pass
-- 5. Pepe | Score 57.97 | Confidence 73.62% | pass
+- 1. Chainlink | Score 66.79 | Confidence 73.99% | pass
+- 2. Sui | Score 64.27 | Confidence 74.3% | pass
+- 3. Avalanche | Score 62.41 | Confidence 70.88% | pass
+- 4. Uniswap | Score 59.42 | Confidence 72.89% | pass
+- 5. Pepe | Score 57.68 | Confidence 73.42% | pass
 
 ## growth
 
-- Eligible: 18
+- Eligible: 19
 - Borderline: 1
-- Rejected: 10
+- Rejected: 9
 
 Top 5:
-- 1. Chainlink | Score 71.17 | Confidence 74.16% | pass
-- 2. Sui | Score 68.25 | Confidence 74.46% | pass
-- 3. Avalanche | Score 67.41 | Confidence 70.88% | pass
-- 4. Uniswap | Score 65.1 | Confidence 73.11% | pass
-- 5. Pepe | Score 62.92 | Confidence 73.62% | pass
+- 1. Chainlink | Score 70.98 | Confidence 73.99% | pass
+- 2. Sui | Score 68.08 | Confidence 74.3% | pass
+- 3. Avalanche | Score 67.08 | Confidence 70.88% | pass
+- 4. Uniswap | Score 64.84 | Confidence 72.89% | pass
+- 5. Pepe | Score 62.7 | Confidence 73.42% | pass
 
