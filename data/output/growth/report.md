@@ -1,29 +1,28 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-28T22:58:42.726Z
+Generated: 2026-03-28T23:29:26.820Z
 Candidates evaluated: 28
-Eligible: 17
+Eligible: 18
 Borderline: 2
-Rejected: 11
+Rejected: 10
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 70.28 (raw 74.23) | Confidence 73.39% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 67.68 (raw 71.4) | Confidence 73.96% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 66.93 (raw 71.07) | Confidence 70.89% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 64.22 (raw 67.98) | Confidence 72.34% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 63.48 (raw 67.42) | Confidence 70.77% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 61.84 (raw 65) | Confidence 75.69% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 61.69 (raw 67.11) | Confidence 59.6% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 59.71 (raw 63.15) | Confidence 72.74% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 59.44 (raw 62.69) | Confidence 74.12% | Status pass | Chain Optimism
-- 10. Aptos (APT) | Score 56.68 (raw 60.41) | Confidence 69.17% | Status pass | Chain Aptos
+- 1. Chainlink (LINK) | Score 70.42 (raw 74.36) | Confidence 73.52% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 67.91 (raw 71.61) | Confidence 74.17% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 66.78 (raw 70.91) | Confidence 70.87% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 64.12 (raw 67.89) | Confidence 72.26% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 63.49 (raw 67.43) | Confidence 70.78% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 61.8 (raw 64.96) | Confidence 75.67% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 61.1 (raw 64.69) | Confidence 72.23% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 59.65 (raw 63.1) | Confidence 72.7% | Status pass | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 57.22 (raw 60.59) | Confidence 72.13% | Status pass | Chain Optimism
+- 10. Aptos (APT) | Score 56.75 (raw 60.48) | Confidence 69.15% | Status pass | Chain Aptos
 
 ## Rejection Audit Log
 
 - Maker (MKR): insufficient_estimated_liquidity
 - Pendle (PENDLE): insufficient_estimated_liquidity
-- Compound (COMP): insufficient_estimated_liquidity
 - Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
 - Wormhole (W): insufficient_estimated_liquidity
