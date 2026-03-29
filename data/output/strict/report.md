@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-29T01:50:35.507Z
+Generated: 2026-03-29T04:33:38.582Z
 Candidates evaluated: 28
 Eligible: 10
 Borderline: 1
@@ -9,15 +9,15 @@ Rejected: 18
 ## Top Eligible Assets
 
 - 1. Sui (SUI) | Score 64.97 (raw 68.75) | Confidence 72.51% | Status pass | Chain Sui
-- 2. Chainlink (LINK) | Score 64.94 (raw 68.54) | Confidence 73.74% | Status pass | Chain Ethereum
-- 3. Avalanche (AVAX) | Score 62.7 (raw 66.85) | Confidence 68.96% | Status pass | Chain Avalanche
-- 4. NEAR (NEAR) | Score 56.93 (raw 60.48) | Confidence 70.63% | Status pass | Chain Near
-- 5. Uniswap (UNI) | Score 56.82 (raw 60.13) | Confidence 72.43% | Status pass | Chain Ethereum
-- 6. Pepe (PEPE) | Score 56.45 (raw 59.96) | Confidence 70.76% | Status pass | Chain Ethereum
-- 7. Aave (AAVE) | Score 54.6 (raw 57.4) | Confidence 75.61% | Status pass | Chain Ethereum
-- 8. Worldcoin (WLD) | Score 50.34 (raw 53.32) | Confidence 72.09% | Status pass | Chain Optimism
-- 9. Aptos (APT) | Score 49.59 (raw 53.07) | Confidence 67.26% | Status borderline | Chain Aptos
-- 10. Ethena (ENA) | Score 47.18 (raw 51.33) | Confidence 59.6% | Status pass | Chain Ethereum
+- 2. Chainlink (LINK) | Score 64.96 (raw 68.56) | Confidence 73.75% | Status pass | Chain Ethereum
+- 3. Avalanche (AVAX) | Score 62.65 (raw 66.8) | Confidence 68.97% | Status pass | Chain Avalanche
+- 4. NEAR (NEAR) | Score 56.74 (raw 60.3) | Confidence 70.51% | Status pass | Chain Near
+- 5. Uniswap (UNI) | Score 56.68 (raw 60) | Confidence 72.35% | Status pass | Chain Ethereum
+- 6. Pepe (PEPE) | Score 56.34 (raw 59.85) | Confidence 70.68% | Status pass | Chain Ethereum
+- 7. Aave (AAVE) | Score 54.49 (raw 57.29) | Confidence 75.54% | Status pass | Chain Ethereum
+- 8. Worldcoin (WLD) | Score 49.93 (raw 52.9) | Confidence 71.96% | Status pass | Chain Optimism
+- 9. Aptos (APT) | Score 49.58 (raw 53.06) | Confidence 67.26% | Status borderline | Chain Aptos
+- 10. Ethena (ENA) | Score 46.93 (raw 51.05) | Confidence 59.6% | Status pass | Chain Ethereum
 
 ## Rejection Audit Log
 
