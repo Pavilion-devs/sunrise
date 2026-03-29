@@ -1,6 +1,6 @@
 # Data Coverage Audit
 
-Generated: 2026-03-29T15:44:21.230Z
+Generated: 2026-03-29T16:33:18.791Z
 
 ## Summary
 
@@ -24,7 +24,7 @@ Generated: 2026-03-29T15:44:21.230Z
 
 - base-ecosystem-proxy
 - near
-- celestia
+- jupiter
 - dogecoin
 - worldcoin
 - eigenlayer
