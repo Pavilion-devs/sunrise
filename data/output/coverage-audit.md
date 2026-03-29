@@ -1,6 +1,6 @@
 # Data Coverage Audit
 
-Generated: 2026-03-29T17:59:05.728Z
+Generated: 2026-03-29T18:36:08.699Z
 
 ## Summary
 
@@ -24,8 +24,8 @@ Generated: 2026-03-29T17:59:05.728Z
 
 - optimism
 - base-ecosystem-proxy
+- near
 - dogecoin
-- worldcoin
 - lido-dao
 - pepe
 - brett
