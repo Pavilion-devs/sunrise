@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-30T21:40:06.307Z
+Generated: 2026-03-30T22:33:33.218Z
 Candidates evaluated: 28
 Eligible: 18
 Borderline: 1
@@ -8,16 +8,16 @@ Rejected: 10
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 71.67 (raw 75.51) | Confidence 74.58% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 68.7 (raw 72.34) | Confidence 74.85% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 66.99 (raw 71.13) | Confidence 70.9% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 64.95 (raw 68.66) | Confidence 72.96% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 64.7 (raw 68.56) | Confidence 71.83% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 71.63 (raw 75.47) | Confidence 74.54% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 68.65 (raw 72.29) | Confidence 74.79% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 67.25 (raw 73.16) | Confidence 59.6% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 64.93 (raw 68.64) | Confidence 72.94% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 64.66 (raw 68.52) | Confidence 71.79% | Status pass | Chain Ethereum
 - 6. Aave (AAVE) | Score 61.89 (raw 65.04) | Confidence 75.74% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 60.13 (raw 63.78) | Confidence 71.37% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 59.83 (raw 63.27) | Confidence 72.84% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 57.84 (raw 61.12) | Confidence 73.13% | Status pass | Chain Optimism
-- 10. Aptos (APT) | Score 57.71 (raw 61.51) | Confidence 69.09% | Status pass | Chain Aptos
+- 7. Jupiter (JUP) | Score 60.45 (raw 64.25) | Confidence 70.45% | Status pass | Chain Solana
+- 8. NEAR (NEAR) | Score 60.12 (raw 63.77) | Confidence 71.37% | Status pass | Chain Near
+- 9. Ethena (ENA) | Score 59.72 (raw 63.16) | Confidence 72.75% | Status pass | Chain Ethereum
+- 10. Worldcoin (WLD) | Score 57.8 (raw 61.09) | Confidence 73.11% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
 
