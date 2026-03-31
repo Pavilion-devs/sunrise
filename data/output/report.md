@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-03-31T17:32:45.786Z
+Generated: 2026-03-31T18:15:22.693Z
 Candidates evaluated: 28
 Eligible: 16
 Borderline: 1
@@ -9,15 +9,15 @@ Rejected: 12
 ## Top Eligible Assets
 
 - 1. Chainlink (LINK) | Score 67.32 (raw 70.96) | Confidence 74.33% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 64.73 (raw 70.42) | Confidence 59.6% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 61.99 (raw 65.82) | Confidence 70.91% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 59.99 (raw 63.59) | Confidence 71.68% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 59.92 (raw 63.31) | Confidence 73.19% | Status pass | Chain Ethereum
-- 6. NEAR (NEAR) | Score 57.87 (raw 61.56) | Confidence 70.02% | Status pass | Chain Near
-- 7. Aave (AAVE) | Score 56.3 (raw 59.21) | Confidence 75.44% | Status pass | Chain Ethereum
-- 8. Ethena (ENA) | Score 53.35 (raw 56.42) | Confidence 72.78% | Status pass | Chain Ethereum
-- 9. Aptos (APT) | Score 51.5 (raw 54.89) | Confidence 69.09% | Status pass | Chain Aptos
-- 10. Worldcoin (WLD) | Score 49.53 (raw 52.63) | Confidence 70.54% | Status pass | Chain Optimism
+- 2. Sui (SUI) | Score 64.52 (raw 67.99) | Confidence 74.48% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 62.74 (raw 68.25) | Confidence 59.6% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 60 (raw 63.6) | Confidence 71.7% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 59.97 (raw 63.36) | Confidence 73.23% | Status pass | Chain Ethereum
+- 6. NEAR (NEAR) | Score 57.79 (raw 61.48) | Confidence 69.96% | Status pass | Chain Near
+- 7. Aave (AAVE) | Score 56.36 (raw 59.26) | Confidence 75.48% | Status pass | Chain Ethereum
+- 8. Aptos (APT) | Score 53.33 (raw 57.08) | Confidence 67.16% | Status pass | Chain Aptos
+- 9. Ethena (ENA) | Score 53.22 (raw 56.29) | Confidence 72.7% | Status pass | Chain Ethereum
+- 10. Arbitrum (ARB) | Score 49.77 (raw 52.96) | Confidence 69.9% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
