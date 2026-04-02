@@ -1,6 +1,6 @@
 # Data Coverage Audit
 
-Generated: 2026-04-02T08:38:24.472Z
+Generated: 2026-04-02T09:59:28.041Z
 
 ## Summary
 
@@ -24,9 +24,9 @@ Generated: 2026-04-02T08:38:24.472Z
 
 - base-ecosystem-proxy
 - avalanche
-- celestia
+- aptos
+- jupiter
 - dogecoin
-- worldcoin
 - eigenlayer
 - lido-dao
 - pepe
