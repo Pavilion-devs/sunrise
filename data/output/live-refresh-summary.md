@@ -1,19 +1,19 @@
 # Live Refresh Comparison
 
-Generated: 2026-04-03T14:03:40.552Z
+Generated: 2026-04-03T14:48:54.125Z
 
 ## strict_simon
 
-- Eligible: 13
-- Borderline: 4
-- Rejected: 15
+- Eligible: 12
+- Borderline: 3
+- Rejected: 16
 
 Top 5:
-- 1. Chainlink | Score 64.69 | Confidence 73.56% | pass
-- 2. Sui | Score 64.18 | Confidence 72% | pass
-- 3. Avalanche | Score 62.55 | Confidence 69.01% | pass
-- 4. Uniswap | Score 60.03 | Confidence 74.55% | pass
-- 5. Pepe | Score 58.65 | Confidence 72.15% | pass
+- 1. Chainlink | Score 64.45 | Confidence 73.41% | pass
+- 2. Sui | Score 64.01 | Confidence 71.88% | pass
+- 3. Avalanche | Score 62.38 | Confidence 69.02% | pass
+- 4. Uniswap | Score 59.11 | Confidence 73.95% | pass
+- 5. Pepe | Score 58.58 | Confidence 72.1% | pass
 
 ## balanced
 
@@ -22,22 +22,22 @@ Top 5:
 - Rejected: 13
 
 Top 5:
-- 1. Chainlink | Score 66.17 | Confidence 73.56% | pass
-- 2. Sui | Score 63.68 | Confidence 73.91% | pass
-- 3. Avalanche | Score 62.18 | Confidence 70.93% | pass
-- 4. Uniswap | Score 61.81 | Confidence 74.55% | pass
-- 5. Pepe | Score 60.68 | Confidence 72.15% | pass
+- 1. Chainlink | Score 65.94 | Confidence 73.41% | pass
+- 2. Sui | Score 63.82 | Confidence 59.6% | pass
+- 3. Avalanche | Score 62.03 | Confidence 70.94% | pass
+- 4. Uniswap | Score 60.94 | Confidence 73.95% | pass
+- 5. Pepe | Score 60.61 | Confidence 72.1% | pass
 
 ## growth
 
-- Eligible: 20
-- Borderline: 4
-- Rejected: 8
+- Eligible: 18
+- Borderline: 0
+- Rejected: 10
 
 Top 5:
-- 1. Chainlink | Score 70.48 | Confidence 73.56% | pass
-- 2. Sui | Score 67.62 | Confidence 73.91% | pass
-- 3. Avalanche | Score 66.91 | Confidence 70.93% | pass
-- 4. Uniswap | Score 66.74 | Confidence 74.55% | pass
-- 5. Pepe | Score 65.09 | Confidence 72.15% | pass
+- 1. Chainlink | Score 70.3 | Confidence 73.41% | pass
+- 2. Sui | Score 67.49 | Confidence 73.79% | pass
+- 3. Avalanche | Score 66.8 | Confidence 70.94% | pass
+- 4. Uniswap | Score 66.06 | Confidence 73.95% | pass
+- 5. Pepe | Score 65.03 | Confidence 72.1% | pass
 
