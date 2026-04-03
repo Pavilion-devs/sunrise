@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-03T06:18:30.683Z
+Generated: 2026-04-03T07:46:49.919Z
 Candidates evaluated: 28
 Eligible: 19
 Borderline: 2
@@ -8,16 +8,16 @@ Rejected: 9
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 70.92 (raw 74.82) | Confidence 73.94% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 67.71 (raw 71.42) | Confidence 73.98% | Status pass | Chain Sui
+- 1. Chainlink (LINK) | Score 70.85 (raw 74.75) | Confidence 73.88% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 67.72 (raw 71.43) | Confidence 73.98% | Status pass | Chain Sui
 - 3. Uniswap (UNI) | Score 67.52 (raw 71.04) | Confidence 75.22% | Status pass | Chain Ethereum
-- 4. Avalanche (AVAX) | Score 67.21 (raw 73.12) | Confidence 59.6% | Status pass | Chain Avalanche
-- 5. Pepe (PEPE) | Score 64.56 (raw 68.43) | Confidence 71.69% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 62.1 (raw 65.24) | Confidence 75.94% | Status pass | Chain Ethereum
-- 7. Ethena (ENA) | Score 60.36 (raw 63.76) | Confidence 73.36% | Status pass | Chain Ethereum
-- 8. NEAR (NEAR) | Score 60.19 (raw 63.84) | Confidence 71.43% | Status pass | Chain Near
-- 9. Arbitrum (ARB) | Score 56.84 (raw 60.48) | Confidence 69.91% | Status pass | Chain Arbitrum
-- 10. Aptos (APT) | Score 56.38 (raw 60.11) | Confidence 69.01% | Status pass | Chain Aptos
+- 4. Avalanche (AVAX) | Score 66.94 (raw 71.08) | Confidence 70.91% | Status pass | Chain Avalanche
+- 5. Pepe (PEPE) | Score 64.81 (raw 68.67) | Confidence 71.92% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 62.44 (raw 65.55) | Confidence 76.23% | Status pass | Chain Ethereum
+- 7. Jupiter (JUP) | Score 60.44 (raw 64.22) | Confidence 70.62% | Status pass | Chain Solana
+- 8. Ethena (ENA) | Score 60.41 (raw 63.8) | Confidence 73.39% | Status pass | Chain Ethereum
+- 9. NEAR (NEAR) | Score 60.34 (raw 63.98) | Confidence 71.55% | Status pass | Chain Near
+- 10. Arbitrum (ARB) | Score 56.89 (raw 60.53) | Confidence 69.92% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
