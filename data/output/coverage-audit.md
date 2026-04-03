@@ -1,6 +1,6 @@
 # Data Coverage Audit
 
-Generated: 2026-04-03T15:38:42.521Z
+Generated: 2026-04-03T16:36:45.022Z
 
 ## Summary
 
@@ -24,8 +24,8 @@ Generated: 2026-04-03T15:38:42.521Z
 
 - base-ecosystem-proxy
 - injective
+- near
 - dogecoin
-- worldcoin
 - eigenlayer
 - lido-dao
 - pepe
