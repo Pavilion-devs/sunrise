@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-02T23:32:02.899Z
+Generated: 2026-04-03T00:03:08.355Z
 Candidates evaluated: 28
 Eligible: 20
 Borderline: 4
@@ -8,16 +8,16 @@ Rejected: 8
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 71.57 (raw 75.42) | Confidence 74.5% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 68.31 (raw 71.98) | Confidence 74.51% | Status pass | Chain Sui
+- 1. Chainlink (LINK) | Score 71.52 (raw 75.37) | Confidence 74.46% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 68.29 (raw 71.96) | Confidence 74.49% | Status pass | Chain Sui
 - 3. Uniswap (UNI) | Score 67.9 (raw 71.41) | Confidence 75.43% | Status pass | Chain Ethereum
-- 4. Avalanche (AVAX) | Score 67.56 (raw 71.73) | Confidence 70.95% | Status pass | Chain Avalanche
-- 5. Pepe (PEPE) | Score 64.77 (raw 68.63) | Confidence 71.89% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 62.83 (raw 65.92) | Confidence 76.58% | Status pass | Chain Ethereum
-- 7. Ethena (ENA) | Score 60.97 (raw 64.37) | Confidence 73.61% | Status pass | Chain Ethereum
-- 8. NEAR (NEAR) | Score 60.46 (raw 64.09) | Confidence 71.67% | Status pass | Chain Near
-- 9. Jupiter (JUP) | Score 60.17 (raw 63.94) | Confidence 70.5% | Status borderline | Chain Solana
-- 10. Aptos (APT) | Score 57.62 (raw 62.68) | Confidence 59.6% | Status pass | Chain Aptos
+- 4. Avalanche (AVAX) | Score 67.55 (raw 71.72) | Confidence 70.94% | Status pass | Chain Avalanche
+- 5. Pepe (PEPE) | Score 64.75 (raw 68.61) | Confidence 71.88% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 62.84 (raw 65.93) | Confidence 76.59% | Status pass | Chain Ethereum
+- 7. Ethena (ENA) | Score 60.74 (raw 64.14) | Confidence 73.51% | Status pass | Chain Ethereum
+- 8. NEAR (NEAR) | Score 60.73 (raw 66.07) | Confidence 59.6% | Status pass | Chain Near
+- 9. Jupiter (JUP) | Score 60.13 (raw 63.9) | Confidence 70.5% | Status borderline | Chain Solana
+- 10. Aptos (APT) | Score 57.54 (raw 62.6) | Confidence 59.6% | Status pass | Chain Aptos
 
 ## Rejection Audit Log
 
