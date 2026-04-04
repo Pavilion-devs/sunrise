@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-04T11:30:41.510Z
+Generated: 2026-04-04T11:53:49.893Z
 Candidates evaluated: 28
 Eligible: 10
 Borderline: 2
@@ -8,16 +8,16 @@ Rejected: 18
 
 ## Top Eligible Assets
 
-- 1. Sui (SUI) | Score 63.19 (raw 67.03) | Confidence 71.36% | Status pass | Chain Sui
-- 2. Chainlink (LINK) | Score 62.92 (raw 66.5) | Confidence 73.06% | Status pass | Chain Ethereum
-- 3. Avalanche (AVAX) | Score 61.21 (raw 65.26) | Confidence 69% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 56.46 (raw 59.97) | Confidence 70.75% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 56.3 (raw 59.62) | Confidence 72.16% | Status pass | Chain Ethereum
-- 6. NEAR (NEAR) | Score 53.78 (raw 57.33) | Confidence 69.03% | Status pass | Chain Near
-- 7. Aave (AAVE) | Score 52.85 (raw 55.69) | Confidence 74.49% | Status pass | Chain Ethereum
-- 8. Worldcoin (WLD) | Score 46.06 (raw 49.04) | Confidence 69.62% | Status pass | Chain Optimism
-- 9. Ethena (ENA) | Score 45.44 (raw 49.43) | Confidence 59.6% | Status borderline | Chain Ethereum
-- 10. Sei (SEI) | Score 42.28 (raw 45.2) | Confidence 67.73% | Status borderline | Chain Sei
+- 1. Sui (SUI) | Score 63.02 (raw 66.86) | Confidence 71.25% | Status pass | Chain Sui
+- 2. Chainlink (LINK) | Score 62.88 (raw 66.46) | Confidence 73.06% | Status pass | Chain Ethereum
+- 3. Avalanche (AVAX) | Score 61.17 (raw 65.21) | Confidence 69% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 56.44 (raw 59.95) | Confidence 70.73% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 56.32 (raw 59.64) | Confidence 72.17% | Status pass | Chain Ethereum
+- 6. NEAR (NEAR) | Score 53.81 (raw 57.36) | Confidence 69.03% | Status pass | Chain Near
+- 7. Aave (AAVE) | Score 52.83 (raw 55.67) | Confidence 74.48% | Status pass | Chain Ethereum
+- 8. Worldcoin (WLD) | Score 45.96 (raw 48.94) | Confidence 69.56% | Status pass | Chain Optimism
+- 9. Ethena (ENA) | Score 45.33 (raw 49.32) | Confidence 59.6% | Status borderline | Chain Ethereum
+- 10. Sei (SEI) | Score 42.25 (raw 45.17) | Confidence 67.71% | Status borderline | Chain Sei
 
 ## Rejection Audit Log
 
