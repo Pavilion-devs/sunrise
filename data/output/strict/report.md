@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-04T09:31:43.856Z
+Generated: 2026-04-04T10:26:46.429Z
 Candidates evaluated: 28
 Eligible: 10
-Borderline: 2
+Borderline: 3
 Rejected: 18
 
 ## Top Eligible Assets
 
-- 1. Sui (SUI) | Score 63.06 (raw 66.9) | Confidence 71.28% | Status pass | Chain Sui
-- 2. Chainlink (LINK) | Score 62.96 (raw 66.55) | Confidence 73.06% | Status pass | Chain Ethereum
-- 3. Avalanche (AVAX) | Score 61.18 (raw 65.22) | Confidence 68.99% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 56.83 (raw 60.33) | Confidence 70.99% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 56.23 (raw 59.55) | Confidence 72.11% | Status pass | Chain Ethereum
-- 6. NEAR (NEAR) | Score 53.86 (raw 57.42) | Confidence 69.02% | Status pass | Chain Near
+- 1. Sui (SUI) | Score 63.2 (raw 67.04) | Confidence 71.37% | Status pass | Chain Sui
+- 2. Chainlink (LINK) | Score 62.89 (raw 66.47) | Confidence 73.06% | Status pass | Chain Ethereum
+- 3. Avalanche (AVAX) | Score 61.08 (raw 65.12) | Confidence 68.99% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 56.51 (raw 60.02) | Confidence 70.78% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 56.3 (raw 59.62) | Confidence 72.16% | Status pass | Chain Ethereum
+- 6. NEAR (NEAR) | Score 53.78 (raw 57.34) | Confidence 69.02% | Status pass | Chain Near
 - 7. Aave (AAVE) | Score 52.86 (raw 55.7) | Confidence 74.5% | Status pass | Chain Ethereum
-- 8. Worldcoin (WLD) | Score 45.88 (raw 48.85) | Confidence 69.54% | Status pass | Chain Optimism
-- 9. Ethena (ENA) | Score 45.28 (raw 49.26) | Confidence 59.6% | Status borderline | Chain Ethereum
-- 10. Sei (SEI) | Score 42.46 (raw 45.38) | Confidence 67.86% | Status borderline | Chain Sei
+- 8. Worldcoin (WLD) | Score 45.62 (raw 48.58) | Confidence 69.55% | Status borderline | Chain Optimism
+- 9. Ethena (ENA) | Score 45.42 (raw 49.41) | Confidence 59.6% | Status borderline | Chain Ethereum
+- 10. Sei (SEI) | Score 42.37 (raw 45.29) | Confidence 67.8% | Status borderline | Chain Sei
 
 ## Rejection Audit Log
 
