@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-04T10:29:56.123Z
+Generated: 2026-04-04T11:02:06.604Z
 Candidates evaluated: 28
-Eligible: 15
-Borderline: 0
-Rejected: 13
+Eligible: 16
+Borderline: 1
+Rejected: 12
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 69.17 (raw 73.11) | Confidence 73.06% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 69.19 (raw 73.13) | Confidence 73.06% | Status pass | Chain Ethereum
 - 2. Sui (SUI) | Score 66.89 (raw 70.66) | Confidence 73.28% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 65.87 (raw 69.94) | Confidence 70.9% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 63.98 (raw 67.75) | Confidence 72.16% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 63.5 (raw 67.44) | Confidence 70.78% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 60.46 (raw 63.71) | Confidence 74.5% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 59.13 (raw 62.78) | Confidence 70.94% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 58.2 (raw 61.72) | Confidence 71.47% | Status pass | Chain Ethereum
-- 9. Arbitrum (ARB) | Score 56.29 (raw 59.9) | Confidence 69.87% | Status pass | Chain Arbitrum
-- 10. Aptos (APT) | Score 55.75 (raw 59.44) | Confidence 68.95% | Status pass | Chain Aptos
+- 3. Avalanche (AVAX) | Score 65.98 (raw 70.06) | Confidence 70.91% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 64.01 (raw 67.78) | Confidence 72.19% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 63.53 (raw 67.47) | Confidence 70.81% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 60.25 (raw 63.51) | Confidence 74.32% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 59.16 (raw 62.81) | Confidence 70.94% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 58.23 (raw 61.75) | Confidence 71.5% | Status pass | Chain Ethereum
+- 9. Arbitrum (ARB) | Score 56.28 (raw 59.88) | Confidence 69.88% | Status pass | Chain Arbitrum
+- 10. Worldcoin (WLD) | Score 55.85 (raw 59.23) | Confidence 71.46% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
 
@@ -27,7 +27,6 @@ Rejected: 13
 - Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
 - Celestia (TIA): insufficient_estimated_liquidity
-- Wormhole (W): insufficient_estimated_liquidity
 - Jupiter (JUP): insufficient_estimated_liquidity
 - Dogecoin (DOGE): unsupported_origin_chain
 - EigenLayer (EIGEN): insufficient_estimated_liquidity
