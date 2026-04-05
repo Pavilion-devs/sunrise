@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-05T21:00:57.085Z
+Generated: 2026-04-05T21:37:53.878Z
 Candidates evaluated: 28
-Eligible: 10
-Borderline: 1
-Rejected: 18
+Eligible: 11
+Borderline: 2
+Rejected: 17
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 64.38 (raw 68.05) | Confidence 73.06% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 62.56 (raw 66.11) | Confidence 73.15% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 60.88 (raw 66.23) | Confidence 59.6% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 58.44 (raw 62.08) | Confidence 70.63% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 57.8 (raw 61.24) | Confidence 71.94% | Status pass | Chain Ethereum
-- 6. NEAR (NEAR) | Score 56.31 (raw 60.03) | Confidence 69.03% | Status pass | Chain Near
-- 7. Aave (AAVE) | Score 55.82 (raw 58.74) | Confidence 75.14% | Status pass | Chain Ethereum
-- 8. Ethena (ENA) | Score 51.76 (raw 54.86) | Confidence 71.77% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 48.57 (raw 51.68) | Confidence 69.95% | Status pass | Chain Optimism
-- 10. Arbitrum (ARB) | Score 48.43 (raw 51.54) | Confidence 69.87% | Status borderline | Chain Arbitrum
+- 1. Chainlink (LINK) | Score 64.41 (raw 68.08) | Confidence 73.05% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 62.51 (raw 66.06) | Confidence 73.12% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 60.26 (raw 63.98) | Confidence 70.9% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 58.4 (raw 62.05) | Confidence 70.61% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 57.79 (raw 61.22) | Confidence 71.93% | Status pass | Chain Ethereum
+- 6. NEAR (NEAR) | Score 56.22 (raw 59.94) | Confidence 69.02% | Status pass | Chain Near
+- 7. Aave (AAVE) | Score 55.85 (raw 58.77) | Confidence 75.17% | Status pass | Chain Ethereum
+- 8. Ethena (ENA) | Score 51.82 (raw 54.92) | Confidence 71.82% | Status pass | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 48.68 (raw 51.78) | Confidence 70.04% | Status pass | Chain Optimism
+- 10. Arbitrum (ARB) | Score 48.42 (raw 51.53) | Confidence 69.86% | Status borderline | Chain Arbitrum
 
 ## Rejection Audit Log
 
@@ -25,7 +25,6 @@ Rejected: 18
 - Pendle (PENDLE): insufficient_estimated_liquidity
 - Curve DAO (CRV): insufficient_estimated_liquidity
 - Compound (COMP): insufficient_estimated_liquidity
-- Optimism (OP): insufficient_estimated_liquidity
 - Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
 - Sei (SEI): insufficient_estimated_liquidity
