@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-05T13:53:39.338Z
+Generated: 2026-04-05T14:35:24.160Z
 Candidates evaluated: 28
 Eligible: 16
 Borderline: 0
@@ -8,16 +8,16 @@ Rejected: 12
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 69.1 (raw 73.04) | Confidence 73.02% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 66.75 (raw 70.54) | Confidence 73.17% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 65.57 (raw 69.62) | Confidence 70.88% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 63.94 (raw 67.71) | Confidence 72.13% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 63.34 (raw 67.29) | Confidence 70.65% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 60.86 (raw 64.08) | Confidence 74.86% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 60.56 (raw 65.88) | Confidence 59.6% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 58.43 (raw 61.94) | Confidence 71.68% | Status pass | Chain Ethereum
-- 9. Arbitrum (ARB) | Score 55.87 (raw 59.46) | Confidence 69.84% | Status pass | Chain Arbitrum
-- 10. Aptos (APT) | Score 55.33 (raw 58.99) | Confidence 68.93% | Status pass | Chain Aptos
+- 1. Chainlink (LINK) | Score 69.11 (raw 73.05) | Confidence 73.03% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 66.73 (raw 70.52) | Confidence 73.15% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 65.61 (raw 69.66) | Confidence 70.89% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 63.86 (raw 67.64) | Confidence 72.06% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 63.38 (raw 67.32) | Confidence 70.68% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 60.9 (raw 64.12) | Confidence 74.9% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 60.3 (raw 63.94) | Confidence 71.49% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 58.42 (raw 61.93) | Confidence 71.67% | Status pass | Chain Ethereum
+- 9. Arbitrum (ARB) | Score 55.9 (raw 59.49) | Confidence 69.85% | Status pass | Chain Arbitrum
+- 10. Aptos (APT) | Score 55.27 (raw 58.93) | Confidence 68.93% | Status pass | Chain Aptos
 
 ## Rejection Audit Log
 
