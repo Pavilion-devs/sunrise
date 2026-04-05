@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-05T21:36:48.422Z
+Generated: 2026-04-05T22:24:22.285Z
 Candidates evaluated: 28
 Eligible: 9
 Borderline: 0
@@ -8,15 +8,15 @@ Rejected: 19
 
 ## Top Eligible Assets
 
-- 1. Sui (SUI) | Score 62.93 (raw 66.78) | Confidence 71.21% | Status pass | Chain Sui
-- 2. Chainlink (LINK) | Score 62.81 (raw 66.39) | Confidence 73.05% | Status pass | Chain Ethereum
-- 3. Avalanche (AVAX) | Score 60.5 (raw 64.5) | Confidence 68.98% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 56.24 (raw 59.75) | Confidence 70.61% | Status pass | Chain Ethereum
+- 1. Sui (SUI) | Score 63.18 (raw 67.02) | Confidence 71.37% | Status pass | Chain Sui
+- 2. Chainlink (LINK) | Score 62.87 (raw 66.45) | Confidence 73.04% | Status pass | Chain Ethereum
+- 3. Avalanche (AVAX) | Score 60.48 (raw 64.48) | Confidence 68.98% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 56.35 (raw 59.86) | Confidence 70.69% | Status pass | Chain Ethereum
 - 5. Uniswap (UNI) | Score 55.76 (raw 59.07) | Confidence 71.93% | Status pass | Chain Ethereum
-- 6. NEAR (NEAR) | Score 54.27 (raw 57.86) | Confidence 69.02% | Status pass | Chain Near
-- 7. Aave (AAVE) | Score 53.86 (raw 56.68) | Confidence 75.17% | Status pass | Chain Ethereum
-- 8. Worldcoin (WLD) | Score 46.61 (raw 49.58) | Confidence 70.04% | Status pass | Chain Optimism
-- 9. Ethena (ENA) | Score 45.9 (raw 49.93) | Confidence 59.6% | Status pass | Chain Ethereum
+- 6. NEAR (NEAR) | Score 54.38 (raw 57.97) | Confidence 69.02% | Status pass | Chain Near
+- 7. Aave (AAVE) | Score 54.05 (raw 56.86) | Confidence 75.29% | Status pass | Chain Ethereum
+- 8. Worldcoin (WLD) | Score 46.67 (raw 49.64) | Confidence 70.08% | Status pass | Chain Optimism
+- 9. Ethena (ENA) | Score 45.91 (raw 49.95) | Confidence 59.6% | Status pass | Chain Ethereum
 
 ## Rejection Audit Log
 
