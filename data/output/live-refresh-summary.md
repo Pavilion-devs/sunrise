@@ -1,43 +1,43 @@
 # Live Refresh Comparison
 
-Generated: 2026-04-06T18:13:42.794Z
+Generated: 2026-04-06T19:39:24.139Z
 
 ## strict_simon
 
-- Eligible: 12
-- Borderline: 2
-- Rejected: 16
+- Eligible: 13
+- Borderline: 3
+- Rejected: 15
 
 Top 5:
-- 1. Sui | Score 65.68 | Confidence 72.94% | pass
-- 2. Chainlink | Score 65.54 | Confidence 74.08% | pass
-- 3. Avalanche | Score 64.26 | Confidence 69.52% | pass
-- 4. Pepe | Score 59.71 | Confidence 72.84% | pass
-- 5. Uniswap | Score 56.83 | Confidence 72.49% | pass
+- 1. Sui | Score 65.89 | Confidence 73.07% | pass
+- 2. Chainlink | Score 65.58 | Confidence 74.1% | pass
+- 3. Avalanche | Score 64.21 | Confidence 69.49% | pass
+- 4. Pepe | Score 59.74 | Confidence 72.86% | pass
+- 5. Uniswap | Score 56.85 | Confidence 72.5% | pass
 
 ## balanced
 
 - Eligible: 16
-- Borderline: 2
+- Borderline: 1
 - Rejected: 12
 
 Top 5:
-- 1. Chainlink | Score 66.97 | Confidence 74.08% | pass
-- 2. Sui | Score 65.1 | Confidence 74.86% | pass
-- 3. Avalanche | Score 63.79 | Confidence 71.43% | pass
-- 4. Pepe | Score 61.69 | Confidence 72.84% | pass
-- 5. Uniswap | Score 58.79 | Confidence 72.49% | pass
+- 1. Chainlink | Score 67.01 | Confidence 74.1% | pass
+- 2. Sui | Score 65.38 | Confidence 59.6% | pass
+- 3. Avalanche | Score 64.35 | Confidence 59.6% | pass
+- 4. Pepe | Score 61.71 | Confidence 72.86% | pass
+- 5. Uniswap | Score 58.81 | Confidence 72.5% | pass
 
 ## growth
 
-- Eligible: 17
-- Borderline: 1
-- Rejected: 11
+- Eligible: 18
+- Borderline: 2
+- Rejected: 10
 
 Top 5:
-- 1. Chainlink | Score 71.11 | Confidence 74.08% | pass
-- 2. Sui | Score 68.73 | Confidence 74.86% | pass
-- 3. Avalanche | Score 68.15 | Confidence 71.43% | pass
-- 4. Pepe | Score 65.88 | Confidence 72.84% | pass
-- 5. Uniswap | Score 64.36 | Confidence 72.49% | pass
+- 1. Chainlink | Score 71.12 | Confidence 74.1% | pass
+- 2. Sui | Score 68.88 | Confidence 74.99% | pass
+- 3. Avalanche | Score 68.11 | Confidence 71.4% | pass
+- 4. Pepe | Score 65.9 | Confidence 72.86% | pass
+- 5. Uniswap | Score 64.37 | Confidence 72.5% | pass
 
