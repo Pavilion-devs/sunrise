@@ -1,22 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-05T23:34:36.515Z
+Generated: 2026-04-06T01:54:22.491Z
 Candidates evaluated: 28
-Eligible: 9
-Borderline: 0
-Rejected: 19
+Eligible: 10
+Borderline: 1
+Rejected: 18
 
 ## Top Eligible Assets
 
-- 1. Sui (SUI) | Score 63.62 (raw 67.44) | Confidence 71.63% | Status pass | Chain Sui
-- 2. Chainlink (LINK) | Score 63.31 (raw 66.91) | Confidence 73.1% | Status pass | Chain Ethereum
-- 3. Avalanche (AVAX) | Score 60.88 (raw 64.9) | Confidence 69.03% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 56.91 (raw 60.41) | Confidence 71.03% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 55.93 (raw 59.25) | Confidence 71.98% | Status pass | Chain Ethereum
-- 6. NEAR (NEAR) | Score 54.62 (raw 58.22) | Confidence 69.08% | Status pass | Chain Near
-- 7. Aave (AAVE) | Score 54.53 (raw 57.33) | Confidence 75.59% | Status pass | Chain Ethereum
-- 8. Worldcoin (WLD) | Score 47.08 (raw 50.05) | Confidence 70.33% | Status pass | Chain Optimism
-- 9. Ethena (ENA) | Score 46.39 (raw 50.47) | Confidence 59.6% | Status pass | Chain Ethereum
+- 1. Sui (SUI) | Score 64.07 (raw 67.88) | Confidence 71.92% | Status pass | Chain Sui
+- 2. Chainlink (LINK) | Score 63.96 (raw 67.59) | Confidence 73.13% | Status pass | Chain Ethereum
+- 3. Avalanche (AVAX) | Score 62.76 (raw 66.89) | Confidence 69.13% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 58.64 (raw 62.1) | Confidence 72.13% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 56.28 (raw 59.6) | Confidence 72.14% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 55.02 (raw 57.81) | Confidence 75.91% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 54.79 (raw 58.39) | Confidence 69.19% | Status pass | Chain Near
+- 8. Worldcoin (WLD) | Score 47.33 (raw 50.3) | Confidence 70.5% | Status pass | Chain Optimism
+- 9. Arbitrum (ARB) | Score 46.9 (raw 50.1) | Confidence 68.04% | Status borderline | Chain Arbitrum
+- 10. Ethena (ENA) | Score 46.7 (raw 50.8) | Confidence 59.6% | Status pass | Chain Ethereum
 
 ## Rejection Audit Log
 
@@ -24,7 +25,6 @@ Rejected: 19
 - Pendle (PENDLE): insufficient_estimated_liquidity
 - Curve DAO (CRV): insufficient_estimated_liquidity
 - Compound (COMP): insufficient_estimated_liquidity
-- Arbitrum (ARB): insufficient_estimated_liquidity
 - Optimism (OP): insufficient_estimated_liquidity
 - Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
