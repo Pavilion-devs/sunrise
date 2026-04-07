@@ -1,6 +1,6 @@
 # Data Coverage Audit
 
-Generated: 2026-04-07T04:49:13.201Z
+Generated: 2026-04-07T06:19:58.081Z
 
 ## Summary
 
@@ -22,9 +22,9 @@ Generated: 2026-04-07T04:49:13.201Z
 
 ## Missing Listings Snapshot IDs
 
+- arbitrum
 - base-ecosystem-proxy
-- injective
-- celestia
+- jupiter
 - dogecoin
 - worldcoin
 - eigenlayer
