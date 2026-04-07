@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-07T15:54:08.090Z
+Generated: 2026-04-07T16:49:58.905Z
 Candidates evaluated: 28
 Eligible: 11
 Borderline: 2
@@ -8,16 +8,16 @@ Rejected: 17
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 65.58 (raw 69.16) | Confidence 74.13% | Status pass | Chain Ethereum
-- 2. Avalanche (AVAX) | Score 64.94 (raw 69.09) | Confidence 70.02% | Status pass | Chain Avalanche
+- 1. Chainlink (LINK) | Score 65.63 (raw 69.21) | Confidence 74.16% | Status pass | Chain Ethereum
+- 2. Avalanche (AVAX) | Score 64.97 (raw 69.11) | Confidence 70.03% | Status pass | Chain Avalanche
 - 3. Sui (SUI) | Score 64.59 (raw 68.39) | Confidence 72.26% | Status pass | Chain Sui
-- 4. Pepe (PEPE) | Score 58.12 (raw 61.59) | Confidence 71.83% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 57.27 (raw 60.56) | Confidence 72.8% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 56.19 (raw 58.95) | Confidence 76.56% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 54.8 (raw 58.4) | Confidence 69.21% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 47.52 (raw 51.7) | Confidence 59.6% | Status pass | Chain Ethereum
-- 9. Arbitrum (ARB) | Score 47.05 (raw 50.27) | Confidence 68.01% | Status borderline | Chain Arbitrum
-- 10. Worldcoin (WLD) | Score 46.66 (raw 49.63) | Confidence 70.07% | Status pass | Chain Optimism
+- 4. Pepe (PEPE) | Score 58.18 (raw 61.65) | Confidence 71.87% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 57.38 (raw 60.67) | Confidence 72.87% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 56.11 (raw 58.87) | Confidence 76.53% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 54.92 (raw 58.51) | Confidence 69.28% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 47.19 (raw 51.34) | Confidence 59.6% | Status pass | Chain Ethereum
+- 9. Arbitrum (ARB) | Score 47.04 (raw 50.26) | Confidence 68.01% | Status borderline | Chain Arbitrum
+- 10. Worldcoin (WLD) | Score 46.68 (raw 49.65) | Confidence 70.08% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
 
