@@ -1,6 +1,6 @@
 # Data Coverage Audit
 
-Generated: 2026-04-07T12:12:36.575Z
+Generated: 2026-04-07T14:11:20.688Z
 
 ## Summary
 
@@ -23,7 +23,7 @@ Generated: 2026-04-07T12:12:36.575Z
 ## Missing Listings Snapshot IDs
 
 - base-ecosystem-proxy
-- injective
+- near
 - dogecoin
 - worldcoin
 - eigenlayer
