@@ -1,43 +1,43 @@
 # Live Refresh Comparison
 
-Generated: 2026-04-07T19:57:49.810Z
+Generated: 2026-04-07T20:44:40.881Z
 
 ## strict_simon
 
-- Eligible: 11
-- Borderline: 1
-- Rejected: 17
+- Eligible: 13
+- Borderline: 3
+- Rejected: 15
 
 Top 5:
-- 1. Chainlink | Score 65.99 | Confidence 74.38% | pass
-- 2. Avalanche | Score 65.35 | Confidence 70.26% | pass
-- 3. Sui | Score 64.77 | Confidence 72.36% | pass
-- 4. Pepe | Score 58.64 | Confidence 72.15% | pass
-- 5. Uniswap | Score 57.69 | Confidence 73.06% | pass
+- 1. Chainlink | Score 66.1 | Confidence 74.45% | pass
+- 2. Avalanche | Score 65.51 | Confidence 70.37% | pass
+- 3. Sui | Score 65.02 | Confidence 72.52% | pass
+- 4. Pepe | Score 58.96 | Confidence 72.35% | pass
+- 5. Uniswap | Score 57.81 | Confidence 73.13% | pass
 
 ## balanced
 
-- Eligible: 14
-- Borderline: 0
-- Rejected: 14
+- Eligible: 15
+- Borderline: 1
+- Rejected: 13
 
 Top 5:
-- 1. Chainlink | Score 67.4 | Confidence 74.38% | pass
-- 2. Avalanche | Score 64.83 | Confidence 72.18% | pass
-- 3. Sui | Score 64.45 | Confidence 59.6% | pass
-- 4. Pepe | Score 60.67 | Confidence 72.15% | pass
-- 5. Uniswap | Score 59.61 | Confidence 73.06% | pass
+- 1. Chainlink | Score 67.5 | Confidence 74.45% | pass
+- 2. Avalanche | Score 64.99 | Confidence 72.28% | pass
+- 3. Sui | Score 64.47 | Confidence 74.43% | pass
+- 4. Pepe | Score 60.97 | Confidence 72.35% | pass
+- 5. Uniswap | Score 59.71 | Confidence 73.13% | pass
 
 ## growth
 
-- Eligible: 18
-- Borderline: 2
-- Rejected: 10
+- Eligible: 17
+- Borderline: 1
+- Rejected: 11
 
 Top 5:
-- 1. Chainlink | Score 71.45 | Confidence 74.38% | pass
-- 2. Avalanche | Score 68.98 | Confidence 72.18% | pass
-- 3. Sui | Score 68.05 | Confidence 74.27% | pass
-- 4. Pepe | Score 65.08 | Confidence 72.15% | pass
-- 5. Uniswap | Score 65.01 | Confidence 73.06% | pass
+- 1. Chainlink | Score 71.53 | Confidence 74.45% | pass
+- 2. Avalanche | Score 69.11 | Confidence 72.28% | pass
+- 3. Sui | Score 68.24 | Confidence 74.43% | pass
+- 4. Pepe | Score 65.32 | Confidence 72.35% | pass
+- 5. Uniswap | Score 65.1 | Confidence 73.13% | pass
 
