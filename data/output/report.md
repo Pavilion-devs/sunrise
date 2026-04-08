@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-08T11:31:52.251Z
+Generated: 2026-04-08T12:09:57.486Z
 Candidates evaluated: 28
-Eligible: 17
+Eligible: 16
 Borderline: 2
-Rejected: 11
+Rejected: 12
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 69.32 (raw 72.87) | Confidence 75.66% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 66.53 (raw 69.91) | Confidence 75.8% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 65.24 (raw 69.05) | Confidence 72.42% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 62.87 (raw 66.37) | Confidence 73.62% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 60.69 (raw 64.05) | Confidence 73.77% | Status pass | Chain Ethereum
-- 6. NEAR (NEAR) | Score 59.73 (raw 63.38) | Confidence 71.22% | Status pass | Chain Near
-- 7. Aave (AAVE) | Score 59.25 (raw 62.08) | Confidence 77.18% | Status pass | Chain Ethereum
-- 8. Ethena (ENA) | Score 55.84 (raw 58.88) | Confidence 74.2% | Status pass | Chain Ethereum
-- 9. Aptos (APT) | Score 52.48 (raw 57.09) | Confidence 59.6% | Status pass | Chain Aptos
-- 10. Arbitrum (ARB) | Score 51.02 (raw 55.51) | Confidence 59.6% | Status pass | Chain Arbitrum
+- 1. Chainlink (LINK) | Score 69.28 (raw 72.83) | Confidence 75.63% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 66.55 (raw 69.93) | Confidence 75.81% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 65.23 (raw 69.04) | Confidence 72.42% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 62.89 (raw 66.39) | Confidence 73.64% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 60.64 (raw 64) | Confidence 73.74% | Status pass | Chain Ethereum
+- 6. NEAR (NEAR) | Score 59.76 (raw 63.41) | Confidence 71.25% | Status pass | Chain Near
+- 7. Aave (AAVE) | Score 59.12 (raw 61.95) | Confidence 77.13% | Status pass | Chain Ethereum
+- 8. Ethena (ENA) | Score 55.88 (raw 58.92) | Confidence 74.21% | Status pass | Chain Ethereum
+- 9. Arbitrum (ARB) | Score 52.32 (raw 55.52) | Confidence 71.18% | Status pass | Chain Arbitrum
+- 10. Aptos (APT) | Score 51.3 (raw 54.69) | Confidence 69% | Status pass | Chain Aptos
 
 ## Rejection Audit Log
 
@@ -30,6 +30,7 @@ Rejected: 11
 - Jupiter (JUP): insufficient_estimated_liquidity
 - Dogecoin (DOGE): unsupported_origin_chain
 - EigenLayer (EIGEN): insufficient_estimated_liquidity
+- Lido DAO (LDO): insufficient_estimated_liquidity
 - Brett (BRETT): no_tier1_cex_listing, below_min_tier1_cex_count, insufficient_estimated_liquidity
 - Kaspa (KAS): unsupported_origin_chain, insufficient_estimated_liquidity
 
