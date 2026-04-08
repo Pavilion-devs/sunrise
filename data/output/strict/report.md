@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-08T07:59:16.902Z
+Generated: 2026-04-08T09:00:57.054Z
 Candidates evaluated: 28
 Eligible: 13
 Borderline: 0
@@ -8,16 +8,16 @@ Rejected: 15
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 68.23 (raw 71.7) | Confidence 75.78% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 67.25 (raw 70.95) | Confidence 73.91% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 66.05 (raw 70.17) | Confidence 70.67% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 60.94 (raw 64.34) | Confidence 73.6% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 58.98 (raw 62.23) | Confidence 73.86% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 68.17 (raw 71.65) | Confidence 75.74% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 67.37 (raw 71.07) | Confidence 73.99% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 65.96 (raw 70.08) | Confidence 70.61% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 60.96 (raw 64.36) | Confidence 73.61% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 58.97 (raw 62.22) | Confidence 73.85% | Status pass | Chain Ethereum
 - 6. Aave (AAVE) | Score 57.82 (raw 60.57) | Confidence 77.29% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 57.46 (raw 61.01) | Confidence 70.88% | Status pass | Chain Near
-- 8. Aptos (APT) | Score 50.99 (raw 54.58) | Confidence 67.12% | Status pass | Chain Aptos
-- 9. Arbitrum (ARB) | Score 49.78 (raw 53.04) | Confidence 69.24% | Status pass | Chain Arbitrum
-- 10. Ethena (ENA) | Score 49.59 (raw 53.95) | Confidence 59.6% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 57.77 (raw 61.32) | Confidence 71.07% | Status pass | Chain Near
+- 8. Aptos (APT) | Score 50.92 (raw 54.51) | Confidence 67.1% | Status pass | Chain Aptos
+- 9. Arbitrum (ARB) | Score 49.81 (raw 53.07) | Confidence 69.25% | Status pass | Chain Arbitrum
+- 10. Ethena (ENA) | Score 49.76 (raw 54.13) | Confidence 59.6% | Status pass | Chain Ethereum
 
 ## Rejection Audit Log
 
