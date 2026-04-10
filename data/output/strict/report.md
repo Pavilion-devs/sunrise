@@ -1,29 +1,28 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-10T10:46:53.658Z
+Generated: 2026-04-10T11:43:04.547Z
 Candidates evaluated: 28
-Eligible: 13
+Eligible: 14
 Borderline: 2
-Rejected: 15
+Rejected: 14
 
 ## Top Eligible Assets
 
 - 1. Chainlink (LINK) | Score 66.15 (raw 69.71) | Confidence 74.47% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 65.81 (raw 69.57) | Confidence 73% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 64.08 (raw 68.26) | Confidence 69.41% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 58.83 (raw 62.29) | Confidence 72.27% | Status pass | Chain Ethereum
-- 5. NEAR (NEAR) | Score 57.5 (raw 61.05) | Confidence 70.89% | Status pass | Chain Near
-- 6. Uniswap (UNI) | Score 57.11 (raw 60.41) | Confidence 72.68% | Status pass | Chain Ethereum
-- 7. Aave (AAVE) | Score 55.75 (raw 58.51) | Confidence 76.41% | Status pass | Chain Ethereum
-- 8. Arbitrum (ARB) | Score 50.79 (raw 54.05) | Confidence 69.85% | Status pass | Chain Arbitrum
-- 9. Aptos (APT) | Score 49.76 (raw 53.28) | Confidence 67.02% | Status pass | Chain Aptos
-- 10. Ethena (ENA) | Score 49.58 (raw 53.94) | Confidence 59.6% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 65.71 (raw 69.47) | Confidence 72.93% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 64.13 (raw 68.3) | Confidence 69.43% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 58.88 (raw 62.33) | Confidence 72.29% | Status pass | Chain Ethereum
+- 5. NEAR (NEAR) | Score 57.49 (raw 61.04) | Confidence 70.89% | Status pass | Chain Near
+- 6. Uniswap (UNI) | Score 57.13 (raw 60.43) | Confidence 72.69% | Status pass | Chain Ethereum
+- 7. Aave (AAVE) | Score 55.81 (raw 58.57) | Confidence 76.45% | Status pass | Chain Ethereum
+- 8. Ethena (ENA) | Score 53.57 (raw 56.48) | Confidence 74.27% | Status pass | Chain Ethereum
+- 9. Arbitrum (ARB) | Score 50.83 (raw 54.09) | Confidence 69.88% | Status pass | Chain Arbitrum
+- 10. Aptos (APT) | Score 49.86 (raw 53.38) | Confidence 67.03% | Status pass | Chain Aptos
 
 ## Rejection Audit Log
 
 - Maker (MKR): insufficient_estimated_liquidity
 - Pendle (PENDLE): insufficient_estimated_liquidity
-- Compound (COMP): insufficient_estimated_liquidity
 - Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
 - Sei (SEI): insufficient_estimated_liquidity
