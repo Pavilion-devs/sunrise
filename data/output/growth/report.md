@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-10T08:10:33.198Z
+Generated: 2026-04-10T09:49:25.779Z
 Candidates evaluated: 28
 Eligible: 21
 Borderline: 4
@@ -8,16 +8,16 @@ Rejected: 7
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 71.6 (raw 75.45) | Confidence 74.51% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 68.74 (raw 72.38) | Confidence 74.85% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 68.05 (raw 72.19) | Confidence 71.35% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 65.27 (raw 69.1) | Confidence 72.31% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 64.56 (raw 68.3) | Confidence 72.67% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 62.55 (raw 65.66) | Confidence 76.35% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 61.84 (raw 67.28) | Confidence 59.6% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 61.34 (raw 64.68) | Confidence 74.13% | Status pass | Chain Ethereum
-- 9. Jupiter (JUP) | Score 59.95 (raw 63.7) | Confidence 70.57% | Status borderline | Chain Solana
-- 10. Arbitrum (ARB) | Score 59.53 (raw 63.1) | Confidence 71.7% | Status pass | Chain Arbitrum
+- 1. Chainlink (LINK) | Score 71.57 (raw 75.42) | Confidence 74.48% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 68.79 (raw 72.43) | Confidence 74.89% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 68.18 (raw 74.17) | Confidence 59.6% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 65.26 (raw 69.09) | Confidence 72.31% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 64.62 (raw 68.35) | Confidence 72.72% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 62.6 (raw 65.7) | Confidence 76.39% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 61.84 (raw 65.4) | Confidence 72.81% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 61.57 (raw 64.91) | Confidence 74.27% | Status pass | Chain Ethereum
+- 9. Jupiter (JUP) | Score 60 (raw 63.75) | Confidence 70.59% | Status borderline | Chain Solana
+- 10. Arbitrum (ARB) | Score 59.51 (raw 63.08) | Confidence 71.68% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
