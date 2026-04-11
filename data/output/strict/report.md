@@ -1,29 +1,30 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-11T22:26:20.282Z
+Generated: 2026-04-11T23:00:34.921Z
 Candidates evaluated: 28
-Eligible: 13
-Borderline: 3
-Rejected: 15
+Eligible: 12
+Borderline: 2
+Rejected: 16
 
 ## Top Eligible Assets
 
-- 1. Sui (SUI) | Score 64.76 (raw 68.56) | Confidence 72.31% | Status pass | Chain Sui
+- 1. Sui (SUI) | Score 64.73 (raw 68.53) | Confidence 72.3% | Status pass | Chain Sui
 - 2. Chainlink (LINK) | Score 64.43 (raw 68.06) | Confidence 73.36% | Status pass | Chain Ethereum
-- 3. Avalanche (AVAX) | Score 62.22 (raw 66.31) | Confidence 69.14% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 58.91 (raw 62.37) | Confidence 72.28% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 56.83 (raw 60.14) | Confidence 72.48% | Status pass | Chain Ethereum
-- 6. NEAR (NEAR) | Score 56.02 (raw 59.61) | Confidence 69.91% | Status pass | Chain Near
-- 7. Aave (AAVE) | Score 54.9 (raw 57.69) | Confidence 75.82% | Status pass | Chain Ethereum
-- 8. Arbitrum (ARB) | Score 51.83 (raw 55.09) | Confidence 70.39% | Status pass | Chain Arbitrum
-- 9. Worldcoin (WLD) | Score 49.56 (raw 52.52) | Confidence 71.83% | Status pass | Chain Optimism
-- 10. Aptos (APT) | Score 49.25 (raw 52.72) | Confidence 67.11% | Status borderline | Chain Aptos
+- 3. Avalanche (AVAX) | Score 62.26 (raw 66.36) | Confidence 69.12% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 58.84 (raw 62.3) | Confidence 72.24% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 56.83 (raw 60.14) | Confidence 72.49% | Status pass | Chain Ethereum
+- 6. NEAR (NEAR) | Score 56 (raw 59.59) | Confidence 69.9% | Status pass | Chain Near
+- 7. Aave (AAVE) | Score 54.86 (raw 57.65) | Confidence 75.79% | Status pass | Chain Ethereum
+- 8. Arbitrum (ARB) | Score 51.68 (raw 54.94) | Confidence 70.32% | Status pass | Chain Arbitrum
+- 9. Worldcoin (WLD) | Score 49.6 (raw 52.56) | Confidence 71.86% | Status pass | Chain Optimism
+- 10. Aptos (APT) | Score 49.26 (raw 52.73) | Confidence 67.1% | Status borderline | Chain Aptos
 
 ## Rejection Audit Log
 
 - Maker (MKR): insufficient_estimated_liquidity
 - Pendle (PENDLE): insufficient_estimated_liquidity
 - Curve DAO (CRV): insufficient_estimated_liquidity
+- Compound (COMP): insufficient_estimated_liquidity
 - Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
 - Sei (SEI): insufficient_estimated_liquidity
