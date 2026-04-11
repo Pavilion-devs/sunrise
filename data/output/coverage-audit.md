@@ -1,6 +1,6 @@
 # Data Coverage Audit
 
-Generated: 2026-04-11T07:01:30.647Z
+Generated: 2026-04-11T07:52:42.687Z
 
 ## Summary
 
@@ -23,9 +23,9 @@ Generated: 2026-04-11T07:01:30.647Z
 ## Missing Listings Snapshot IDs
 
 - base-ecosystem-proxy
-- avalanche
-- wormhole
+- injective
 - dogecoin
+- worldcoin
 - eigenlayer
 - lido-dao
 - pepe
