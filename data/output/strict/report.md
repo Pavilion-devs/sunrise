@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-11T09:34:59.640Z
+Generated: 2026-04-11T10:28:39.487Z
 Candidates evaluated: 28
 Eligible: 13
 Borderline: 1
@@ -8,16 +8,16 @@ Rejected: 15
 
 ## Top Eligible Assets
 
-- 1. Sui (SUI) | Score 65.09 (raw 68.87) | Confidence 72.53% | Status pass | Chain Sui
-- 2. Chainlink (LINK) | Score 64.79 (raw 68.4) | Confidence 73.59% | Status pass | Chain Ethereum
-- 3. Avalanche (AVAX) | Score 62.56 (raw 66.68) | Confidence 69.09% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 58.68 (raw 62.14) | Confidence 72.14% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 57.01 (raw 60.32) | Confidence 72.62% | Status pass | Chain Ethereum
-- 6. NEAR (NEAR) | Score 55.66 (raw 59.25) | Confidence 69.71% | Status pass | Chain Near
-- 7. Aave (AAVE) | Score 55.42 (raw 58.19) | Confidence 76.18% | Status pass | Chain Ethereum
+- 1. Sui (SUI) | Score 65.12 (raw 68.9) | Confidence 72.55% | Status pass | Chain Sui
+- 2. Chainlink (LINK) | Score 64.69 (raw 68.3) | Confidence 73.53% | Status pass | Chain Ethereum
+- 3. Avalanche (AVAX) | Score 62.53 (raw 66.65) | Confidence 69.09% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 58.66 (raw 62.12) | Confidence 72.13% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 57.04 (raw 60.34) | Confidence 72.63% | Status pass | Chain Ethereum
+- 6. NEAR (NEAR) | Score 55.58 (raw 59.17) | Confidence 69.66% | Status pass | Chain Near
+- 7. Aave (AAVE) | Score 55.45 (raw 58.22) | Confidence 76.2% | Status pass | Chain Ethereum
 - 8. Arbitrum (ARB) | Score 51.88 (raw 55.15) | Confidence 70.34% | Status pass | Chain Arbitrum
-- 9. Aptos (APT) | Score 50.24 (raw 53.78) | Confidence 67.06% | Status pass | Chain Aptos
-- 10. Worldcoin (WLD) | Score 49.03 (raw 51.99) | Confidence 71.51% | Status pass | Chain Optimism
+- 9. Aptos (APT) | Score 50.2 (raw 53.74) | Confidence 67.05% | Status pass | Chain Aptos
+- 10. Worldcoin (WLD) | Score 49.1 (raw 52.06) | Confidence 71.57% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
 
