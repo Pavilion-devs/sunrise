@@ -1,6 +1,6 @@
 # Data Coverage Audit
 
-Generated: 2026-04-12T20:02:14.613Z
+Generated: 2026-04-12T20:39:19.593Z
 
 ## Summary
 
@@ -22,10 +22,10 @@ Generated: 2026-04-12T20:02:14.613Z
 
 ## Missing Listings Snapshot IDs
 
-- pendle
 - base-ecosystem-proxy
-- wormhole
+- near
 - dogecoin
+- worldcoin
 - eigenlayer
 - lido-dao
 - pepe
