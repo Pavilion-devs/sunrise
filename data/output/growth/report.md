@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-13T04:00:53.311Z
+Generated: 2026-04-13T06:17:14.438Z
 Candidates evaluated: 28
-Eligible: 16
-Borderline: 1
-Rejected: 12
+Eligible: 17
+Borderline: 2
+Rejected: 11
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 70.65 (raw 74.57) | Confidence 73.69% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 67.26 (raw 71.01) | Confidence 73.58% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 66.62 (raw 70.73) | Confidence 70.95% | Status pass | Chain Avalanche
-- 4. Uniswap (UNI) | Score 64.2 (raw 67.96) | Confidence 72.37% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 64.2 (raw 68.1) | Confidence 71.38% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 61.89 (raw 65.04) | Confidence 75.75% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 60.76 (raw 64.38) | Confidence 71.87% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 59.52 (raw 62.98) | Confidence 72.57% | Status pass | Chain Ethereum
-- 9. Worldcoin (WLD) | Score 58.33 (raw 61.59) | Confidence 73.54% | Status pass | Chain Optimism
-- 10. Arbitrum (ARB) | Score 56.73 (raw 61.72) | Confidence 59.6% | Status pass | Chain Arbitrum
+- 1. Chainlink (LINK) | Score 70.65 (raw 74.57) | Confidence 73.7% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 67.02 (raw 70.79) | Confidence 73.38% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 66.54 (raw 70.64) | Confidence 70.96% | Status pass | Chain Avalanche
+- 4. Uniswap (UNI) | Score 64.31 (raw 68.06) | Confidence 72.46% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 64.06 (raw 67.97) | Confidence 71.26% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 62.75 (raw 65.84) | Confidence 76.49% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 60.81 (raw 64.43) | Confidence 71.91% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 59.83 (raw 63.27) | Confidence 72.84% | Status pass | Chain Ethereum
+- 9. Worldcoin (WLD) | Score 58.23 (raw 61.5) | Confidence 73.46% | Status pass | Chain Optimism
+- 10. Arbitrum (ARB) | Score 58.01 (raw 61.67) | Confidence 70.35% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
@@ -30,7 +30,6 @@ Rejected: 12
 - Jupiter (JUP): insufficient_estimated_liquidity
 - Dogecoin (DOGE): unsupported_origin_chain
 - EigenLayer (EIGEN): insufficient_estimated_liquidity
-- Lido DAO (LDO): insufficient_estimated_liquidity
 - Brett (BRETT): no_tier1_cex_listing, below_min_tier1_cex_count, insufficient_estimated_liquidity
 - Kaspa (KAS): unsupported_origin_chain, insufficient_estimated_liquidity
 
