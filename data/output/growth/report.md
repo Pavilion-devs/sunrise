@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-14T03:52:33.696Z
+Generated: 2026-04-14T06:01:30.176Z
 Candidates evaluated: 28
 Eligible: 21
 Borderline: 3
@@ -8,16 +8,16 @@ Rejected: 7
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 72.19 (raw 75.99) | Confidence 75% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 72.42 (raw 76.2) | Confidence 75.2% | Status pass | Chain Ethereum
 - 2. Sui (SUI) | Score 68.86 (raw 72.49) | Confidence 74.95% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 68.56 (raw 74.59) | Confidence 59.6% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 66.21 (raw 69.97) | Confidence 73.1% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 65.72 (raw 69.38) | Confidence 73.67% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 64.17 (raw 67.2) | Confidence 77.44% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 61.84 (raw 65.4) | Confidence 72.8% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 61.34 (raw 64.68) | Confidence 74.13% | Status pass | Chain Ethereum
-- 9. Jupiter (JUP) | Score 60.31 (raw 64.06) | Confidence 70.7% | Status borderline | Chain Solana
-- 10. Worldcoin (WLD) | Score 59.27 (raw 62.47) | Confidence 74.33% | Status pass | Chain Optimism
+- 3. Avalanche (AVAX) | Score 68.58 (raw 74.61) | Confidence 59.6% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 66.27 (raw 70.03) | Confidence 73.17% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 65.69 (raw 69.34) | Confidence 73.64% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 63.69 (raw 66.73) | Confidence 77.19% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 61.74 (raw 65.31) | Confidence 72.72% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 61.05 (raw 64.41) | Confidence 73.89% | Status pass | Chain Ethereum
+- 9. Jupiter (JUP) | Score 60.28 (raw 64.04) | Confidence 70.67% | Status borderline | Chain Solana
+- 10. Worldcoin (WLD) | Score 59.36 (raw 62.56) | Confidence 74.42% | Status pass | Chain Optimism
 
 ## Rejection Audit Log
 
