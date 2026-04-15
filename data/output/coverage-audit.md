@@ -1,6 +1,6 @@
 # Data Coverage Audit
 
-Generated: 2026-04-15T16:04:45.659Z
+Generated: 2026-04-15T17:40:55.611Z
 
 ## Summary
 
@@ -8,7 +8,7 @@ Generated: 2026-04-15T16:04:45.659Z
 - Mapped to CoinGecko IDs: 28
 - Unmapped candidates: 0
 - Market snapshot coverage: 28/28
-- Listings snapshot coverage: 19/28
+- Listings snapshot coverage: 20/28
 - Missing origin token address: 0
 - Native assets excluded from address check: 9
 
@@ -23,9 +23,8 @@ Generated: 2026-04-15T16:04:45.659Z
 ## Missing Listings Snapshot IDs
 
 - base-ecosystem-proxy
-- injective
+- wormhole
 - dogecoin
-- worldcoin
 - eigenlayer
 - lido-dao
 - pepe
