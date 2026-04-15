@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-14T23:09:54.498Z
+Generated: 2026-04-15T00:05:29.215Z
 Candidates evaluated: 28
 Eligible: 14
-Borderline: 2
+Borderline: 3
 Rejected: 14
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 66.92 (raw 70.45) | Confidence 74.96% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 65.46 (raw 69.23) | Confidence 72.78% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 64.61 (raw 68.77) | Confidence 69.75% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 60.42 (raw 63.83) | Confidence 73.28% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 58.14 (raw 61.41) | Confidence 73.34% | Status pass | Chain Ethereum
-- 6. NEAR (NEAR) | Score 57.2 (raw 60.76) | Confidence 70.7% | Status pass | Chain Near
-- 7. Aave (AAVE) | Score 56.66 (raw 59.4) | Confidence 76.94% | Status pass | Chain Ethereum
-- 8. Aptos (APT) | Score 50.06 (raw 53.59) | Confidence 67.1% | Status pass | Chain Aptos
-- 9. Worldcoin (WLD) | Score 50.05 (raw 53) | Confidence 72.16% | Status pass | Chain Optimism
-- 10. Arbitrum (ARB) | Score 49.01 (raw 52.28) | Confidence 68.68% | Status pass | Chain Arbitrum
+- 1. Chainlink (LINK) | Score 66.62 (raw 70.16) | Confidence 74.77% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 65.25 (raw 69.03) | Confidence 72.64% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 64.35 (raw 68.52) | Confidence 69.58% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 60.18 (raw 63.6) | Confidence 73.13% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 57.9 (raw 61.18) | Confidence 73.19% | Status pass | Chain Ethereum
+- 6. NEAR (NEAR) | Score 57.19 (raw 60.75) | Confidence 70.69% | Status pass | Chain Near
+- 7. Aave (AAVE) | Score 56.35 (raw 59.1) | Confidence 76.73% | Status pass | Chain Ethereum
+- 8. Worldcoin (WLD) | Score 50 (raw 52.95) | Confidence 72.13% | Status pass | Chain Optimism
+- 9. Aptos (APT) | Score 49.76 (raw 53.27) | Confidence 67.1% | Status borderline | Chain Aptos
+- 10. Arbitrum (ARB) | Score 48.89 (raw 52.17) | Confidence 68.61% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
