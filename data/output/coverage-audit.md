@@ -1,6 +1,6 @@
 # Data Coverage Audit
 
-Generated: 2026-04-16T06:02:36.098Z
+Generated: 2026-04-16T07:48:58.646Z
 
 ## Summary
 
@@ -22,9 +22,9 @@ Generated: 2026-04-16T06:02:36.098Z
 
 ## Missing Listings Snapshot IDs
 
+- optimism
 - base-ecosystem-proxy
-- avalanche
-- wormhole
+- injective
 - dogecoin
 - eigenlayer
 - lido-dao
