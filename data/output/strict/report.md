@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-19T19:14:08.851Z
+Generated: 2026-04-19T19:58:50.533Z
 Candidates evaluated: 28
 Eligible: 14
 Borderline: 3
@@ -8,16 +8,16 @@ Rejected: 14
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 66.03 (raw 69.59) | Confidence 74.38% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 65.53 (raw 69.3) | Confidence 72.81% | Status pass | Chain Sui
+- 1. Chainlink (LINK) | Score 66.07 (raw 69.64) | Confidence 74.41% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 65.67 (raw 69.43) | Confidence 72.9% | Status pass | Chain Sui
 - 3. Avalanche (AVAX) | Score 63.1 (raw 67.26) | Confidence 69.07% | Status pass | Chain Avalanche
-- 4. Aave (AAVE) | Score 59.77 (raw 62.65) | Confidence 77% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 59.44 (raw 62.89) | Confidence 72.62% | Status pass | Chain Ethereum
-- 6. Uniswap (UNI) | Score 58 (raw 61.28) | Confidence 73.22% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 56.76 (raw 60.33) | Confidence 70.42% | Status pass | Chain Near
-- 8. Aptos (APT) | Score 51.49 (raw 55.1) | Confidence 67.25% | Status pass | Chain Aptos
-- 9. Arbitrum (ARB) | Score 49.74 (raw 53.02) | Confidence 69.08% | Status pass | Chain Arbitrum
-- 10. Ethena (ENA) | Score 49.49 (raw 53.84) | Confidence 59.6% | Status pass | Chain Ethereum
+- 4. Aave (AAVE) | Score 59.76 (raw 62.64) | Confidence 77.03% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 59.52 (raw 62.96) | Confidence 72.67% | Status pass | Chain Ethereum
+- 6. Uniswap (UNI) | Score 58.04 (raw 61.32) | Confidence 73.24% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 56.83 (raw 60.4) | Confidence 70.46% | Status pass | Chain Near
+- 8. Aptos (APT) | Score 51.48 (raw 55.09) | Confidence 67.26% | Status pass | Chain Aptos
+- 9. Arbitrum (ARB) | Score 49.73 (raw 53.01) | Confidence 69.07% | Status pass | Chain Arbitrum
+- 10. Ethena (ENA) | Score 49.54 (raw 53.89) | Confidence 59.6% | Status pass | Chain Ethereum
 
 ## Rejection Audit Log
 
