@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-19T14:41:50.209Z
+Generated: 2026-04-19T15:34:02.788Z
 Candidates evaluated: 28
 Eligible: 18
 Borderline: 3
@@ -9,15 +9,15 @@ Rejected: 10
 ## Top Eligible Assets
 
 - 1. Chainlink (LINK) | Score 67.26 (raw 70.91) | Confidence 74.26% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 64.81 (raw 68.28) | Confidence 74.62% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 62.7 (raw 66.56) | Confidence 71.01% | Status pass | Chain Avalanche
-- 4. Aave (AAVE) | Score 61.8 (raw 64.78) | Confidence 76.99% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 60.77 (raw 64.35) | Confidence 72.16% | Status pass | Chain Ethereum
-- 6. Uniswap (UNI) | Score 59.93 (raw 63.32) | Confidence 73.24% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 58.49 (raw 62.18) | Confidence 70.37% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 55.79 (raw 58.81) | Confidence 74.31% | Status pass | Chain Ethereum
-- 9. Aptos (APT) | Score 53.47 (raw 58.17) | Confidence 59.6% | Status pass | Chain Aptos
-- 10. Arbitrum (ARB) | Score 51.12 (raw 55.61) | Confidence 59.6% | Status pass | Chain Arbitrum
+- 2. Sui (SUI) | Score 64.88 (raw 68.35) | Confidence 74.67% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 62.68 (raw 66.54) | Confidence 71% | Status pass | Chain Avalanche
+- 4. Aave (AAVE) | Score 61.81 (raw 64.8) | Confidence 76.96% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 60.9 (raw 64.48) | Confidence 72.25% | Status pass | Chain Ethereum
+- 6. Uniswap (UNI) | Score 59.95 (raw 63.34) | Confidence 73.25% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 58.64 (raw 62.32) | Confidence 70.47% | Status pass | Chain Near
+- 8. Ethena (ENA) | Score 55.77 (raw 58.79) | Confidence 74.29% | Status pass | Chain Ethereum
+- 9. Arbitrum (ARB) | Score 52.41 (raw 55.62) | Confidence 71.1% | Status pass | Chain Arbitrum
+- 10. Aptos (APT) | Score 52.23 (raw 55.66) | Confidence 69.2% | Status pass | Chain Aptos
 
 ## Rejection Audit Log
 
