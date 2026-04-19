@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-19T15:34:02.788Z
+Generated: 2026-04-19T16:34:37.655Z
 Candidates evaluated: 28
 Eligible: 18
 Borderline: 3
@@ -8,16 +8,16 @@ Rejected: 10
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 67.26 (raw 70.91) | Confidence 74.26% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 64.88 (raw 68.35) | Confidence 74.67% | Status pass | Chain Sui
+- 1. Chainlink (LINK) | Score 67.25 (raw 70.9) | Confidence 74.25% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 64.94 (raw 68.4) | Confidence 74.71% | Status pass | Chain Sui
 - 3. Avalanche (AVAX) | Score 62.68 (raw 66.54) | Confidence 71% | Status pass | Chain Avalanche
-- 4. Aave (AAVE) | Score 61.81 (raw 64.8) | Confidence 76.96% | Status pass | Chain Ethereum
-- 5. Pepe (PEPE) | Score 60.9 (raw 64.48) | Confidence 72.25% | Status pass | Chain Ethereum
-- 6. Uniswap (UNI) | Score 59.95 (raw 63.34) | Confidence 73.25% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 58.64 (raw 62.32) | Confidence 70.47% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 55.77 (raw 58.79) | Confidence 74.29% | Status pass | Chain Ethereum
-- 9. Arbitrum (ARB) | Score 52.41 (raw 55.62) | Confidence 71.1% | Status pass | Chain Arbitrum
-- 10. Aptos (APT) | Score 52.23 (raw 55.66) | Confidence 69.2% | Status pass | Chain Aptos
+- 4. Aave (AAVE) | Score 61.84 (raw 64.83) | Confidence 76.95% | Status pass | Chain Ethereum
+- 5. Pepe (PEPE) | Score 61.09 (raw 64.66) | Confidence 72.39% | Status pass | Chain Ethereum
+- 6. Uniswap (UNI) | Score 59.94 (raw 63.33) | Confidence 73.25% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 58.59 (raw 62.27) | Confidence 70.43% | Status pass | Chain Near
+- 8. Arbitrum (ARB) | Score 52.35 (raw 55.57) | Confidence 71.07% | Status pass | Chain Arbitrum
+- 9. Aptos (APT) | Score 52.11 (raw 55.53) | Confidence 69.18% | Status pass | Chain Aptos
+- 10. Ethena (ENA) | Score 51.71 (raw 56.26) | Confidence 59.6% | Status pass | Chain Ethereum
 
 ## Rejection Audit Log
 
