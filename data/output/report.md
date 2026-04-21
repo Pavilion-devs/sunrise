@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-21T08:32:51.220Z
+Generated: 2026-04-21T10:05:22.078Z
 Candidates evaluated: 28
 Eligible: 17
-Borderline: 2
+Borderline: 3
 Rejected: 11
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 67.32 (raw 71.04) | Confidence 73.82% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 65.26 (raw 68.7) | Confidence 74.93% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 63.62 (raw 67.49) | Confidence 71.31% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 62.02 (raw 65.56) | Confidence 73.02% | Status pass | Chain Ethereum
-- 5. Aave (AAVE) | Score 60.52 (raw 63.42) | Confidence 77.13% | Status pass | Chain Ethereum
-- 6. Uniswap (UNI) | Score 60.17 (raw 63.55) | Confidence 73.41% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 67.23 (raw 70.96) | Confidence 73.76% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 64.88 (raw 68.34) | Confidence 74.67% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 64.17 (raw 69.81) | Confidence 59.6% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 62 (raw 65.54) | Confidence 73.01% | Status pass | Chain Ethereum
+- 5. Aave (AAVE) | Score 60.55 (raw 63.44) | Confidence 77.18% | Status pass | Chain Ethereum
+- 6. Uniswap (UNI) | Score 60.03 (raw 63.42) | Confidence 73.32% | Status pass | Chain Ethereum
 - 7. NEAR (NEAR) | Score 57.92 (raw 61.62) | Confidence 69.96% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 54.64 (raw 57.69) | Confidence 73.55% | Status pass | Chain Ethereum
-- 9. Aptos (APT) | Score 51.72 (raw 56.27) | Confidence 59.6% | Status pass | Chain Aptos
-- 10. Arbitrum (ARB) | Score 50.73 (raw 55.19) | Confidence 59.6% | Status pass | Chain Arbitrum
+- 8. Ethena (ENA) | Score 54.75 (raw 57.8) | Confidence 73.62% | Status pass | Chain Ethereum
+- 9. Aptos (APT) | Score 52.37 (raw 56.04) | Confidence 67.29% | Status pass | Chain Aptos
+- 10. Arbitrum (ARB) | Score 51.92 (raw 55.15) | Confidence 70.77% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
