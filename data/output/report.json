@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-21T20:16:24.007Z",
+  "generated_at": "2026-04-21T21:12:42.991Z",
   "meta": {
     "total_candidates": 28,
     "evaluated_candidates": 28,
     "eligible_count": 16,
-    "borderline_count": 0,
+    "borderline_count": 1,
     "rejected_count": 12,
     "validation_error_count": 0
   },
@@ -51,7 +51,7 @@
     "counts": {
       "total": 28,
       "eligible": 16,
-      "borderline": 0,
+      "borderline": 1,
       "rejected": 12
     }
   },
@@ -63,12 +63,12 @@
       "symbol": "LINK",
       "origin_chain": "Ethereum",
       "gate_status": "pass",
-      "readiness_score": 71.12,
-      "adjusted_readiness_score": 67.48,
-      "confidence_score": 74.41,
+      "readiness_score": 71.22,
+      "adjusted_readiness_score": 67.51,
+      "confidence_score": 73.96,
       "score_breakdown": {
-        "market_strength": 67.04,
-        "venue_liquidity": 57.49,
+        "market_strength": 67.16,
+        "venue_liquidity": 57.69,
         "solana_demand": 85,
         "migration_feasibility": 88
       },
@@ -81,9 +81,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 6743118267,
-          "fdv_usd": 9273990567,
-          "est_liquidity_usd": 47495765.55,
+          "mcap_usd": 6811180123,
+          "fdv_usd": 9367597854,
+          "est_liquidity_usd": 48331713.3,
           "tier1_cex_listings_count": 4,
           "demand_signal_score": 85,
           "migration_feasibility_score": 88
@@ -100,7 +100,7 @@
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 0.661,
+            "divergence_ratio": 0.644,
             "samples": [
               {
                 "provider": "seed",
@@ -108,29 +108,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 6743118267
-              }
-            ]
-          },
-          {
-            "field": "fdv_usd",
-            "type": "numeric_divergence",
-            "divergence_ratio": 0.208,
-            "samples": [
-              {
-                "provider": "seed",
-                "value": 11200000000
-              },
-              {
-                "provider": "coingecko",
-                "value": 9273990567
+                "value": 6811180123
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 5.737,
+            "divergence_ratio": 5.621,
             "samples": [
               {
                 "provider": "seed",
@@ -138,7 +123,7 @@
               },
               {
                 "provider": "coingecko",
-                "value": 47495765.55
+                "value": 48331713.3
               }
             ]
           }
@@ -162,17 +147,18 @@
       "symbol": "SUI",
       "origin_chain": "Sui",
       "gate_status": "pass",
-      "readiness_score": 68.49,
-      "adjusted_readiness_score": 65.04,
-      "confidence_score": 74.79,
+      "readiness_score": 70.78,
+      "adjusted_readiness_score": 65.06,
+      "confidence_score": 59.6,
       "score_breakdown": {
-        "market_strength": 63.32,
-        "venue_liquidity": 58.72,
+        "market_strength": 63.44,
+        "venue_liquidity": 66.23,
         "solana_demand": 81.4,
         "migration_feasibility": 80
       },
       "missing_data_flags": [
-        "missing_origin_token_address"
+        "missing_origin_token_address",
+        "low_data_confidence"
       ],
       "explainability": {
         "weights": {
@@ -182,10 +168,10 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 3679063030,
-          "fdv_usd": 9306099382,
-          "est_liquidity_usd": 52948498.5,
-          "tier1_cex_listings_count": 4,
+          "mcap_usd": 3713693012,
+          "fdv_usd": 9393695069,
+          "est_liquidity_usd": 50691893.25,
+          "tier1_cex_listings_count": 5,
           "demand_signal_score": 81.4,
           "migration_feasibility_score": 80
         }
@@ -195,13 +181,13 @@
           "mcap_usd": "coingecko",
           "fdv_usd": "coingecko",
           "est_liquidity_usd": "coingecko",
-          "tier1_cex_listings": "coingecko"
+          "tier1_cex_listings": "seed"
         },
         "conflicts": [
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 0.658,
+            "divergence_ratio": 0.643,
             "samples": [
               {
                 "provider": "seed",
@@ -209,14 +195,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 3679063030
+                "value": 3713693012
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 0.827,
+            "divergence_ratio": 0.81,
             "samples": [
               {
                 "provider": "seed",
@@ -224,14 +210,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 9306099382
+                "value": 9393695069
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 3.722,
+            "divergence_ratio": 3.932,
             "samples": [
               {
                 "provider": "seed",
@@ -239,12 +225,17 @@
               },
               {
                 "provider": "coingecko",
-                "value": 52948498.5
+                "value": 50691893.25
               }
             ]
           }
         ],
-        "provider_errors": []
+        "provider_errors": [
+          {
+            "provider": "coingecko",
+            "error": "http_429"
+          }
+        ]
       },
       "demand_evidence": {
         "mode": "proxy_weighted",
@@ -263,18 +254,17 @@
       "symbol": "AVAX",
       "origin_chain": "Avalanche",
       "gate_status": "pass",
-      "readiness_score": 69.73,
-      "adjusted_readiness_score": 64.1,
-      "confidence_score": 59.6,
+      "readiness_score": 67.27,
+      "adjusted_readiness_score": 63.39,
+      "confidence_score": 71.16,
       "score_breakdown": {
-        "market_strength": 59.24,
-        "venue_liquidity": 65.07,
+        "market_strength": 59.36,
+        "venue_liquidity": 56.74,
         "solana_demand": 80.6,
         "migration_feasibility": 89
       },
       "missing_data_flags": [
-        "missing_origin_token_address",
-        "low_data_confidence"
+        "missing_origin_token_address"
       ],
       "explainability": {
         "weights": {
@@ -284,10 +274,10 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 3979208032,
-          "fdv_usd": 4271070284,
-          "est_liquidity_usd": 45768606,
-          "tier1_cex_listings_count": 5,
+          "mcap_usd": 4021959131,
+          "fdv_usd": 4316957040,
+          "est_liquidity_usd": 44426772.15,
+          "tier1_cex_listings_count": 4,
           "demand_signal_score": 80.6,
           "migration_feasibility_score": 89
         }
@@ -297,13 +287,13 @@
           "mcap_usd": "coingecko",
           "fdv_usd": "coingecko",
           "est_liquidity_usd": "coingecko",
-          "tier1_cex_listings": "seed"
+          "tier1_cex_listings": "coingecko"
         },
         "conflicts": [
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 2.77,
+            "divergence_ratio": 2.73,
             "samples": [
               {
                 "provider": "seed",
@@ -311,14 +301,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 3979208032
+                "value": 4021959131
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 2.98,
+            "divergence_ratio": 2.938,
             "samples": [
               {
                 "provider": "seed",
@@ -326,14 +316,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 4271070284
+                "value": 4316957040
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 9.051,
+            "divergence_ratio": 9.354,
             "samples": [
               {
                 "provider": "seed",
@@ -341,17 +331,12 @@
               },
               {
                 "provider": "coingecko",
-                "value": 45768606
+                "value": 44426772.15
               }
             ]
           }
         ],
-        "provider_errors": [
-          {
-            "provider": "coingecko",
-            "error": "http_429"
-          }
-        ]
+        "provider_errors": []
       },
       "demand_evidence": {
         "mode": "proxy_weighted",
@@ -370,12 +355,12 @@
       "symbol": "PEPE",
       "origin_chain": "Ethereum",
       "gate_status": "pass",
-      "readiness_score": 65.26,
-      "adjusted_readiness_score": 61.71,
-      "confidence_score": 72.82,
+      "readiness_score": 65.3,
+      "adjusted_readiness_score": 61.75,
+      "confidence_score": 72.84,
       "score_breakdown": {
-        "market_strength": 47.59,
-        "venue_liquidity": 67.12,
+        "market_strength": 47.75,
+        "venue_liquidity": 67.05,
         "solana_demand": 84.9,
         "migration_feasibility": 65
       },
@@ -388,9 +373,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 1564710942,
-          "fdv_usd": 1564710942,
-          "est_liquidity_usd": 54818820,
+          "mcap_usd": 1585867390,
+          "fdv_usd": 1585867390,
+          "est_liquidity_usd": 54507306.9,
           "tier1_cex_listings_count": 5,
           "demand_signal_score": 84.9,
           "migration_feasibility_score": 65
@@ -407,7 +392,7 @@
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 1.365,
+            "divergence_ratio": 1.333,
             "samples": [
               {
                 "provider": "seed",
@@ -415,14 +400,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 1564710942
+                "value": 1585867390
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 1.365,
+            "divergence_ratio": 1.333,
             "samples": [
               {
                 "provider": "seed",
@@ -430,14 +415,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 1564710942
+                "value": 1585867390
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 2.648,
+            "divergence_ratio": 2.669,
             "samples": [
               {
                 "provider": "seed",
@@ -445,7 +430,7 @@
               },
               {
                 "provider": "coingecko",
-                "value": 54818820
+                "value": 54507306.9
               }
             ]
           }
@@ -469,12 +454,12 @@
       "symbol": "AAVE",
       "origin_chain": "Ethereum",
       "gate_status": "pass",
-      "readiness_score": 62.79,
-      "adjusted_readiness_score": 59.9,
-      "confidence_score": 76.98,
+      "readiness_score": 62.56,
+      "adjusted_readiness_score": 59.71,
+      "confidence_score": 77.23,
       "score_breakdown": {
-        "market_strength": 46.34,
-        "venue_liquidity": 63.5,
+        "market_strength": 46.42,
+        "venue_liquidity": 62.63,
         "solana_demand": 75,
         "migration_feasibility": 82
       },
@@ -487,9 +472,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 1374306806,
-          "fdv_usd": 1449045359,
-          "est_liquidity_usd": 80721406.2,
+          "mcap_usd": 1384171227,
+          "fdv_usd": 1459446234,
+          "est_liquidity_usd": 74785152.14999999,
           "tier1_cex_listings_count": 4,
           "demand_signal_score": 75,
           "migration_feasibility_score": 82
@@ -506,7 +491,7 @@
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 0.892,
+            "divergence_ratio": 0.878,
             "samples": [
               {
                 "provider": "seed",
@@ -514,14 +499,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 1374306806
+                "value": 1384171227
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 1.001,
+            "divergence_ratio": 0.987,
             "samples": [
               {
                 "provider": "seed",
@@ -529,7 +514,22 @@
               },
               {
                 "provider": "coingecko",
-                "value": 1449045359
+                "value": 1459446234
+              }
+            ]
+          },
+          {
+            "field": "est_liquidity_usd",
+            "type": "numeric_divergence",
+            "divergence_ratio": 0.203,
+            "samples": [
+              {
+                "provider": "seed",
+                "value": 90000000
+              },
+              {
+                "provider": "coingecko",
+                "value": 74785152.14999999
               }
             ]
           }
@@ -550,10 +550,10 @@
       "gate_status": "pass",
       "readiness_score": 62.97,
       "adjusted_readiness_score": 59.57,
-      "confidence_score": 73.02,
+      "confidence_score": 73.01,
       "score_breakdown": {
-        "market_strength": 52.77,
-        "venue_liquidity": 50.09,
+        "market_strength": 52.86,
+        "venue_liquidity": 50,
         "solana_demand": 81.6,
         "migration_feasibility": 85
       },
@@ -566,9 +566,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 2031317074,
-          "fdv_usd": 2874457140,
-          "est_liquidity_usd": 24704144.4,
+          "mcap_usd": 2046732244,
+          "fdv_usd": 2896270695,
+          "est_liquidity_usd": 24496573.65,
           "tier1_cex_listings_count": 4,
           "demand_signal_score": 81.6,
           "migration_feasibility_score": 85
@@ -585,7 +585,7 @@
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 1.757,
+            "divergence_ratio": 1.736,
             "samples": [
               {
                 "provider": "seed",
@@ -593,14 +593,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 2031317074
+                "value": 2046732244
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 1.122,
+            "divergence_ratio": 1.106,
             "samples": [
               {
                 "provider": "seed",
@@ -608,14 +608,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 2874457140
+                "value": 2896270695
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 6.286,
+            "divergence_ratio": 6.348,
             "samples": [
               {
                 "provider": "seed",
@@ -623,7 +623,7 @@
               },
               {
                 "provider": "coingecko",
-                "value": 24704144.4
+                "value": 24496573.65
               }
             ]
           }
@@ -647,12 +647,12 @@
       "symbol": "NEAR",
       "origin_chain": "Near",
       "gate_status": "pass",
-      "readiness_score": 61.44,
-      "adjusted_readiness_score": 57.74,
-      "confidence_score": 69.85,
+      "readiness_score": 61.36,
+      "adjusted_readiness_score": 57.65,
+      "confidence_score": 69.79,
       "score_breakdown": {
-        "market_strength": 48.96,
-        "venue_liquidity": 58.01,
+        "market_strength": 49.1,
+        "venue_liquidity": 57.59,
         "solana_demand": 72.9,
         "migration_feasibility": 82
       },
@@ -667,9 +667,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 1754113392,
-          "fdv_usd": 1754113408,
-          "est_liquidity_usd": 24533383.2,
+          "mcap_usd": 1773873945,
+          "fdv_usd": 1773873958,
+          "est_liquidity_usd": 23631615.45,
           "tier1_cex_listings_count": 5,
           "demand_signal_score": 72.9,
           "migration_feasibility_score": 82
@@ -686,7 +686,7 @@
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 2.478,
+            "divergence_ratio": 2.439,
             "samples": [
               {
                 "provider": "seed",
@@ -694,14 +694,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 1754113392
+                "value": 1773873945
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 2.706,
+            "divergence_ratio": 2.664,
             "samples": [
               {
                 "provider": "seed",
@@ -709,14 +709,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 1754113408
+                "value": 1773873958
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 7.56,
+            "divergence_ratio": 7.886,
             "samples": [
               {
                 "provider": "seed",
@@ -724,7 +724,7 @@
               },
               {
                 "provider": "coingecko",
-                "value": 24533383.2
+                "value": 23631615.45
               }
             ]
           }
@@ -748,12 +748,12 @@
       "symbol": "ENA",
       "origin_chain": "Ethereum",
       "gate_status": "pass",
-      "readiness_score": 57.67,
-      "adjusted_readiness_score": 54.62,
-      "confidence_score": 73.55,
+      "readiness_score": 57.72,
+      "adjusted_readiness_score": 54.67,
+      "confidence_score": 73.58,
       "score_breakdown": {
-        "market_strength": 44.89,
-        "venue_liquidity": 44.53,
+        "market_strength": 45,
+        "venue_liquidity": 44.55,
         "solana_demand": 80,
         "migration_feasibility": 79
       },
@@ -766,9 +766,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 962049601,
-          "fdv_usd": 1647462750,
-          "est_liquidity_usd": 15112296.75,
+          "mcap_usd": 970882838,
+          "fdv_usd": 1662589234,
+          "est_liquidity_usd": 15144126.899999999,
           "tier1_cex_listings_count": 4,
           "demand_signal_score": 80,
           "migration_feasibility_score": 79
@@ -785,7 +785,7 @@
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 0.871,
+            "divergence_ratio": 0.854,
             "samples": [
               {
                 "provider": "seed",
@@ -793,14 +793,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 962049601
+                "value": 970882838
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 2.399,
+            "divergence_ratio": 2.368,
             "samples": [
               {
                 "provider": "seed",
@@ -808,14 +808,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 1647462750
+                "value": 1662589234
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 4.625,
+            "divergence_ratio": 4.613,
             "samples": [
               {
                 "provider": "seed",
@@ -823,7 +823,7 @@
               },
               {
                 "provider": "coingecko",
-                "value": 15112296.75
+                "value": 15144126.899999999
               }
             ]
           }
@@ -842,17 +842,18 @@
       "symbol": "APT",
       "origin_chain": "Aptos",
       "gate_status": "pass",
-      "readiness_score": 56.43,
-      "adjusted_readiness_score": 52.73,
-      "confidence_score": 67.25,
+      "readiness_score": 56.46,
+      "adjusted_readiness_score": 51.9,
+      "confidence_score": 59.6,
       "score_breakdown": {
-        "market_strength": 40.97,
+        "market_strength": 41.07,
         "venue_liquidity": 46.93,
         "solana_demand": 77.5,
         "migration_feasibility": 79
       },
       "missing_data_flags": [
-        "missing_origin_token_address"
+        "missing_origin_token_address",
+        "low_data_confidence"
       ],
       "explainability": {
         "weights": {
@@ -862,9 +863,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 743400211,
-          "fdv_usd": 1107464844,
-          "est_liquidity_usd": 9223935.9,
+          "mcap_usd": 749294740,
+          "fdv_usd": 1116240084,
+          "est_liquidity_usd": 9222712.2,
           "tier1_cex_listings_count": 5,
           "demand_signal_score": 77.5,
           "migration_feasibility_score": 79
@@ -881,7 +882,7 @@
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 8.282,
+            "divergence_ratio": 8.209,
             "samples": [
               {
                 "provider": "seed",
@@ -889,14 +890,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 743400211
+                "value": 749294740
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 7.849,
+            "divergence_ratio": 7.779,
             "samples": [
               {
                 "provider": "seed",
@@ -904,14 +905,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 1107464844
+                "value": 1116240084
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 19.599,
+            "divergence_ratio": 19.601,
             "samples": [
               {
                 "provider": "seed",
@@ -919,12 +920,17 @@
               },
               {
                 "provider": "coingecko",
-                "value": 9223935.9
+                "value": 9222712.2
               }
             ]
           }
         ],
-        "provider_errors": []
+        "provider_errors": [
+          {
+            "provider": "coingecko",
+            "error": "http_429"
+          }
+        ]
       },
       "demand_evidence": {
         "mode": "proxy_weighted",
@@ -943,16 +949,18 @@
       "symbol": "ARB",
       "origin_chain": "Arbitrum",
       "gate_status": "pass",
-      "readiness_score": 54.86,
-      "adjusted_readiness_score": 51.63,
-      "confidence_score": 70.58,
+      "readiness_score": 54.87,
+      "adjusted_readiness_score": 50.44,
+      "confidence_score": 59.6,
       "score_breakdown": {
-        "market_strength": 41.66,
-        "venue_liquidity": 40.1,
+        "market_strength": 41.67,
+        "venue_liquidity": 40.13,
         "solana_demand": 75.5,
         "migration_feasibility": 87
       },
-      "missing_data_flags": [],
+      "missing_data_flags": [
+        "low_data_confidence"
+      ],
       "explainability": {
         "weights": {
           "market_strength": 0.33,
@@ -961,9 +969,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 747625334,
-          "fdv_usd": 1237621417,
-          "est_liquidity_usd": 10219868.549999999,
+          "mcap_usd": 748141580,
+          "fdv_usd": 1238476013,
+          "est_liquidity_usd": 10250621.85,
           "tier1_cex_listings_count": 4,
           "demand_signal_score": 75.5,
           "migration_feasibility_score": 87
@@ -974,13 +982,13 @@
           "mcap_usd": "coingecko",
           "fdv_usd": "coingecko",
           "est_liquidity_usd": "coingecko",
-          "tier1_cex_listings": "coingecko"
+          "tier1_cex_listings": "seed"
         },
         "conflicts": [
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 3.681,
+            "divergence_ratio": 3.678,
             "samples": [
               {
                 "provider": "seed",
@@ -988,14 +996,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 747625334
+                "value": 748141580
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 3.929,
+            "divergence_ratio": 3.925,
             "samples": [
               {
                 "provider": "seed",
@@ -1003,14 +1011,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 1237621417
+                "value": 1238476013
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 9.763,
+            "divergence_ratio": 9.731,
             "samples": [
               {
                 "provider": "seed",
@@ -1018,12 +1026,17 @@
               },
               {
                 "provider": "coingecko",
-                "value": 10219868.549999999
+                "value": 10250621.85
               }
             ]
           }
         ],
-        "provider_errors": []
+        "provider_errors": [
+          {
+            "provider": "coingecko",
+            "error": "http_429"
+          }
+        ]
       },
       "demand_evidence": {
         "mode": "proxy_weighted",
@@ -1042,12 +1055,12 @@
       "symbol": "WLD",
       "origin_chain": "Optimism",
       "gate_status": "pass",
-      "readiness_score": 51.82,
-      "adjusted_readiness_score": 48.71,
-      "confidence_score": 70.01,
+      "readiness_score": 51.8,
+      "adjusted_readiness_score": 48.69,
+      "confidence_score": 69.99,
       "score_breakdown": {
-        "market_strength": 46.8,
-        "venue_liquidity": 32.68,
+        "market_strength": 46.89,
+        "venue_liquidity": 32.53,
         "solana_demand": 71,
         "migration_feasibility": 74
       },
@@ -1060,9 +1073,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 851636505,
-          "fdv_usd": 2591623229,
-          "est_liquidity_usd": 10764610.65,
+          "mcap_usd": 857983307,
+          "fdv_usd": 2610937243,
+          "est_liquidity_usd": 10614899.25,
           "tier1_cex_listings_count": 3,
           "demand_signal_score": 71,
           "migration_feasibility_score": 74
@@ -1079,7 +1092,7 @@
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 1.114,
+            "divergence_ratio": 1.098,
             "samples": [
               {
                 "provider": "seed",
@@ -1087,14 +1100,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 851636505
+                "value": 857983307
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 3.63,
+            "divergence_ratio": 3.596,
             "samples": [
               {
                 "provider": "seed",
@@ -1102,14 +1115,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 2591623229
+                "value": 2610937243
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 8.104,
+            "divergence_ratio": 8.232,
             "samples": [
               {
                 "provider": "seed",
@@ -1117,7 +1130,7 @@
               },
               {
                 "provider": "coingecko",
-                "value": 10764610.65
+                "value": 10614899.25
               }
             ]
           }
@@ -1136,12 +1149,12 @@
       "symbol": "LDO",
       "origin_chain": "Ethereum",
       "gate_status": "pass",
-      "readiness_score": 51.85,
-      "adjusted_readiness_score": 48.69,
-      "confidence_score": 69.56,
+      "readiness_score": 51.84,
+      "adjusted_readiness_score": 48.68,
+      "confidence_score": 69.55,
       "score_breakdown": {
-        "market_strength": 29.44,
-        "venue_liquidity": 47.75,
+        "market_strength": 29.58,
+        "venue_liquidity": 47.56,
         "solana_demand": 73,
         "migration_feasibility": 81
       },
@@ -1154,9 +1167,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 319752191,
-          "fdv_usd": 376537797,
-          "est_liquidity_usd": 9910830.15,
+          "mcap_usd": 323635506,
+          "fdv_usd": 381110759,
+          "est_liquidity_usd": 9746317.049999999,
           "tier1_cex_listings_count": 5,
           "demand_signal_score": 73,
           "migration_feasibility_score": 81
@@ -1173,7 +1186,7 @@
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 4.629,
+            "divergence_ratio": 4.562,
             "samples": [
               {
                 "provider": "seed",
@@ -1181,14 +1194,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 319752191
+                "value": 323635506
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 4.046,
+            "divergence_ratio": 3.985,
             "samples": [
               {
                 "provider": "seed",
@@ -1196,14 +1209,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 376537797
+                "value": 381110759
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 5.76,
+            "divergence_ratio": 5.874,
             "samples": [
               {
                 "provider": "seed",
@@ -1211,7 +1224,7 @@
               },
               {
                 "provider": "coingecko",
-                "value": 9910830.15
+                "value": 9746317.049999999
               }
             ]
           }
@@ -1230,12 +1243,12 @@
       "symbol": "OP",
       "origin_chain": "Optimism",
       "gate_status": "pass",
-      "readiness_score": 49.84,
-      "adjusted_readiness_score": 46.72,
+      "readiness_score": 49.79,
+      "adjusted_readiness_score": 46.67,
       "confidence_score": 68.72,
       "score_breakdown": {
-        "market_strength": 29.95,
-        "venue_liquidity": 36.81,
+        "market_strength": 30.07,
+        "venue_liquidity": 36.51,
         "solana_demand": 74.5,
         "migration_feasibility": 88
       },
@@ -1248,9 +1261,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 256745172,
-          "fdv_usd": 517702776,
-          "est_liquidity_usd": 7646478.449999999,
+          "mcap_usd": 259209272,
+          "fdv_usd": 522671405,
+          "est_liquidity_usd": 7444545.45,
           "tier1_cex_listings_count": 4,
           "demand_signal_score": 74.5,
           "migration_feasibility_score": 88
@@ -1267,7 +1280,7 @@
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 10.685,
+            "divergence_ratio": 10.574,
             "samples": [
               {
                 "provider": "seed",
@@ -1275,14 +1288,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 256745172
+                "value": 259209272
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 16.964,
+            "divergence_ratio": 16.793,
             "samples": [
               {
                 "provider": "seed",
@@ -1290,14 +1303,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 517702776
+                "value": 522671405
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 15.347,
+            "divergence_ratio": 15.791,
             "samples": [
               {
                 "provider": "seed",
@@ -1305,7 +1318,7 @@
               },
               {
                 "provider": "coingecko",
-                "value": 7646478.449999999
+                "value": 7444545.45
               }
             ]
           }
@@ -1331,10 +1344,10 @@
       "gate_status": "pass",
       "readiness_score": 46.14,
       "adjusted_readiness_score": 43.75,
-      "confidence_score": 74.05,
+      "confidence_score": 74.04,
       "score_breakdown": {
-        "market_strength": 31.89,
-        "venue_liquidity": 35.9,
+        "market_strength": 31.99,
+        "venue_liquidity": 35.78,
         "solana_demand": 65,
         "migration_feasibility": 73
       },
@@ -1347,9 +1360,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 340049855,
-          "fdv_usd": 536317493,
-          "est_liquidity_usd": 7055397.899999999,
+          "mcap_usd": 342696591,
+          "fdv_usd": 540492103,
+          "est_liquidity_usd": 6979086.149999999,
           "tier1_cex_listings_count": 4,
           "demand_signal_score": 65,
           "migration_feasibility_score": 73
@@ -1366,7 +1379,7 @@
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 1.764,
+            "divergence_ratio": 1.743,
             "samples": [
               {
                 "provider": "seed",
@@ -1374,14 +1387,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 340049855
+                "value": 342696591
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 1.331,
+            "divergence_ratio": 1.313,
             "samples": [
               {
                 "provider": "seed",
@@ -1389,14 +1402,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 536317493
+                "value": 540492103
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 3.536,
+            "divergence_ratio": 3.585,
             "samples": [
               {
                 "provider": "seed",
@@ -1404,7 +1417,7 @@
               },
               {
                 "provider": "coingecko",
-                "value": 7055397.899999999
+                "value": 6979086.149999999
               }
             ]
           }
@@ -1422,13 +1435,13 @@
       "name": "Pendle",
       "symbol": "PENDLE",
       "origin_chain": "Ethereum",
-      "gate_status": "pass",
-      "readiness_score": 45.41,
-      "adjusted_readiness_score": 43.08,
-      "confidence_score": 74.37,
+      "gate_status": "borderline",
+      "readiness_score": 45.35,
+      "adjusted_readiness_score": 43.02,
+      "confidence_score": 74.32,
       "score_breakdown": {
-        "market_strength": 27.03,
-        "venue_liquidity": 34.65,
+        "market_strength": 27.12,
+        "venue_liquidity": 34.33,
         "solana_demand": 70,
         "migration_feasibility": 72
       },
@@ -1441,9 +1454,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 219665632,
-          "fdv_usd": 370407291,
-          "est_liquidity_usd": 6317144.399999999,
+          "mcap_usd": 221430194,
+          "fdv_usd": 373382468,
+          "est_liquidity_usd": 6141386.55,
           "tier1_cex_listings_count": 4,
           "demand_signal_score": 70,
           "migration_feasibility_score": 72
@@ -1460,7 +1473,7 @@
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 1.959,
+            "divergence_ratio": 1.935,
             "samples": [
               {
                 "provider": "seed",
@@ -1468,14 +1481,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 219665632
+                "value": 221430194
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 1.025,
+            "divergence_ratio": 1.009,
             "samples": [
               {
                 "provider": "seed",
@@ -1483,14 +1496,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 370407291
+                "value": 373382468
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 3.116,
+            "divergence_ratio": 3.234,
             "samples": [
               {
                 "provider": "seed",
@@ -1498,7 +1511,7 @@
               },
               {
                 "provider": "coingecko",
-                "value": 6317144.399999999
+                "value": 6141386.55
               }
             ]
           }
@@ -1517,12 +1530,12 @@
       "symbol": "INJ",
       "origin_chain": "Injective",
       "gate_status": "pass",
-      "readiness_score": 44.92,
-      "adjusted_readiness_score": 41.99,
-      "confidence_score": 67.37,
+      "readiness_score": 44.94,
+      "adjusted_readiness_score": 42.01,
+      "confidence_score": 67.38,
       "score_breakdown": {
-        "market_strength": 28.53,
-        "venue_liquidity": 34.94,
+        "market_strength": 28.62,
+        "venue_liquidity": 34.92,
         "solana_demand": 66,
         "migration_feasibility": 72
       },
@@ -1537,9 +1550,9 @@
           "migration_feasibility": 0.1
         },
         "inputs": {
-          "mcap_usd": 321204875,
-          "fdv_usd": 321204875,
-          "est_liquidity_usd": 6480725.1,
+          "mcap_usd": 323677395,
+          "fdv_usd": 323677395,
+          "est_liquidity_usd": 6472177.2,
           "tier1_cex_listings_count": 4,
           "demand_signal_score": 66,
           "migration_feasibility_score": 72
@@ -1556,7 +1569,7 @@
           {
             "field": "mcap_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 7.406,
+            "divergence_ratio": 7.342,
             "samples": [
               {
                 "provider": "seed",
@@ -1564,14 +1577,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 321204875
+                "value": 323677395
               }
             ]
           },
           {
             "field": "fdv_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 7.717,
+            "divergence_ratio": 7.651,
             "samples": [
               {
                 "provider": "seed",
@@ -1579,14 +1592,14 @@
               },
               {
                 "provider": "coingecko",
-                "value": 321204875
+                "value": 323677395
               }
             ]
           },
           {
             "field": "est_liquidity_usd",
             "type": "numeric_divergence",
-            "divergence_ratio": 12.887,
+            "divergence_ratio": 12.906,
             "samples": [
               {
                 "provider": "seed",
@@ -1594,7 +1607,7 @@
               },
               {
                 "provider": "coingecko",
-                "value": 6480725.1
+                "value": 6472177.2
               }
             ]
           }
@@ -1620,7 +1633,7 @@
         {
           "field": "fdv_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 8.499,
+          "divergence_ratio": 8.416,
           "samples": [
             {
               "provider": "seed",
@@ -1628,14 +1641,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 168434499
+              "value": 169920073
             }
           ]
         },
         {
           "field": "est_liquidity_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 2648.372,
+          "divergence_ratio": 2640.436,
           "samples": [
             {
               "provider": "seed",
@@ -1643,7 +1656,7 @@
             },
             {
               "provider": "coingecko",
-              "value": 18872.399999999998
+              "value": 18929.1
             }
           ]
         }
@@ -1661,7 +1674,7 @@
         {
           "field": "mcap_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 1.814,
+          "divergence_ratio": 1.816,
           "samples": [
             {
               "provider": "seed",
@@ -1669,14 +1682,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 220297277
+              "value": 220190270
             }
           ]
         },
         {
           "field": "fdv_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 2.028,
+          "divergence_ratio": 2.03,
           "samples": [
             {
               "provider": "seed",
@@ -1684,14 +1697,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 227857844
+              "value": 227747165
             }
           ]
         },
         {
           "field": "est_liquidity_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 2.662,
+          "divergence_ratio": 2.7,
           "samples": [
             {
               "provider": "seed",
@@ -1699,7 +1712,7 @@
             },
             {
               "provider": "coingecko",
-              "value": 4915828.2
+              "value": 4864370.399999999
             }
           ]
         }
@@ -1717,7 +1730,7 @@
         {
           "field": "mcap_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 0.218,
+          "divergence_ratio": 0.202,
           "samples": [
             {
               "provider": "seed",
@@ -1725,14 +1738,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 344870415
+              "value": 349421040
             }
           ]
         },
         {
           "field": "est_liquidity_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 4.855,
+          "divergence_ratio": 5.021,
           "samples": [
             {
               "provider": "seed",
@@ -1740,7 +1753,7 @@
             },
             {
               "provider": "coingecko",
-              "value": 2049518.4
+              "value": 1993030.2
             }
           ]
         }
@@ -1799,7 +1812,7 @@
         {
           "field": "mcap_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 4.844,
+          "divergence_ratio": 4.783,
           "samples": [
             {
               "provider": "seed",
@@ -1807,14 +1820,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 376470729
+              "value": 380417134
             }
           ]
         },
         {
           "field": "fdv_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 7.585,
+          "divergence_ratio": 7.496,
           "samples": [
             {
               "provider": "seed",
@@ -1822,14 +1835,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 559114944
+              "value": 564975942
             }
           ]
         },
         {
           "field": "est_liquidity_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 20.521,
+          "divergence_ratio": 20.012,
           "samples": [
             {
               "provider": "seed",
@@ -1837,7 +1850,7 @@
             },
             {
               "provider": "coingecko",
-              "value": 3717295.5
+              "value": 3807330.3
             }
           ]
         }
@@ -1855,7 +1868,7 @@
         {
           "field": "mcap_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 3.777,
+          "divergence_ratio": 3.728,
           "samples": [
             {
               "provider": "seed",
@@ -1863,14 +1876,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 334965909
+              "value": 338444992
             }
           ]
         },
         {
           "field": "fdv_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 11.076,
+          "divergence_ratio": 10.952,
           "samples": [
             {
               "provider": "seed",
@@ -1878,14 +1891,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 430610408
+              "value": 435082891
             }
           ]
         },
         {
           "field": "est_liquidity_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 13.27,
+          "divergence_ratio": 13.26,
           "samples": [
             {
               "provider": "seed",
@@ -1893,7 +1906,7 @@
             },
             {
               "provider": "coingecko",
-              "value": 4344768.3
+              "value": 4347916.5
             }
           ]
         }
@@ -1911,7 +1924,7 @@
         {
           "field": "mcap_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 21.953,
+          "divergence_ratio": 21.729,
           "samples": [
             {
               "provider": "seed",
@@ -1919,14 +1932,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 69706599
+              "value": 70393517
             }
           ]
         },
         {
           "field": "fdv_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 46.776,
+          "divergence_ratio": 46.31,
           "samples": [
             {
               "provider": "seed",
@@ -1934,14 +1947,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 121398863
+              "value": 122595178
             }
           ]
         },
         {
           "field": "est_liquidity_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 20.288,
+          "divergence_ratio": 19.897,
           "samples": [
             {
               "provider": "seed",
@@ -1949,7 +1962,7 @@
             },
             {
               "provider": "coingecko",
-              "value": 3523177.65
+              "value": 3589009.9499999997
             }
           ]
         }
@@ -1967,7 +1980,7 @@
         {
           "field": "mcap_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 2.352,
+          "divergence_ratio": 2.317,
           "samples": [
             {
               "provider": "seed",
@@ -1975,14 +1988,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 596620661
+              "value": 602874833
             }
           ]
         },
         {
           "field": "fdv_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 4.983,
+          "divergence_ratio": 4.921,
           "samples": [
             {
               "provider": "seed",
@@ -1990,14 +2003,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 1153304164
+              "value": 1165393860
             }
           ]
         },
         {
           "field": "est_liquidity_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 35.804,
+          "divergence_ratio": 35.78,
           "samples": [
             {
               "provider": "seed",
@@ -2005,7 +2018,7 @@
             },
             {
               "provider": "coingecko",
-              "value": 2988823.9499999997
+              "value": 2990764.35
             }
           ]
         }
@@ -2023,7 +2036,7 @@
         {
           "field": "mcap_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 0.59,
+          "divergence_ratio": 0.58,
           "samples": [
             {
               "provider": "seed",
@@ -2031,14 +2044,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 14463025216
+              "value": 14557879865
             }
           ]
         },
         {
           "field": "fdv_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 0.443,
+          "divergence_ratio": 0.434,
           "samples": [
             {
               "provider": "seed",
@@ -2046,14 +2059,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 15939352117
+              "value": 16043889143
             }
           ]
         },
         {
           "field": "est_liquidity_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 2.533,
+          "divergence_ratio": 2.603,
           "samples": [
             {
               "provider": "seed",
@@ -2061,7 +2074,7 @@
             },
             {
               "provider": "coingecko",
-              "value": 155696565.9
+              "value": 152650303.04999998
             }
           ]
         }
@@ -2079,7 +2092,7 @@
         {
           "field": "mcap_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 2.482,
+          "divergence_ratio": 2.405,
           "samples": [
             {
               "provider": "seed",
@@ -2087,14 +2100,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 120631269
+              "value": 123346669
             }
           ]
         },
         {
           "field": "fdv_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 8.173,
+          "divergence_ratio": 7.971,
           "samples": [
             {
               "provider": "seed",
@@ -2102,14 +2115,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 316141145
+              "value": 323257456
             }
           ]
         },
         {
           "field": "est_liquidity_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 4.658,
+          "divergence_ratio": 4.279,
           "samples": [
             {
               "provider": "seed",
@@ -2117,7 +2130,7 @@
             },
             {
               "provider": "coingecko",
-              "value": 2474244.9
+              "value": 2652129.15
             }
           ]
         }
@@ -2137,7 +2150,7 @@
         {
           "field": "mcap_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 7.823,
+          "divergence_ratio": 7.749,
           "samples": [
             {
               "provider": "seed",
@@ -2145,14 +2158,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 68003662
+              "value": 68575446
             }
           ]
         },
         {
           "field": "fdv_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 7.823,
+          "divergence_ratio": 7.749,
           "samples": [
             {
               "provider": "seed",
@@ -2160,14 +2173,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 68003662
+              "value": 68575446
             }
           ]
         },
         {
           "field": "est_liquidity_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 1.661,
+          "divergence_ratio": 1.724,
           "samples": [
             {
               "provider": "seed",
@@ -2175,7 +2188,7 @@
             },
             {
               "provider": "coingecko",
-              "value": 2254406.1
+              "value": 2202522.15
             }
           ]
         }
@@ -2194,7 +2207,7 @@
         {
           "field": "mcap_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 3.096,
+          "divergence_ratio": 3.056,
           "samples": [
             {
               "provider": "seed",
@@ -2202,14 +2215,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 927783619
+              "value": 936797488
             }
           ]
         },
         {
           "field": "fdv_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 3.095,
+          "divergence_ratio": 3.056,
           "samples": [
             {
               "provider": "seed",
@@ -2217,14 +2230,14 @@
             },
             {
               "provider": "coingecko",
-              "value": 927890517
+              "value": 936908991
             }
           ]
         },
         {
           "field": "est_liquidity_usd",
           "type": "numeric_divergence",
-          "divergence_ratio": 31.025,
+          "divergence_ratio": 30.779,
           "samples": [
             {
               "provider": "seed",
@@ -2232,7 +2245,7 @@
             },
             {
               "provider": "coingecko",
-              "value": 3747115.65
+              "value": 3776120.0999999996
             }
           ]
         }
@@ -2251,13 +2264,13 @@
         "rejection_reasons": [],
         "borderline_reasons": []
       },
-      "readiness_score": 71.12,
-      "adjusted_readiness_score": 67.48,
-      "confidence_score": 74.41,
+      "readiness_score": 71.22,
+      "adjusted_readiness_score": 67.51,
+      "confidence_score": 73.96,
       "selected_for": [
-        "Strong market profile (MCAP: $6,743,118,267, FDV: $9,273,990,567)",
+        "Strong market profile (MCAP: $6,811,180,123, FDV: $9,367,597,854)",
         "Tier-1 CEX footprint (OKX, Bybit, Binance, Kraken)",
-        "Estimated deployable liquidity: $47,495,765.55",
+        "Estimated deployable liquidity: $48,331,713.3",
         "Solana demand signal score: 85/100"
       ],
       "risks": [
@@ -2285,17 +2298,17 @@
         "rejection_reasons": [],
         "borderline_reasons": []
       },
-      "readiness_score": 68.49,
-      "adjusted_readiness_score": 65.04,
-      "confidence_score": 74.79,
+      "readiness_score": 70.78,
+      "adjusted_readiness_score": 65.06,
+      "confidence_score": 59.6,
       "selected_for": [
-        "Strong market profile (MCAP: $3,679,063,030, FDV: $9,306,099,382)",
-        "Tier-1 CEX footprint (Binance, Bybit, OKX, Kraken)",
-        "Estimated deployable liquidity: $52,948,498.5",
+        "Strong market profile (MCAP: $3,713,693,012, FDV: $9,393,695,069)",
+        "Tier-1 CEX footprint (Binance, Coinbase, OKX, Bybit, Kraken)",
+        "Estimated deployable liquidity: $50,691,893.25",
         "Solana demand signal score: 81.4/100"
       ],
       "risks": [
-        "Data quality gaps: missing_origin_token_address"
+        "Data quality gaps: missing_origin_token_address, low_data_confidence"
       ],
       "assumptions": [
         "Market and liquidity metrics are time-sensitive and require refresh pre-submission.",
@@ -2319,17 +2332,17 @@
         "rejection_reasons": [],
         "borderline_reasons": []
       },
-      "readiness_score": 69.73,
-      "adjusted_readiness_score": 64.1,
-      "confidence_score": 59.6,
+      "readiness_score": 67.27,
+      "adjusted_readiness_score": 63.39,
+      "confidence_score": 71.16,
       "selected_for": [
-        "Strong market profile (MCAP: $3,979,208,032, FDV: $4,271,070,284)",
-        "Tier-1 CEX footprint (Binance, Coinbase, OKX, Bybit, Kraken)",
-        "Estimated deployable liquidity: $45,768,606",
+        "Strong market profile (MCAP: $4,021,959,131, FDV: $4,316,957,040)",
+        "Tier-1 CEX footprint (OKX, Bybit, Binance, Kraken)",
+        "Estimated deployable liquidity: $44,426,772.15",
         "Solana demand signal score: 80.6/100"
       ],
       "risks": [
-        "Data quality gaps: missing_origin_token_address, low_data_confidence"
+        "Data quality gaps: missing_origin_token_address"
       ],
       "assumptions": [
         "Market and liquidity metrics are time-sensitive and require refresh pre-submission.",
@@ -2353,13 +2366,13 @@
         "rejection_reasons": [],
         "borderline_reasons": []
       },
-      "readiness_score": 65.26,
-      "adjusted_readiness_score": 61.71,
-      "confidence_score": 72.82,
+      "readiness_score": 65.3,
+      "adjusted_readiness_score": 61.75,
+      "confidence_score": 72.84,
       "selected_for": [
-        "Strong market profile (MCAP: $1,564,710,942, FDV: $1,564,710,942)",
+        "Strong market profile (MCAP: $1,585,867,390, FDV: $1,585,867,390)",
         "Tier-1 CEX footprint (Binance, Coinbase, OKX, Bybit, Kraken)",
-        "Estimated deployable liquidity: $54,818,820",
+        "Estimated deployable liquidity: $54,507,306.9",
         "Solana demand signal score: 84.9/100"
       ],
       "risks": [
@@ -2387,13 +2400,13 @@
         "rejection_reasons": [],
         "borderline_reasons": []
       },
-      "readiness_score": 62.79,
-      "adjusted_readiness_score": 59.9,
-      "confidence_score": 76.98,
+      "readiness_score": 62.56,
+      "adjusted_readiness_score": 59.71,
+      "confidence_score": 77.23,
       "selected_for": [
-        "Strong market profile (MCAP: $1,374,306,806, FDV: $1,449,045,359)",
-        "Tier-1 CEX footprint (Binance, OKX, Bybit, Kraken)",
-        "Estimated deployable liquidity: $80,721,406.2",
+        "Strong market profile (MCAP: $1,384,171,227, FDV: $1,459,446,234)",
+        "Tier-1 CEX footprint (Binance, Bybit, OKX, Kraken)",
+        "Estimated deployable liquidity: $74,785,152.15",
         "Solana demand signal score: 75/100"
       ],
       "risks": [
