@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-22T16:08:14.662Z
+Generated: 2026-04-22T17:31:38.489Z
 Candidates evaluated: 28
-Eligible: 16
-Borderline: 4
-Rejected: 12
+Eligible: 15
+Borderline: 3
+Rejected: 13
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 66.38 (raw 70) | Confidence 74.13% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 66.36 (raw 69.98) | Confidence 74.12% | Status pass | Chain Ethereum
 - 2. Sui (SUI) | Score 66.17 (raw 69.92) | Confidence 73.21% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 63.96 (raw 68.14) | Confidence 69.31% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 60.53 (raw 63.94) | Confidence 73.29% | Status pass | Chain Ethereum
+- 3. Avalanche (AVAX) | Score 63.88 (raw 68.07) | Confidence 69.27% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 60.41 (raw 63.83) | Confidence 73.22% | Status pass | Chain Ethereum
 - 5. Uniswap (UNI) | Score 58.14 (raw 61.42) | Confidence 73.29% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 56.9 (raw 59.65) | Confidence 76.97% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 56.88 (raw 59.63) | Confidence 76.96% | Status pass | Chain Ethereum
 - 7. NEAR (NEAR) | Score 55.88 (raw 59.47) | Confidence 69.82% | Status pass | Chain Near
-- 8. Aptos (APT) | Score 52.41 (raw 56.07) | Confidence 67.36% | Status pass | Chain Aptos
-- 9. Arbitrum (ARB) | Score 49.6 (raw 52.88) | Confidence 68.97% | Status pass | Chain Arbitrum
-- 10. Ethena (ENA) | Score 48.96 (raw 53.26) | Confidence 59.6% | Status pass | Chain Ethereum
+- 8. Aptos (APT) | Score 52.4 (raw 56.06) | Confidence 67.36% | Status pass | Chain Aptos
+- 9. Arbitrum (ARB) | Score 49.72 (raw 53) | Confidence 69.04% | Status pass | Chain Arbitrum
+- 10. Ethena (ENA) | Score 48.87 (raw 53.17) | Confidence 59.6% | Status pass | Chain Ethereum
 
 ## Rejection Audit Log
 
@@ -31,6 +31,7 @@ Rejected: 12
 - Jupiter (JUP): insufficient_estimated_liquidity
 - Dogecoin (DOGE): unsupported_origin_chain
 - EigenLayer (EIGEN): insufficient_estimated_liquidity
+- Lido DAO (LDO): insufficient_estimated_liquidity
 - Brett (BRETT): no_tier1_cex_listing, below_min_tier1_cex_count, insufficient_estimated_liquidity
 - Kaspa (KAS): unsupported_origin_chain, insufficient_estimated_liquidity
 
