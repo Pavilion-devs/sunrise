@@ -1,30 +1,29 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-24T13:11:17.192Z
+Generated: 2026-04-24T14:56:35.601Z
 Candidates evaluated: 28
-Eligible: 20
-Borderline: 2
-Rejected: 8
+Eligible: 21
+Borderline: 3
+Rejected: 7
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 70.84 (raw 74.83) | Confidence 73.36% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 67.96 (raw 71.66) | Confidence 74.18% | Status pass | Chain Sui
+- 1. Chainlink (LINK) | Score 70.89 (raw 74.87) | Confidence 73.4% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 68 (raw 71.7) | Confidence 74.21% | Status pass | Chain Sui
 - 3. Avalanche (AVAX) | Score 66.78 (raw 70.88) | Confidence 71.03% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 65.44 (raw 69.26) | Confidence 72.42% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 64.56 (raw 68.3) | Confidence 72.65% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 63.51 (raw 66.57) | Confidence 77% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 60.2 (raw 63.86) | Confidence 71.36% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 60.15 (raw 63.58) | Confidence 73.06% | Status pass | Chain Ethereum
-- 9. Jupiter (JUP) | Score 60.11 (raw 63.85) | Confidence 70.76% | Status borderline | Chain Solana
-- 10. Arbitrum (ARB) | Score 59.02 (raw 62.63) | Confidence 71.17% | Status pass | Chain Arbitrum
+- 4. Pepe (PEPE) | Score 65.52 (raw 69.33) | Confidence 72.49% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 64.5 (raw 68.24) | Confidence 72.6% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 63.48 (raw 66.55) | Confidence 76.96% | Status pass | Chain Ethereum
+- 7. Ethena (ENA) | Score 60.33 (raw 63.75) | Confidence 73.21% | Status pass | Chain Ethereum
+- 8. NEAR (NEAR) | Score 60.16 (raw 63.82) | Confidence 71.33% | Status pass | Chain Near
+- 9. Jupiter (JUP) | Score 60.12 (raw 63.86) | Confidence 70.75% | Status borderline | Chain Solana
+- 10. Arbitrum (ARB) | Score 59.11 (raw 62.72) | Confidence 71.25% | Status pass | Chain Arbitrum
 
 ## Rejection Audit Log
 
 - Maker (MKR): insufficient_estimated_liquidity
 - Compound (COMP): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
-- Wormhole (W): insufficient_estimated_liquidity
 - Dogecoin (DOGE): unsupported_origin_chain
 - EigenLayer (EIGEN): insufficient_estimated_liquidity
 - Brett (BRETT): no_tier1_cex_listing, below_min_tier1_cex_count

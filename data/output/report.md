@@ -1,29 +1,30 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-24T13:09:11.920Z
+Generated: 2026-04-24T14:54:30.665Z
 Candidates evaluated: 28
-Eligible: 17
-Borderline: 2
-Rejected: 11
+Eligible: 16
+Borderline: 1
+Rejected: 12
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 66.68 (raw 70.43) | Confidence 73.36% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 64.15 (raw 67.64) | Confidence 74.18% | Status pass | Chain Sui
+- 1. Chainlink (LINK) | Score 66.74 (raw 70.49) | Confidence 73.4% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 64.19 (raw 67.68) | Confidence 74.21% | Status pass | Chain Sui
 - 3. Avalanche (AVAX) | Score 62.01 (raw 65.82) | Confidence 71.03% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 61.16 (raw 64.73) | Confidence 72.42% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 59.05 (raw 62.47) | Confidence 72.65% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 58.79 (raw 61.62) | Confidence 77% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 57.19 (raw 60.91) | Confidence 69.45% | Status pass | Chain Near
-- 8. Ethena (ENA) | Score 53.9 (raw 56.97) | Confidence 73.06% | Status pass | Chain Ethereum
-- 9. Aptos (APT) | Score 52.93 (raw 56.63) | Confidence 67.34% | Status pass | Chain Aptos
-- 10. Arbitrum (ARB) | Score 52.53 (raw 55.75) | Confidence 71.17% | Status pass | Chain Arbitrum
+- 4. Pepe (PEPE) | Score 61.25 (raw 64.82) | Confidence 72.49% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 58.98 (raw 62.4) | Confidence 72.6% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 58.76 (raw 61.6) | Confidence 76.96% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 57.14 (raw 60.87) | Confidence 69.42% | Status pass | Chain Near
+- 8. Arbitrum (ARB) | Score 52.66 (raw 55.87) | Confidence 71.25% | Status pass | Chain Arbitrum
+- 9. Aptos (APT) | Score 50.88 (raw 54.21) | Confidence 69.25% | Status pass | Chain Aptos
+- 10. Ethena (ENA) | Score 50.36 (raw 54.79) | Confidence 59.6% | Status pass | Chain Ethereum
 
 ## Rejection Audit Log
 
 - Maker (MKR): insufficient_estimated_liquidity
 - Pendle (PENDLE): insufficient_estimated_liquidity
 - Compound (COMP): insufficient_estimated_liquidity
+- Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
 - Celestia (TIA): insufficient_estimated_liquidity
 - Wormhole (W): insufficient_estimated_liquidity
