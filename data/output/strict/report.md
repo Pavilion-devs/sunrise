@@ -1,23 +1,23 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-25T05:46:07.281Z
+Generated: 2026-04-25T07:05:59.743Z
 Candidates evaluated: 28
 Eligible: 14
-Borderline: 1
+Borderline: 0
 Rejected: 14
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 64.2 (raw 67.91) | Confidence 72.64% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 63.99 (raw 67.81) | Confidence 71.82% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 61.71 (raw 65.78) | Confidence 69.12% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 58.67 (raw 62.14) | Confidence 72.09% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 56.04 (raw 59.36) | Confidence 72.05% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 55.69 (raw 58.46) | Confidence 76.34% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 55.1 (raw 58.7) | Confidence 69.33% | Status pass | Chain Near
-- 8. Aptos (APT) | Score 50.85 (raw 54.4) | Confidence 67.39% | Status pass | Chain Aptos
-- 9. Arbitrum (ARB) | Score 50.03 (raw 53.31) | Confidence 69.22% | Status pass | Chain Arbitrum
-- 10. Ethena (ENA) | Score 47.51 (raw 51.69) | Confidence 59.6% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 64.12 (raw 67.83) | Confidence 72.64% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 64.01 (raw 67.83) | Confidence 71.83% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 61.76 (raw 65.82) | Confidence 69.13% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 58.62 (raw 62.09) | Confidence 72.06% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 56.04 (raw 59.36) | Confidence 72.06% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 55.73 (raw 58.5) | Confidence 76.37% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 55.12 (raw 58.72) | Confidence 69.34% | Status pass | Chain Near
+- 8. Aptos (APT) | Score 51 (raw 54.56) | Confidence 67.39% | Status pass | Chain Aptos
+- 9. Arbitrum (ARB) | Score 50.06 (raw 53.34) | Confidence 69.25% | Status pass | Chain Arbitrum
+- 10. Ethena (ENA) | Score 47.69 (raw 51.88) | Confidence 59.6% | Status pass | Chain Ethereum
 
 ## Rejection Audit Log
 
