@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-26T18:46:20.499Z
+Generated: 2026-04-26T19:45:24.924Z
 Candidates evaluated: 28
 Eligible: 22
 Borderline: 1
@@ -8,16 +8,16 @@ Rejected: 6
 
 ## Top Eligible Assets
 
-- 1. Chainlink (LINK) | Score 69.73 (raw 73.77) | Confidence 72.65% | Status pass | Chain Ethereum
-- 2. Sui (SUI) | Score 66.95 (raw 70.73) | Confidence 73.31% | Status pass | Chain Sui
-- 3. Avalanche (AVAX) | Score 66.21 (raw 72.03) | Confidence 59.6% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 64.37 (raw 68.26) | Confidence 71.48% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 63.61 (raw 67.37) | Confidence 72.08% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 62.08 (raw 65.22) | Confidence 75.9% | Status pass | Chain Ethereum
-- 7. Jupiter (JUP) | Score 60.85 (raw 64.62) | Confidence 70.82% | Status pass | Chain Solana
-- 8. Ethena (ENA) | Score 59.94 (raw 63.38) | Confidence 72.87% | Status pass | Chain Ethereum
-- 9. NEAR (NEAR) | Score 59.45 (raw 63.08) | Confidence 71.21% | Status pass | Chain Near
-- 10. Lido DAO (LDO) | Score 58.68 (raw 62.24) | Confidence 71.42% | Status pass | Chain Ethereum
+- 1. Chainlink (LINK) | Score 69.82 (raw 73.86) | Confidence 72.65% | Status pass | Chain Ethereum
+- 2. Sui (SUI) | Score 66.88 (raw 70.66) | Confidence 73.24% | Status pass | Chain Sui
+- 3. Avalanche (AVAX) | Score 66.15 (raw 70.22) | Confidence 71.05% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 64.47 (raw 68.36) | Confidence 71.57% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 63.67 (raw 67.43) | Confidence 72.08% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 62.14 (raw 65.28) | Confidence 75.96% | Status pass | Chain Ethereum
+- 7. Jupiter (JUP) | Score 60.95 (raw 64.72) | Confidence 70.84% | Status pass | Chain Solana
+- 8. Ethena (ENA) | Score 59.85 (raw 63.29) | Confidence 72.78% | Status pass | Chain Ethereum
+- 9. NEAR (NEAR) | Score 59.52 (raw 63.16) | Confidence 71.21% | Status pass | Chain Near
+- 10. Lido DAO (LDO) | Score 59.2 (raw 62.75) | Confidence 71.77% | Status pass | Chain Ethereum
 
 ## Rejection Audit Log
 
