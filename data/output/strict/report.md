@@ -1,6 +1,6 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-26T04:01:18.754Z
+Generated: 2026-04-26T06:24:19.919Z
 Candidates evaluated: 28
 Eligible: 13
 Borderline: 3
@@ -9,15 +9,15 @@ Rejected: 15
 ## Top Eligible Assets
 
 - 1. Sui (SUI) | Score 63.38 (raw 67.22) | Confidence 71.44% | Status pass | Chain Sui
-- 2. Chainlink (LINK) | Score 63.09 (raw 66.66) | Confidence 73.23% | Status pass | Chain Ethereum
-- 3. Avalanche (AVAX) | Score 60.83 (raw 64.84) | Confidence 69.1% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 57.07 (raw 60.58) | Confidence 71.07% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 55.48 (raw 58.77) | Confidence 72.05% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 54.78 (raw 57.57) | Confidence 75.75% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 53.81 (raw 57.33) | Confidence 69.3% | Status pass | Chain Near
-- 8. Aptos (APT) | Score 50.29 (raw 53.8) | Confidence 67.34% | Status borderline | Chain Aptos
-- 9. Arbitrum (ARB) | Score 48.53 (raw 51.77) | Confidence 68.71% | Status borderline | Chain Arbitrum
-- 10. Ethena (ENA) | Score 46.83 (raw 50.95) | Confidence 59.6% | Status pass | Chain Ethereum
+- 2. Chainlink (LINK) | Score 63.27 (raw 66.93) | Confidence 72.63% | Status pass | Chain Ethereum
+- 3. Avalanche (AVAX) | Score 60.79 (raw 64.79) | Confidence 69.12% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 57.46 (raw 60.96) | Confidence 71.31% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 55.8 (raw 59.1) | Confidence 72.07% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 54.96 (raw 57.75) | Confidence 75.86% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 53.9 (raw 57.43) | Confidence 69.32% | Status pass | Chain Near
+- 8. Aptos (APT) | Score 50.1 (raw 53.6) | Confidence 67.36% | Status borderline | Chain Aptos
+- 9. Arbitrum (ARB) | Score 48.77 (raw 52.02) | Confidence 68.75% | Status borderline | Chain Arbitrum
+- 10. Ethena (ENA) | Score 46.98 (raw 51.11) | Confidence 59.6% | Status pass | Chain Ethereum
 
 ## Rejection Audit Log
 
