@@ -1,6 +1,6 @@
 # Data Coverage Audit
 
-Generated: 2026-04-26T22:35:08.698Z
+Generated: 2026-04-26T23:37:10.516Z
 
 ## Summary
 
@@ -22,9 +22,9 @@ Generated: 2026-04-26T22:35:08.698Z
 
 ## Missing Listings Snapshot IDs
 
-- optimism
 - base-ecosystem-proxy
-- near
+- avalanche
+- celestia
 - dogecoin
 - lido-dao
 - pepe
