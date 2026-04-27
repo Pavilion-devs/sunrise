@@ -1,43 +1,43 @@
 # Live Refresh Comparison
 
-Generated: 2026-04-27T08:14:08.607Z
+Generated: 2026-04-27T10:34:38.504Z
 
 ## strict_simon
 
-- Eligible: 15
+- Eligible: 16
 - Borderline: 3
-- Rejected: 13
+- Rejected: 12
 
 Top 5:
-- 1. Chainlink | Score 65.13 | Confidence 73.8% | pass
-- 2. Sui | Score 64.66 | Confidence 72.27% | pass
-- 3. Avalanche | Score 62.6 | Confidence 69.08% | pass
-- 4. Pepe | Score 59.44 | Confidence 72.61% | pass
-- 5. Uniswap | Score 56.73 | Confidence 72.41% | pass
+- 1. Chainlink | Score 65.04 | Confidence 73.22% | pass
+- 2. Sui | Score 64.67 | Confidence 72.27% | pass
+- 3. Avalanche | Score 62.62 | Confidence 69.08% | pass
+- 4. Pepe | Score 59.54 | Confidence 72.67% | pass
+- 5. Uniswap | Score 56.79 | Confidence 72.45% | pass
 
 ## balanced
 
-- Eligible: 19
-- Borderline: 3
-- Rejected: 9
+- Eligible: 18
+- Borderline: 1
+- Rejected: 10
 
 Top 5:
-- 1. Chainlink | Score 66.58 | Confidence 73.8% | pass
-- 2. Sui | Score 64.13 | Confidence 74.18% | pass
-- 3. Avalanche | Score 62.23 | Confidence 70.99% | pass
-- 4. Pepe | Score 61.42 | Confidence 72.61% | pass
-- 5. Uniswap | Score 58.68 | Confidence 72.41% | pass
+- 1. Chainlink | Score 66.48 | Confidence 73.22% | pass
+- 2. Sui | Score 64.14 | Confidence 74.18% | pass
+- 3. Avalanche | Score 62.25 | Confidence 71% | pass
+- 4. Pepe | Score 61.51 | Confidence 72.67% | pass
+- 5. Uniswap | Score 58.75 | Confidence 72.45% | pass
 
 ## growth
 
-- Eligible: 22
-- Borderline: 1
-- Rejected: 6
+- Eligible: 20
+- Borderline: 0
+- Rejected: 8
 
 Top 5:
-- 1. Chainlink | Score 70.79 | Confidence 73.8% | pass
+- 1. Chainlink | Score 70.69 | Confidence 73.22% | pass
 - 2. Sui | Score 67.96 | Confidence 74.18% | pass
-- 3. Avalanche | Score 66.94 | Confidence 70.99% | pass
-- 4. Pepe | Score 65.64 | Confidence 72.61% | pass
-- 5. Uniswap | Score 64.27 | Confidence 72.41% | pass
+- 3. Avalanche | Score 66.96 | Confidence 71% | pass
+- 4. Pepe | Score 65.72 | Confidence 72.67% | pass
+- 5. Uniswap | Score 64.33 | Confidence 72.45% | pass
 
