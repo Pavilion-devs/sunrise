@@ -1,22 +1,22 @@
 # Sunrise Asset Qualification Report
 
-Generated: 2026-04-29T13:58:10.631Z
+Generated: 2026-04-29T15:54:41.254Z
 Candidates evaluated: 28
-Eligible: 13
-Borderline: 3
-Rejected: 15
+Eligible: 12
+Borderline: 2
+Rejected: 16
 
 ## Top Eligible Assets
 
-- 1. Sui (SUI) | Score 64.39 (raw 68.2) | Confidence 72.1% | Status pass | Chain Sui
-- 2. Chainlink (LINK) | Score 64.28 (raw 67.91) | Confidence 73.26% | Status pass | Chain Ethereum
-- 3. Avalanche (AVAX) | Score 62.1 (raw 66.2) | Confidence 69.07% | Status pass | Chain Avalanche
-- 4. Pepe (PEPE) | Score 60.96 (raw 64.36) | Confidence 73.57% | Status pass | Chain Ethereum
-- 5. Uniswap (UNI) | Score 56.97 (raw 60.28) | Confidence 72.57% | Status pass | Chain Ethereum
-- 6. Aave (AAVE) | Score 55.77 (raw 58.53) | Confidence 76.39% | Status pass | Chain Ethereum
-- 7. NEAR (NEAR) | Score 54.58 (raw 58.16) | Confidence 69.22% | Status pass | Chain Near
-- 8. Aptos (APT) | Score 52.1 (raw 55.73) | Confidence 67.39% | Status pass | Chain Aptos
-- 9. Arbitrum (ARB) | Score 49.59 (raw 52.87) | Confidence 68.96% | Status pass | Chain Arbitrum
+- 1. Sui (SUI) | Score 64.45 (raw 68.25) | Confidence 72.14% | Status pass | Chain Sui
+- 2. Chainlink (LINK) | Score 64.39 (raw 68.02) | Confidence 73.34% | Status pass | Chain Ethereum
+- 3. Avalanche (AVAX) | Score 62.17 (raw 66.27) | Confidence 69.05% | Status pass | Chain Avalanche
+- 4. Pepe (PEPE) | Score 61.11 (raw 64.5) | Confidence 73.68% | Status pass | Chain Ethereum
+- 5. Uniswap (UNI) | Score 56.88 (raw 60.19) | Confidence 72.52% | Status pass | Chain Ethereum
+- 6. Aave (AAVE) | Score 55.77 (raw 58.53) | Confidence 76.4% | Status pass | Chain Ethereum
+- 7. NEAR (NEAR) | Score 54.38 (raw 57.95) | Confidence 69.18% | Status pass | Chain Near
+- 8. Aptos (APT) | Score 52.05 (raw 55.69) | Confidence 67.35% | Status pass | Chain Aptos
+- 9. Arbitrum (ARB) | Score 49.65 (raw 52.93) | Confidence 69.01% | Status pass | Chain Arbitrum
 - 10. Ethena (ENA) | Score 47.39 (raw 51.56) | Confidence 59.6% | Status pass | Chain Ethereum
 
 ## Rejection Audit Log
@@ -29,6 +29,7 @@ Rejected: 15
 - Aerodrome (AERO): insufficient_estimated_liquidity
 - Polygon (POL): insufficient_estimated_liquidity
 - Sei (SEI): insufficient_estimated_liquidity
+- Celestia (TIA): insufficient_estimated_liquidity
 - Wormhole (W): insufficient_estimated_liquidity
 - Jupiter (JUP): insufficient_estimated_liquidity
 - Dogecoin (DOGE): unsupported_origin_chain
