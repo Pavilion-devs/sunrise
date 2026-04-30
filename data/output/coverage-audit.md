@@ -1,6 +1,6 @@
 # Data Coverage Audit
 
-Generated: 2026-04-30T08:12:50.093Z
+Generated: 2026-04-30T10:26:57.412Z
 
 ## Summary
 
@@ -23,7 +23,7 @@ Generated: 2026-04-30T08:12:50.093Z
 ## Missing Listings Snapshot IDs
 
 - base-ecosystem-proxy
-- celestia
+- wormhole
 - dogecoin
 - eigenlayer
 - lido-dao
